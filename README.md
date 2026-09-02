@@ -1,0 +1,85 @@
+# project_edge2 — EDGE2 rankings for the Upham mammalian supertree
+
+EDGE2 (Evolutionarily Distinct and Globally Endangered) conservation-priority
+rankings for all **5,911 mammal species** in the Upham et al. (2019) supertree,
+computed under the **EDGE2 protocol** (Gumbs et al. 2023) with uncertainty
+propagated across **1,000 posterior trees**.
+
+## What's here
+
+```
+data/       EDGE2 ranked lists and reconciliation tables (CSV)
+figures/    Publication-quality figures (PNG, 300 dpi)
+R/          The EDGE2 engine and SLURM run scripts
+docs/       Full methods documentation
+```
+
+### Key outputs (`data/`)
+
+| File | Contents |
+|---|---|
+| `EDGE2_ranked_species_FULL.csv` | All 5,911 species — rank, taxonomy, Red List category, median & IQR of EDGE2 / ED2 / pext, EDGE-species flag, match provenance |
+| `EDGE_species_list.csv` | 586 threatened EDGE species (VU/EN/CR, ED above median in ≥50 % of trees) — the core priority list |
+| `EDGE_borderline_list.csv` | 286 near-threshold species (flagged in 25–50 % of trees) — watch list |
+| `EDGE_DD_watchlist.csv` | 938 Data-Deficient / Not-Evaluated species by ED2 — assessment priority |
+| `reconciliation_report.csv` | Every tree tip → matched MDD name, match type, taxonomy, IUCN category |
+| `taxonomic_summary_by_order.csv` | Per-order species counts, EDGE counts, % EDGE, median EDGE2 |
+
+### Top 10 EDGE species
+
+| Rank | Species | Order | RL | EDGE2 (Myr) |
+|---|---|---|---|---|
+| 1 | *Burramys parvus* (mountain pygmy possum) | Diprotodontia | CR | 24.4 |
+| 2 | *Daubentonia madagascariensis* (aye-aye) | Primates | EN | 20.0 |
+| 3 | *Gymnobelideus leadbeateri* (Leadbeater's possum) | Diprotodontia | CR | 19.6 |
+| 4 | *Myrmecobius fasciatus* (numbat) | Dasyuromorphia | EN | 14.9 |
+| 5 | *Manis culionensis* (Philippine pangolin) | Pholidota | CR | 14.8 |
+| 6 | *Desmana moschata* (Russian desman) | Eulipotyphla | CR | 14.3 |
+| 7 | *Manis pentadactyla* (Chinese pangolin) | Pholidota | CR | 14.2 |
+| 8 | *Manis javanica* (Sunda pangolin) | Pholidota | CR | 14.2 |
+| 9 | *Varecia variegata* (black-and-white ruffed lemur) | Primates | CR | 12.1 |
+| 10 | *Varecia rubra* (red ruffed lemur) | Primates | CR | 12.0 |
+
+## Figures (`figures/`)
+
+- `fig1_edge2_rank_curve.png` — EDGE2 score vs rank, with cross-tree IQR band
+- `fig2_ed_vs_ge2_scatter.png` — ED2 vs GE2 (pext), coloured by Red List category
+- `fig3_top50_edge_species.png` — top-50 EDGE species, median ± IQR
+- `fig4_ordinal_summary.png` — EDGE species counts and typical EDGE2 by order
+
+## Method (summary)
+
+For each of 1,000 posterior trees: each species' Red List category is mapped to a
+sampled extinction probability (`pext`, Isaac et al. 2007 model); internal
+branches are weighted by the product of descendant `pext`; the tip-to-root sum of
+weighted branches is **EDGE2**, and **ED2 = EDGE2 / pext**. Results are summarised
+per species as the **median and IQR** across trees. A species is an **EDGE
+species** if it is threatened (VU/EN/CR/EW/EX) and its ED2 is above the tree
+median in ≥50 % of trees. See [`docs/METHODS.md`](docs/METHODS.md) for full detail,
+data versions, and taxonomy reconciliation.
+
+## Data sources
+
+- **Phylogeny:** Upham, Esselstyn & Jetz (2019), completed 5,911-species
+  node-dated credible tree set (topoCons FBD), VertLife.
+- **Taxonomy + IUCN categories:** Mammal Diversity Database (current release).
+- **Algorithm:** rEDGE (Ramos-Gutiérrez & Gumbs) / `EDGE.2.calc` (Gumbs);
+  vendored engine validated to machine precision against the reference.
+
+> The endangerment layer uses the IUCN categories embedded in the current MDD
+> release. Substituting a fresh IUCN Red List export is a drop-in replacement of
+> the category table followed by re-running `R/aggregate.R`.
+
+## Reproducing
+
+The engine (`R/edge2_engine.R`) needs R with `ape`, `phylobase`, `data.table`,
+`dplyr`. `R/run_chunk.R` is the per-tree SLURM-array driver (extinction model
+`Isaac`, base seed 20240601); `R/aggregate.R` collapses per-tree results into the
+ranked species table.
+
+## References
+
+- Gumbs R. et al. (2023) The EDGE2 protocol. *PLoS Biology* 21(2):e3001991.
+- Upham N.S., Esselstyn J.A., Jetz W. (2019) Inferring the mammal tree. *PLoS Biology* 17(12):e3000494.
+- Isaac N.J.B. et al. (2007) Mammals on the EDGE. *PLoS ONE* 2(3):e296.
+- Mammal Diversity Database, American Society of Mammalogists, mammaldiversity.org.

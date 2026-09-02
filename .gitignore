@@ -1,0 +1,15 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.rds
+
+# OS / editor
+.DS_Store
+*~
+
+# large intermediate data (not committed)
+trees/
+*.tre
+*.zip
+results/
