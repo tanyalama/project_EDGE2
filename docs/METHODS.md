@@ -126,12 +126,22 @@ VU 530, EN 499, NT 365, CR 206, NE 112, EX 73, EW 1.
 | `taxonomic_summary_by_order.csv` | Per-order species counts, EDGE-species counts, % EDGE, median EDGE2 |
 | `fig1_edge2_rank_curve.png` | EDGE2 score vs rank, with cross-tree IQR band |
 | `fig2_ed_vs_ge2_scatter.png` | ED2 vs GE2 (pext), coloured by Red List category |
-| `fig3_top50_edge_species.png` | Top-50 EDGE species, median ± IQR |
+| `fig3_top50_edge_species.png` | Top-50 EDGE species (threatened VU/EN/CR, flagged), median ± IQR |
 | `fig4_ordinal_summary.png` | EDGE species counts & typical EDGE2 by order |
+| `fig5_top50_by_edge2_allcats.png` | Top-50 by EDGE2 score, all Red List categories |
+| `fig6_top50_by_ED.png` | Top-50 by ED2 (raw evolutionary distinctness), all categories |
+
+**On the three top-50 views.** `fig3` is the top of the EDGE species list —
+threatened species only, the actionable priority set. `fig5` ranks by EDGE2 score
+irrespective of threat status, so highly distinct non-threatened lineage relicts
+(e.g. *Dromiciops gliroides*) become visible. `fig6` ranks purely by ED2. A
+non-threatened species can score high on the full EDGE2 list yet be absent from
+`fig3` by definition: "EDGE species" requires a threatened category.
 
 ## 6. Column dictionary (ranked list)
 
 - `EDGErank` — rank by descending median EDGE2 (1 = highest priority)
+- `EDrank` — rank by descending median ED2 (raw evolutionary distinctness)
 - `EDGEmed` / `EDGEiqr` — median and IQR of EDGE2 across 1,000 trees (Myr)
 - `EDmed` / `EDiqr` — median and IQR of ED2 (Myr)
 - `pextmed` / `pextiqr` — median and IQR of the sampled extinction probability

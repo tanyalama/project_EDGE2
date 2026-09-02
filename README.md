@@ -18,7 +18,7 @@ docs/       Full methods documentation
 
 | File | Contents |
 |---|---|
-| `EDGE2_ranked_species_FULL.csv` | All 5,911 species — rank, taxonomy, Red List category, median & IQR of EDGE2 / ED2 / pext, EDGE-species flag, match provenance |
+| `EDGE2_ranked_species_FULL.csv` | All 5,911 species — EDGE2 rank (`EDGErank`) and ED2 rank (`EDrank`), taxonomy, Red List category, median & IQR of EDGE2 / ED2 / pext, EDGE-species flag, match provenance |
 | `EDGE_species_list.csv` | 586 threatened EDGE species (VU/EN/CR, ED above median in ≥50 % of trees) — the core priority list |
 | `EDGE_borderline_list.csv` | 286 near-threshold species (flagged in 25–50 % of trees) — watch list |
 | `EDGE_DD_watchlist.csv` | 938 Data-Deficient / Not-Evaluated species by ED2 — assessment priority |
@@ -44,8 +44,20 @@ docs/       Full methods documentation
 
 - `fig1_edge2_rank_curve.png` — EDGE2 score vs rank, with cross-tree IQR band
 - `fig2_ed_vs_ge2_scatter.png` — ED2 vs GE2 (pext), coloured by Red List category
-- `fig3_top50_edge_species.png` — top-50 EDGE species, median ± IQR
+- `fig3_top50_edge_species.png` — top-50 **EDGE species** (threatened VU/EN/CR, flagged), median ± IQR
 - `fig4_ordinal_summary.png` — EDGE species counts and typical EDGE2 by order
+- `fig5_top50_by_edge2_allcats.png` — top-50 by **EDGE2 score**, *all* Red List categories
+- `fig6_top50_by_ED.png` — top-50 by **ED2** (raw evolutionary distinctness), *all* categories
+
+**Three top-50 views, three questions.** `fig3` answers "which threatened species
+should we act on?" (the EDGE species list). `fig5` answers "which species carry the
+most EDGE2 score regardless of threat status?" — this surfaces highly distinct
+non-threatened lineage relicts such as *Dromiciops gliroides* (monito del monte,
+sole living microbiotherian). `fig6` answers "which species are most
+evolutionarily distinct?" purely on ED2, where such relicts dominate (33 of the
+top 50 are Least Concern). A species can rank high on the full EDGE2 list (e.g.
+*Dromiciops*, EDGErank 39, EDrank 2) yet be absent from `fig3` because it is not
+in a threatened category — this is correct EDGE2 behaviour, not an omission.
 
 ## Method (summary)
 
