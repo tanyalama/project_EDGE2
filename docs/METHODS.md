@@ -152,6 +152,25 @@ non-threatened species can score high on the full EDGE2 list yet be absent from
 
 ---
 
+## 6b. VGP genome cross-reference
+
+The 586 threatened EDGE species were cross-referenced against the Vertebrate
+Genomes Project (VGP) ordinal target list (`VGP Ordinal List_1k.xlsx`, "VGP
+Phase 1+" sheet). A species was scored as having a genome if its row carried a
+deposited assembly accession (GCA_/GCF_) in the main-haplotype column; species
+present on the list without an accession were scored as *planned, not yet
+sequenced*. To avoid falsely flagging an EDGE species as genome-less when an
+assembly exists under a different name, VGP binomials and EDGE tree-tip names
+were both normalised to `Genus_species` and resolved to accepted MDD names
+through the MDD synonym set (`sciName`, `MSW3_sciName`, `CMW_sciName`,
+`originalNameCombination`, `nominalNames`). Direct and synonym-aware matching
+returned the identical set of 34 covered species, confirming no assembly was
+hidden under synonymy. `data/EDGE_species_missing_VGP_genome.csv` reports the 552
+uncovered species ranked by EDGE2; `on_vgp_target_list` is `False` for all of
+them (none are on the VGP list).
+
+---
+
 ## 7. References
 
 - Gumbs R. et al. (2023) The EDGE2 protocol. *PLoS Biology* 21(2):e3001991.

@@ -24,6 +24,7 @@ docs/       Full methods documentation
 | `EDGE_DD_watchlist.csv` | 938 Data-Deficient / Not-Evaluated species by ED2 — assessment priority |
 | `reconciliation_report.csv` | Every tree tip → matched MDD name, match type, taxonomy, IUCN category |
 | `taxonomic_summary_by_order.csv` | Per-order species counts, EDGE counts, % EDGE, median EDGE2 |
+| `EDGE_species_missing_VGP_genome.csv` | 552 EDGE species lacking a VGP reference genome, ranked by EDGE2 — the genome-sequencing gap (see below) |
 
 ### Top 10 EDGE species
 
@@ -48,6 +49,7 @@ docs/       Full methods documentation
 - `fig4_ordinal_summary.png` — EDGE species counts and typical EDGE2 by order
 - `fig5_top50_by_edge2_allcats.png` — top-50 by **EDGE2 score**, *all* Red List categories
 - `fig6_top50_by_ED.png` — top-50 by **ED2** (raw evolutionary distinctness), *all* categories
+- `fig7_vgp_genome_gap.png` — EDGE species genome gap: top-30 EDGE mammals lacking a VGP genome + per-order coverage
 
 **Three top-50 views, three questions.** `fig3` answers "which threatened species
 should we act on?" (the EDGE species list). `fig5` answers "which species carry the
@@ -58,6 +60,28 @@ evolutionarily distinct?" purely on ED2, where such relicts dominate (33 of the
 top 50 are Least Concern). A species can rank high on the full EDGE2 list (e.g.
 *Dromiciops*, EDGErank 39, EDrank 2) yet be absent from `fig3` because it is not
 in a threatened category — this is correct EDGE2 behaviour, not an omission.
+
+## VGP genome-sequencing gap
+
+Cross-referencing the 586 threatened EDGE species against the Vertebrate Genomes
+Project (VGP) target list (with genome presence defined as a deposited GCA/GCF
+assembly accession, and names reconciled through MDD synonymy so no assembly is
+missed under a taxonomic split):
+
+- **Only 34 of 586 EDGE mammals (5.8%) have a VGP reference genome.**
+- The remaining **552 have no genome — and none of them are on the VGP target
+  list at all** (unplanned, not merely unsequenced).
+- Coverage is uniformly low across threat categories: **CR 7/107 (6.5%),
+  EN 16/239 (6.7%), VU 11/240 (4.6%)**.
+- The top 3 EDGE mammals overall — and 8 of the top 10 — have no genome. The 34
+  that do are largely charismatic megafauna and great apes (pangolins, orangutans,
+  rhinoceroses, koala, elephants, whales, *Gorilla*, *Pan*).
+- By order, the gap is dominated by **Primates (132), Rodentia (106),
+  Chiroptera (78), Artiodactyla (47), and Diprotodontia (41)**.
+
+`data/EDGE_species_missing_VGP_genome.csv` lists all 552, ranked by EDGE2, with
+order/family/Red List category, EDGE2 & ED2 medians, pext, and an
+`on_vgp_target_list` flag. See `figures/fig7_vgp_genome_gap.png`.
 
 ## Method (summary)
 
