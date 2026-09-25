@@ -6,13 +6,13 @@ This repository holds EDGE2 (Evolutionarily Distinct and Globally Endangered, Gu
 
 ## Summary
 
-| Clade | Tree | Species | EDGE spp. | EDGE with VGP genome | Expected PD loss (median) |
+| Clade | Phylogeny (VertLife tree set; 1,000 posterior trees) | Species | EDGE spp. | EDGE with VGP genome | Expected PD loss (median) |
 |---|---|---|---|---|---|
-| Mammals | Upham et al. 2019 | 5,911 | 610 | 38 (6.2%) | 10.1% |
-| Birds | Jetz et al. 2012 (Hackett) | 9,993 | 531 | 14 (2.6%) | 6.7% |
-| Squamates | Tonini et al. 2016 | 9,755 | 875 | 3 (0.3%) | 10.9% |
-| Amphibians | Jetz & Pyron 2018 | 7,238 | 1,314 | 3 (0.2%) | 15.5% |
-| Chondrichthyans | Stein et al. 2018 | 1,192 | 263 | 10 (3.8%) | 15.1% |
+| Mammals | Upham, Esselstyn & Jetz (2019) *PLoS Biol*. `mammaltree/Completed_5911sp_topoCons_FBDasZhouEtAl.zip` (node-dated, topology-constrained, FBD-as-Zhou-et-al); every 10th of 10,000 trees | 5,911 | 610 | 38 (6.2%) | 10.1% |
+| Birds | Jetz et al. (2012) *Nature*. `birdtree/Stage2/HackettStage2_0001_1000.zip` (Hackett backbone, Stage 2 full data); trees 1–1,000 | 9,993 | 531 | 14 (2.6%) | 6.7% |
+| Squamates | Tonini et al. (2016) *Biol Conserv*. `squamatetree/squam_shl_new_Posterior_9755.1000-10000.trees.zip` (includes *Sphenodon punctatus*); first 1,000-tree file of 10,000 | 9,755 | 875 | 3 (0.3%) | 10.9% |
+| Amphibians | Jetz & Pyron (2018) *Nat Ecol Evol*. `amphibiantree/download/amph_shl_new_Posterior_7238.1000-10000.trees.zip`; first 1,000-tree file of 10,000 | 7,238 | 1,314 | 3 (0.2%) | 15.5% |
+| Chondrichthyans | Stein et al. (2018) *Nat Ecol Evol*. `sharktree/Chond.10Cal.10kTreeSet.tre` (10-calibration set); every 10th of 10,000 trees | 1,192 | 263 | 10 (3.8%) | 15.1% |
 
 VGP coverage is several-fold higher among the most distinct and highest-ranked species than across each clade as a whole (fig 11). Mammals: 4% of all species have a genome, versus 16% of the top-25 EDGE species. Chondrichthyans: 2.9% versus 20%.
 
@@ -97,12 +97,7 @@ The same procedure is applied to all five clades. Per-tree total PD and expected
 
 | Component | Source | Version / access |
 |---|---|---|
-| **Phylogeny: mammals** | Upham, Esselstyn & Jetz (2019), *PLoS Biology* | VertLife `mammaltree/Completed_5911sp_topoCons_FBDasZhouEtAl.zip` (node-dated, topology-constrained, FBD-as-Zhou-et-al credible set) |
-| **Phylogeny: birds** | Jetz et al. (2012), *Nature* | VertLife `birdtree/Stage2/HackettStage2_0001_1000.zip` (Hackett backbone, Stage 2 full data) |
-| **Phylogeny: squamates** | Tonini et al. (2016), *Biological Conservation* | VertLife `squamatetree/squam_shl_new_Posterior_9755.1000-10000.trees.zip` (includes *Sphenodon punctatus*) |
-| **Phylogeny: amphibians** | Jetz & Pyron (2018), *Nature Ecology & Evolution* | VertLife `amphibiantree/download/amph_shl_new_Posterior_7238.1000-10000.trees.zip` |
-| **Phylogeny: chondrichthyans** | Stein et al. (2018), *Nature Ecology & Evolution* | VertLife `sharktree/Chond.10Cal.10kTreeSet.tre` (10-calibration set) |
-| **Posterior sample** | 1,000 trees per clade | Mammals and chondrichthyans: every 10th tree of the 10,000-tree posterior. Birds: trees 1–1,000 of the Stage 2 Hackett set. Squamates and amphibians: the first 1,000-tree file of each 10,000-tree posterior |
+| **Phylogenies** | VertLife (data.vertlife.org) | Tree set, reference and posterior sample for each clade are given in the [Summary](#summary) table |
 | **IUCN categories** | IUCN Red List of Threatened Species | v2026-1, GBIF-hosted Darwin Core archive (`hosted-datasets.gbif.org/datasets/iucn/iucn-latest.zip`); 65,076 chordate species with a global category; accessed 25 Sep 2026 |
 | **Synonymy** | Mammal Diversity Database (MDD); GBIF backbone taxonomy | Current MDD master `mdd.csv` (`mammaldiversity.github.io/_data/mdd.csv`); GBIF species match API (strict, kingdom Animalia) |
 | **Genome list** | Vertebrate Genomes Project Ordinal List | Sheets "VGP Phase 1+" (731 species) and "VGP Families" (332 more): 1,063 binomials, 1,022 with a GCA_/GCF_ accession |
