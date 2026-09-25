@@ -64,7 +64,7 @@ All figures use Arial and the Wes Anderson Zissou1 palette. `RLcat = NM` marks t
 
 ## Methods
 
-### The EDGE2 protocol
+### 1. Method — the EDGE2 protocol
 
 EDGE2 (Gumbs et al. 2023, *PLoS Biology* 21(2):e3001991, doi:10.1371/journal.pbio.3001991) prioritises species by combining three quantities:
 
@@ -93,28 +93,72 @@ Per-species results are summarised as the **median** and **inter-quartile range 
 
 The same procedure is applied to all five clades. Per-tree total PD and expected PD loss (the sum of EDGE2 across species) are also saved (`ePD_per_tree.csv`).
 
-### Data sources
+### 2. Data sources & versions
 
-- **Phylogenies (VertLife, 1,000 posterior trees each):**
+| Component | Source | Version / access |
+|---|---|---|
+| **Phylogeny: mammals** | Upham, Esselstyn & Jetz (2019), *PLoS Biology* | VertLife `mammaltree/Completed_5911sp_topoCons_FBDasZhouEtAl.zip` (node-dated, topology-constrained, FBD-as-Zhou-et-al credible set) |
+| **Phylogeny: birds** | Jetz et al. (2012), *Nature* | VertLife `birdtree/Stage2/HackettStage2_0001_1000.zip` (Hackett backbone, Stage 2 full data) |
+| **Phylogeny: squamates** | Tonini et al. (2016), *Biological Conservation* | VertLife `squamatetree/squam_shl_new_Posterior_9755.1000-10000.trees.zip` (includes *Sphenodon punctatus*) |
+| **Phylogeny: amphibians** | Jetz & Pyron (2018), *Nature Ecology & Evolution* | VertLife `amphibiantree/download/amph_shl_new_Posterior_7238.1000-10000.trees.zip` |
+| **Phylogeny: chondrichthyans** | Stein et al. (2018), *Nature Ecology & Evolution* | VertLife `sharktree/Chond.10Cal.10kTreeSet.tre` (10-calibration set) |
+| **Posterior sample** | 1,000 trees per clade | Mammals and chondrichthyans: every 10th tree of the 10,000-tree posterior. Birds: trees 1–1,000 of the Stage 2 Hackett set. Squamates and amphibians: the first 1,000-tree file of each 10,000-tree posterior |
+| **IUCN categories** | IUCN Red List of Threatened Species | v2026-1, GBIF-hosted Darwin Core archive (`hosted-datasets.gbif.org/datasets/iucn/iucn-latest.zip`); 65,076 chordate species with a global category; accessed 25 Sep 2026 |
+| **Synonymy** | Mammal Diversity Database (MDD); GBIF backbone taxonomy | Current MDD master `mdd.csv` (`mammaldiversity.github.io/_data/mdd.csv`); GBIF species match API (strict, kingdom Animalia) |
+| **Genome list** | Vertebrate Genomes Project Ordinal List | Sheets "VGP Phase 1+" (731 species) and "VGP Families" (332 more): 1,063 binomials, 1,022 with a GCA_/GCF_ accession |
+| **EDGE2 algorithm** | rEDGE (Ramos-Gutiérrez & Gumbs) & `EDGE.2.calc` (Gumbs) | github.com/iramosgutierrez/rEDGE ; github.com/rgumbs/EDGE2 |
 
-  | Clade | Tree set | Trees used |
-  |---|---|---|
-  | Mammals | Upham, Esselstyn & Jetz (2019), completed 5,911-species node-dated set (topoCons FBD) | every 10th of 10,000 |
-  | Birds | Jetz et al. (2012), Hackett backbone, Stage 2 full data | trees 1–1,000 |
-  | Squamates | Tonini et al. (2016), 9,755 species, includes *Sphenodon* | first 1,000-tree file |
-  | Amphibians | Jetz & Pyron (2018), 7,238 species | first 1,000-tree file |
-  | Chondrichthyans | Stein et al. (2018), 1,192 species, 10-calibration set | every 10th of 10,000 |
+**Tree variant rationale:** each clade uses the VertLife completed (DNA-based plus imputed placements) posterior set, so every described species in the source taxonomy has a tip. For mammals this is the `topoCons` FBD 5,911-species set used in v1, which keeps the mammal results directly comparable with v1.
 
-- **Endangerment:** IUCN Red List v2026-1 global categories (GBIF-hosted Darwin Core archive), for every clade.
-- **Taxonomy reconciliation:** tree tips are matched to IUCN names in this order: direct match; the Mammal Diversity Database (MDD) synonymy (mammals); the GBIF backbone accepted name; GBIF's IUCN link. Unmatched tips are coded NM.
-- **Genomes:** the VGP Ordinal List (sheets "VGP Phase 1+" and "VGP Families"). A species has a genome if it has a GCA_/GCF_ assembly accession. Names are placed on tree tips by exact, synonym, orthographic or split-from-tip matching, with the evidence for each placement recorded in `data/vgp_species_placement.csv`.
-- **Algorithm:** rEDGE (Ramos-Gutiérrez & Gumbs) / `EDGE.2.calc` (Gumbs). The vendored engine was validated to machine precision against the reference.
+> **Note on IUCN categories.** v1 used the IUCN categories embedded in the MDD release. v2 uses the IUCN Red List v2026-1 export directly for every clade, so all five clades share one current endangerment layer. MDD is still used for mammal synonymy. The change of layer, together with new assessments since v1, accounts for most of the difference between the v1 and v2 mammal EDGE lists (`data/mammals/comparison_vs_previous_run.csv`).
 
-See [`docs/METHODS.md`](docs/METHODS.md) for full detail, data versions, reconciliation counts, VGP placement rules and caveats.
+### 3. Taxonomy reconciliation (tree tips → IUCN categories)
+
+Non-species tips are dropped before the EDGE2 computation:
+- Mammals: 5,987 tips = **5,911 species** plus **76 fossil FBD backbone tips** (prefixed `X_`, e.g. `X_Shuotherium`).
+- Amphibians: 7,239 tips = **7,238 species** plus the *Homo sapiens* outgroup.
+- Birds (9,993), squamates (9,755) and chondrichthyans (1,192): all tips are species.
+
+Each species tip was matched to an IUCN 2026-1 assessment, taking the first route that succeeded:
+
+1. **Direct match** of `Genus_species` to an IUCN accepted name.
+2. **Synonym via MDD** (mammals only): the MDD name the tip reconciled to in v1 (MSW3 and nominal-name synonymy), then matched to IUCN.
+3. **Synonym via GBIF backbone:** the GBIF accepted species for the tip name, then matched to IUCN.
+4. **GBIF IUCN link:** the IUCN category GBIF attaches to that species.
+5. **Unmatched → NM** ("no Red List match", flagged in `data/reconciliation_all_clades.csv`). v1 labelled these tips DD. NM tips still receive a sampled `pext` from the pooled distribution, exactly as DD and NE do, so they appear in the ranking. They are candidates for refinement with a curated synonym list.
+
+| Clade | Direct | MDD synonym | GBIF accepted | GBIF IUCN link | NM | Reconciled |
+|---|---|---|---|---|---|---|
+| Mammals | 5,316 | 336 | 77 | 53 | 129 | 5,782 / 5,911 (97.8 %) |
+| Birds | 7,931 | – | 1,105 | 763 | 194 | 9,799 / 9,993 (98.1 %) |
+| Squamates | 8,636 | – | 612 | 268 | 239 | 9,516 / 9,755 (97.5 %) |
+| Amphibians | 6,069 | – | 879 | 237 | 53 | 7,185 / 7,238 (99.3 %) |
+| Chondrichthyans | 979 | – | 101 | 74 | 38 | 1,154 / 1,192 (96.8 %) |
+
+Per-tip category counts entering the run ("conservation dependent" mapped to NT):
+
+| Clade | LC | NT | VU | EN | CR | EW | EX | DD | NM |
+|---|---|---|---|---|---|---|---|---|---|
+| Mammals | 3,340 | 382 | 546 | 524 | 214 | 1 | 81 | 694 | 129 |
+| Birds | 7,855 | 808 | 591 | 322 | 178 | 5 | 11 | 29 | 194 |
+| Squamates | 6,126 | 508 | 531 | 687 | 309 | 2 | 21 | 1,332 | 239 |
+| Amphibians | 3,562 | 397 | 714 | 1,091 | 676 | 2 | 37 | 706 | 53 |
+| Chondrichthyans | 520 | 120 | 186 | 117 | 98 | 0 | 1 | 112 | 38 |
+
+VGP names are placed on tree tips by a separate tiered procedure (exact, synonym, orthographic, split-from-tip, domestic form). Every placement and its evidence is recorded in `data/vgp_species_placement.csv`; see [`docs/METHODS.md`](docs/METHODS.md).
+
+### 4. Compute & parameters
+
+- **Cluster:** Smith (SLURM). Conda R 4.3.3 environment (`ape`, `phylobase`, `data.table`, `dplyr`).
+- **Engine:** a vendored, self-contained R implementation (`R/edge2_engine.R`), unchanged since v1 and faithful to rEDGE. Its only change from the reference is an O(n) refactor of the per-species `pext` sampler that preserves the exact `set.seed()` + `sample()` draw sequence. In v1 it was **validated against the rEDGE source on two full 5,911-species trees: max |ΔEDGE| = 0, max |ΔED| = 0, max |Δpext| = 0, identical EDGE-species flags**, i.e. machine-precision equivalence.
+- **Parallelism:** per clade, 1,000 trees are split into a 20-task SLURM array with 50 trees per task, followed by a dependent aggregation job. The five arrays ran concurrently. The slowest task per clade took 3.1 min (mammals), 5.9 min (birds), 5.0 min (squamates), 3.1 min (amphibians) and 0.8 min (chondrichthyans). The whole run took about 6 min wall time.
+- **Reproducibility:** extinction model `Isaac`; base seed **20240601**; per-tree seed = `20240601 + tree_index`, which is deterministic and reproducible. The same seeds are used for every clade.
+
+See [`docs/METHODS.md`](docs/METHODS.md) for the VGP placement rules, v1 → v2 changes and caveats.
 
 ## Reproducing
 
-The engine (`R/edge2_engine.R`) needs R with `ape`, `phylobase`, `data.table` and `dplyr`. `R/run_chunk.R` is the per-tree SLURM-array driver (extinction model `Isaac`, base seed 20240601), and `R/aggregate.R` collapses per-tree results into the ranked species table. Both read the clade from the `CLADE` environment variable. The steps are:
+`R/run_chunk.R` is the per-tree SLURM-array driver and `R/aggregate.R` collapses per-tree results into the ranked species table; both read the clade from the `CLADE` environment variable. The steps are:
 
 1. Download the tree sets from data.vertlife.org and the IUCN 2026-1 DwC-A (GBIF-hosted).
 2. Split each tree set to one tree per file and write `run/<clade>/tree_index.txt` and `edge_table.csv`.
