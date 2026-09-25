@@ -1,0 +1,6 @@
+clade,n_species,n_threatened,n_EDGE,n_borderline,n_no_RedList_match,n_vgp_genome,n_EDGE_with_genome,pct_EDGE_with_genome,top50_EDGE_with_genome,PD_Gy_median,ePDloss_Gy_median,pct_PD_at_risk,pct_PD_at_risk_q25,pct_PD_at_risk_q75
+mammals,5911,1284,610,304,129,236,38,6.23,7,29.919,3.035,10.136,9.997,10.292
+birds,9993,1091,531,237,194,250,14,2.637,4,84.516,5.678,6.72,6.656,6.785
+squamates,9755,1527,875,225,239,39,3,0.343,1,126.863,13.799,10.868,10.745,10.994
+amphibians,7238,2481,1314,652,53,46,3,0.228,1,135.38,21.002,15.538,15.355,15.728
+chondrichthyans,1192,401,263,89,38,34,10,3.802,5,39.752,6.055,15.143,14.682,15.53

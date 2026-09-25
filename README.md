@@ -18,6 +18,21 @@ VGP coverage is several-fold higher among the most distinct and highest-ranked s
 
 Of the 1,063 VGP species, all 637 that fall in these five clades are placed on a tree tip. The other 426 belong to lineages without a VertLife tree: ray-finned fishes, turtles, crocodilians and other chordates. See `data/vgp_species_placement.csv`.
 
+## Interactive dashboard
+
+**[tanyalama.github.io/project_EDGE2](https://tanyalama.github.io/project_EDGE2/)**: an R Shiny app that runs entirely in the browser (Shinylive / webR), so it needs no server. The first load takes a few seconds while R starts in the browser. It has six tabs:
+
+| Tab | Content |
+|---|---|
+| Overview | VGP coverage of EDGE species and the distinctness-enrichment plot, per group |
+| Explore a group | Filter by Red List category, order or family, EDGE status, genome status or name. Interactive ED2-vs-GE2 scatter, top-species plot, rank curve, order/family breakdown, and a searchable, downloadable species table |
+| Sequenced EDGE species | Every EDGE species that already has a VGP genome |
+| Sequencing priorities | Highest-ranked EDGE species without a genome, filterable by order or family |
+| VGP placement | Every VGP name with its placement tier, tree tip and evidence |
+| About | Short description of the data and definitions |
+
+To run it locally: `shiny::runApp("app")`. After changing `data/`, rebuild the app's data with `python python/build_app_data.py`. The site is rebuilt by `.github/workflows/deploy-app.yml` on every push that touches `app/`.
+
 ## Layout
 
 ```
@@ -33,7 +48,8 @@ figures/<clade>/     fig1–fig7 (PDF + 300-dpi PNG)
 figures/cross_clade/ fig8–fig11
 docs/METHODS.md      full methods, v1 → v2 changes, caveats
 R/                   EDGE2 engine (vendored rEDGE), SLURM chunk/aggregate scripts
-python/              table builder and figure module (Arial, Zissou1 palette)
+python/              table builder, figure module (Arial, Zissou1 palette), dashboard data builder
+app/                 Shiny dashboard (app.R + data/), published to GitHub Pages via shinylive
 archive/v1_mammals/  previous release
 ```
 

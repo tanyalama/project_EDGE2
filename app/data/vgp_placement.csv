@@ -1,0 +1,1064 @@
+vgp_name,vgp_name_corrected,vgp_english_name,vgp_lineage,vgp_sheet,vgp_accession,clade,placement_tier,tree_tip,credit_genome_to_tip,evidence
+Bubalus bubalis,Bubalus bubalis,water buffalo,Mammals,Phase1+,GCA_019923935.1,mammals,domestic_form_of_tip,Bubalus arnee,False,MDD: domestic form of B. arnee; has been suggested to represent two species based on molecular data (buablis for River Buffalo and kerabau/carabanensis for Swamp Buf
+Equus asinus,Equus asinus,donkey,Mammals,Phase1+,GCA_041296235.2,mammals,domestic_form_of_tip,Equus africanus,False,MDD: domestic form of E. africanus
+Ambystoma mexicanum,Ambystoma mexicanum,axolotl,Amphibians,Phase1+,GCA_040938575.1,amphibians,exact,Ambystoma mexicanum,True,VGP name identical to tip
+Ambystoma tigrinum,Ambystoma tigrinum,tiger salamander,Amphibians,Phase1+,GCA_061212105.1,amphibians,exact,Ambystoma tigrinum,True,VGP name identical to tip
+Anomaloglossus baeobatrachus,Anomaloglossus baeobatrachus,Edward's Rocket Frog,Amphibians,Phase1+,GCA_048569485.1,amphibians,exact,Anomaloglossus baeobatrachus,True,VGP name identical to tip
+Ascaphus truei,Ascaphus truei,coastal tailed frog,Amphibians,Phase1+,GCA_040206685.1,amphibians,exact,Ascaphus truei,True,VGP name identical to tip
+Bombina bombina,Bombina bombina,European fire-bellied toad,Amphibians,Phase1+,GCA_027579735.1,amphibians,exact,Bombina bombina,True,VGP name identical to tip
+Bombina variegata,Bombina variegata,,,Families,GCA_964205295.1,amphibians,exact,Bombina variegata,True,VGP name identical to tip
+Bufo bufo,Bufo bufo,,,Families,GCA_905171765.1,amphibians,exact,Bufo bufo,True,VGP name identical to tip
+Cryptobranchus alleganiensis,Cryptobranchus alleganiensis,hellbender salamander,Amphibians,Phase1+,GCA_060551615.1,amphibians,exact,Cryptobranchus alleganiensis,True,VGP name identical to tip
+Dendrobates auratus,Dendrobates auratus,green-and-black poison dart frog,Amphibians,Phase1+,,amphibians,exact,Dendrobates auratus,False,VGP name identical to tip
+Dendropsophus ebraccatus,Dendropsophus ebraccatus,,,Families,GCA_027789765.1,amphibians,exact,Dendropsophus ebraccatus,True,VGP name identical to tip
+Discoglossus pictus,Discoglossus pictus,painted frog,Amphibians,Phase1+,GCA_027410445.1,amphibians,exact,Discoglossus pictus,True,VGP name identical to tip
+Eleutherodactylus coqui,Eleutherodactylus coqui,,,Families,GCA_035609145.1,amphibians,exact,Eleutherodactylus coqui,True,VGP name identical to tip
+Eleutherodactylus marnockii,Eleutherodactylus marnockii,cliff chirping frog,Amphibians,Phase1+,GCA_055470875.1,amphibians,exact,Eleutherodactylus marnockii,True,VGP name identical to tip
+Engystomops pustulosus,Engystomops pustulosus,tungara frog,Amphibians,Phase1+,GCA_040894005.1,amphibians,exact,Engystomops pustulosus,True,VGP name identical to tip
+Epidalea calamita,Epidalea calamita,natterjack toad,Amphibians,Phase1+,GCA_978041865.1,amphibians,exact,Epidalea calamita,True,VGP name identical to tip
+Fejervarya limnocharis,Fejervarya limnocharis,Asian grass frog,Amphibians,Phase1+,GCA_054083975.1,amphibians,exact,Fejervarya limnocharis,True,VGP name identical to tip
+Gastrophryne carolinensis,Gastrophryne carolinensis,Eastern narrow-mouthed toad,Amphibians,Phase1+,GCA_027917425.1,amphibians,exact,Gastrophryne carolinensis,True,VGP name identical to tip
+Geotrypetes seraphini,Geotrypetes seraphini,,,Families,GCA_902459505.2,amphibians,exact,Geotrypetes seraphini,True,VGP name identical to tip
+Hyla sarda,Hyla sarda,,,Families,GCA_029499605.1,amphibians,exact,Hyla sarda,True,VGP name identical to tip
+Hyperolius riggenbachi,Hyperolius riggenbachi,,,Families,GCA_040937935.1,amphibians,exact,Hyperolius riggenbachi,True,VGP name identical to tip
+Leptobrachium boringii,Leptobrachium boringii,Emei moustache toad,Amphibians,Phase1+,GCA_054131545.1,amphibians,exact,Leptobrachium boringii,True,VGP name identical to tip
+Leptodactylus fuscus,Leptodactylus fuscus,,,Families,GCA_031893055.1,amphibians,exact,Leptodactylus fuscus,True,VGP name identical to tip
+Lissotriton helveticus,Lissotriton helveticus,,,Families,GCA_964261635.1,amphibians,exact,Lissotriton helveticus,True,VGP name identical to tip
+Lissotriton vulgaris,Lissotriton vulgaris,,,Families,GCA_964263255.1,amphibians,exact,Lissotriton vulgaris,True,VGP name identical to tip
+Mantella aurantiaca,Mantella aurantiaca,,,Families,GCA_048565345.1,amphibians,exact,Mantella aurantiaca,True,VGP name identical to tip
+Megophrys montana,Megophrys montana,Javan horned frog,Amphibians,Phase1+,GCA_060175755.1,amphibians,exact,Megophrys montana,True,VGP name identical to tip
+Microcaecilia unicolor,Microcaecilia unicolor,tiny cayenne caecilian,Amphibians,Phase1+,GCA_901765095.2,amphibians,exact,Microcaecilia unicolor,True,VGP name identical to tip
+Mixophyes fleayi,Mixophyes fleayi,,,Families,GCA_038048845.1,amphibians,exact,Mixophyes fleayi,True,VGP name identical to tip
+Necturus punctatus,Necturus punctatus,dwarf waterdog,Amphibians,Phase1+,,amphibians,exact,Necturus punctatus,False,VGP name identical to tip
+Parvimolge townsendi,Parvimolge townsendi,Townsend's dwarf salamander,Amphibians,Phase1+,,amphibians,exact,Parvimolge townsendi,False,VGP name identical to tip
+Pelobates fuscus,Pelobates fuscus,,,Families,GCA_036172605.1,amphibians,exact,Pelobates fuscus,True,VGP name identical to tip
+Pelodytes ibericus,Pelodytes ibericus,,,Families,GCA_036172795.1,amphibians,exact,Pelodytes ibericus,True,VGP name identical to tip
+Pelophylax lessonae,Pelophylax lessonae,,,Families,GCA_965119305.1,amphibians,exact,Pelophylax lessonae,True,VGP name identical to tip
+Pleurodeles waltl,Pleurodeles waltl,,,Families,GCA_026652325.1,amphibians,exact,Pleurodeles waltl,True,VGP name identical to tip
+Pseudacris triseriata,Pseudacris triseriata,Western chorus frog,Amphibians,Phase1+,GCA_053478255.2,amphibians,exact,Pseudacris triseriata,True,VGP name identical to tip
+Pseudophryne corroboree,Pseudophryne corroboree,Southern corroboree frog,Amphibians,Phase1+,GCA_028390025.1,amphibians,exact,Pseudophryne corroboree,True,VGP name identical to tip
+Rana temporaria,Rana temporaria,,,Families,GCA_905171775.1,amphibians,exact,Rana temporaria,True,VGP name identical to tip
+Ranitomeya imitator,Ranitomeya imitator,mimic poison frog,Amphibians,Phase1+,GCA_032444005.1,amphibians,exact,Ranitomeya imitator,True,VGP name identical to tip
+Ranitomeya variabilis,Ranitomeya variabilis,Zimmermann's poison frog,Amphibians,Phase1+,GCA_051348905.1,amphibians,exact,Ranitomeya variabilis,True,VGP name identical to tip
+Rhinatrema bivittatum,Rhinatrema bivittatum,,,Families,GCA_901001135.2,amphibians,exact,Rhinatrema bivittatum,True,VGP name identical to tip
+Rhinoderma darwinii,Rhinoderma darwinii,Darwin's frog,Amphibians,Phase1+,GCA_050947455.1,amphibians,exact,Rhinoderma darwinii,True,VGP name identical to tip
+Rhinophrynus dorsalis,Rhinophrynus dorsalis,Mexican burrowing toad,Amphibians,Phase1+,GCA_037306005.1,amphibians,exact,Rhinophrynus dorsalis,True,VGP name identical to tip
+Scaphiopus couchii,Scaphiopus couchii,Couch's spadefoot toad,Amphibians,Phase1+,GCA_054954225.1,amphibians,exact,Scaphiopus couchii,True,VGP name identical to tip
+Scutiger boulengeri,Scutiger boulengeri,,,Families,,amphibians,exact,Scutiger boulengeri,False,VGP name identical to tip
+Siren intermedia,Siren intermedia,lesser siren,Amphibians,Phase1+,,amphibians,exact,Siren intermedia,False,VGP name identical to tip
+Sooglossus thomasseti,Sooglossus thomasseti,Thomasset's Seychelles frog,Amphibians,Phase1+,,amphibians,exact,Sooglossus thomasseti,False,VGP name identical to tip
+Spea bombifrons,Spea bombifrons,plain spadefoot toad,Amphibians,Phase1+,GCA_027358695.2,amphibians,exact,Spea bombifrons,True,VGP name identical to tip
+Spea multiplicata,Spea multiplicata,Mexican spadefoot toad,Amphibians,Phase1+,GCA_054668525.1,amphibians,exact,Spea multiplicata,True,VGP name identical to tip
+Telmatobufo venustus,Telmatobufo venustus,Chile Mountains false toad,Amphibians,Phase1+,GCA_060712405.1,amphibians,exact,Telmatobufo venustus,True,VGP name identical to tip
+Thorius spilogaster,Thorius spilogaster,spotted minute salamander,Amphibians,Phase1+,GCA_060511645.1,amphibians,exact,Thorius spilogaster,True,VGP name identical to tip
+Triturus cristatus,Triturus cristatus,warty newt,Amphibians,Phase1+,GCA_964204655.1,amphibians,exact,Triturus cristatus,True,VGP name identical to tip
+Xenopus petersii,Xenopus petersii,,,Families,GCA_038501925.1,amphibians,exact,Xenopus petersii,True,VGP name identical to tip
+Acanthisitta chloris,Acanthisitta chloris,,,Families,GCA_016904835.1,birds,exact,Acanthisitta chloris,True,VGP name identical to tip
+Accipiter gentilis,Accipiter gentilis,,,Families,GCA_929443795.1,birds,exact,Accipiter gentilis,True,VGP name identical to tip
+Accipiter nisus,Accipiter nisus,Eurasian sparrowhawk,Birds,Phase1+,GCA_978019825.1,birds,exact,Accipiter nisus,True,VGP name identical to tip
+Acridotheres tristis,Acridotheres tristis,,,Families,GCA_027559615.1,birds,exact,Acridotheres tristis,True,VGP name identical to tip
+Acrocephalus schoenobaenus,Acrocephalus schoenobaenus,sedge warbler,Birds,Phase1+,GCA_987194645.1,birds,exact,Acrocephalus schoenobaenus,True,VGP name identical to tip
+Aechmophorus clarkii,Aechmophorus clarkii,Clark’s grebe,Birds,Phase1+,GCA_054644155.1,birds,exact,Aechmophorus clarkii,True,VGP name identical to tip
+Aegithalos caudatus,Aegithalos caudatus,Northern long-tailed tit,Birds,Phase1+,GCA_977066295.1,birds,exact,Aegithalos caudatus,True,VGP name identical to tip
+Aegotheles albertisi,Aegotheles albertisi,mountain owlet-nightjar,Birds,Phase1+,GCA_039906565.1,birds,exact,Aegotheles albertisi,True,VGP name identical to tip
+Agelaius phoeniceus,Agelaius phoeniceus,red-winged blackbird,Birds,Phase1+,GCA_051311805.1,birds,exact,Agelaius phoeniceus,True,VGP name identical to tip
+Alauda arvensis,Alauda arvensis,Eurasian skylark,Birds,Phase1+,GCA_987194035.1,birds,exact,Alauda arvensis,True,VGP name identical to tip
+Alca torda,Alca torda,razorbill,Birds,Phase1+,GCA_008658365.1,birds,exact,Alca torda,True,VGP name identical to tip
+Alcedo atthis,Alcedo atthis,common kingfisher,Birds,Phase1+,GCA_987195655.1,birds,exact,Alcedo atthis,True,VGP name identical to tip
+Alectoris rufa,Alectoris rufa,red-legged partridge,Birds,Phase1+,GCA_987193675.1,birds,exact,Alectoris rufa,True,VGP name identical to tip
+Alopochen aegyptiaca,Alopochen aegyptiaca,,,Families,GCA_965278175.1,birds,exact,Alopochen aegyptiaca,True,VGP name identical to tip
+Amazona ochrocephala,Amazona ochrocephala,,,Families,GCA_039720435.1,birds,exact,Amazona ochrocephala,True,VGP name identical to tip
+Ammodramus caudacutus,Ammodramus caudacutus,saltmarsh sparrow,Birds,Phase1+,GCA_027887145.1,birds,exact,Ammodramus caudacutus,True,VGP name identical to tip
+Anas acuta,Anas acuta,northern pintail,Birds,Phase1+,GCA_963932015.1,birds,exact,Anas acuta,True,VGP name identical to tip
+Anas platyrhynchos,Anas platyrhynchos,mallard,Birds,Phase1+,GCA_964188345.1,birds,exact,Anas platyrhynchos,True,VGP name identical to tip
+Anodorhynchus hyacinthinus,Anodorhynchus hyacinthinus,hyacinth macaw,Birds,Phase1+,,birds,exact,Anodorhynchus hyacinthinus,False,VGP name identical to tip
+Anser albifrons,Anser albifrons,White-fronted goose,Birds,Phase1+,GCA_976913865.1,birds,exact,Anser albifrons,True,VGP name identical to tip
+Anser anser,Anser anser,,,Families,GCA_964211835.1,birds,exact,Anser anser,True,VGP name identical to tip
+Anser brachyrhynchus,Anser brachyrhynchus,pink-footed goose,Birds,Phase1+,GCA_964034855.1,birds,exact,Anser brachyrhynchus,True,VGP name identical to tip
+Anser cygnoides,Anser cygnoides,swan goose,Birds,Phase1+,GCA_040182565.1,birds,exact,Anser cygnoides,True,VGP name identical to tip
+Anser erythropus,Anser erythropus,,,Families,GCA_965277985.1,birds,exact,Anser erythropus,True,VGP name identical to tip
+Anser fabalis,Anser fabalis,bean goose,Birds,Phase1+,GCA_965250395.1,birds,exact,Anser fabalis,True,VGP name identical to tip
+Anthus petrosus,Anthus petrosus,rock pipit,Birds,Phase1+,GCA_987193735.1,birds,exact,Anthus petrosus,True,VGP name identical to tip
+Anthus pratensis,Anthus pratensis,meadow pipit,Birds,Phase1+,GCA_987193795.1,birds,exact,Anthus pratensis,True,VGP name identical to tip
+Anthus trivialis,Anthus trivialis,tree pipit,Birds,Phase1+,GCA_987193405.1,birds,exact,Anthus trivialis,True,VGP name identical to tip
+Apteryx mantelli,Apteryx mantelli,,,Families,GCA_036417845.1,birds,exact,Apteryx mantelli,True,VGP name identical to tip
+Apus apus,Apus apus,,,Families,GCA_020740795.1,birds,exact,Apus apus,True,VGP name identical to tip
+Aquila chrysaetos,Aquila chrysaetos,,,Families,GCA_900496995.4,birds,exact,Aquila chrysaetos,True,VGP name identical to tip
+Ara ararauna,Ara ararauna,,,Families,GCA_028858755.1,birds,exact,Ara ararauna,True,VGP name identical to tip
+Ardea cinerea,Ardea cinerea,grey heron,Birds,Phase1+,GCA_987197345.1,birds,exact,Ardea cinerea,True,VGP name identical to tip
+Ardea goliath,Ardea goliath,,,Families,,birds,exact,Ardea goliath,False,VGP name identical to tip
+Athene noctua,Athene noctua,little owl,Birds,Phase1+,GCA_965140245.1,birds,exact,Athene noctua,True,VGP name identical to tip
+Atlapetes fuscoolivaceus,Atlapetes fuscoolivaceus,dusky-headed brushfinch,Birds,Phase1+,GCA_060712285.1,birds,exact,Atlapetes fuscoolivaceus,True,VGP name identical to tip
+Aythya ferina,Aythya ferina,common pochard,Birds,Phase1+,GCA_964211825.1,birds,exact,Aythya ferina,True,VGP name identical to tip
+Aythya fuligula,Aythya fuligula,tufted duck,Birds,Phase1+,GCA_009819795.1,birds,exact,Aythya fuligula,True,VGP name identical to tip
+Aythya marila,Aythya marila,,,Families,GCA_965140915.1,birds,exact,Aythya marila,True,VGP name identical to tip
+Baeolophus bicolor,Baeolophus bicolor,tufted titmouse,Birds,Phase1+,GCA_055754725.1,birds,exact,Baeolophus bicolor,True,VGP name identical to tip
+Balearica regulorum,Balearica regulorum,grey crowned-crane,Birds,Phase1+,GCA_011004875.1,birds,exact,Balearica regulorum,True,VGP name identical to tip
+Branta canadensis,Branta canadensis,Canada goose,Birds,Phase1+,GCA_965231335.1,birds,exact,Branta canadensis,True,VGP name identical to tip
+Branta leucopsis,Branta leucopsis,barnacle goose,Birds,Phase1+,GCA_965642265.1,birds,exact,Branta leucopsis,True,VGP name identical to tip
+Bucephala clangula,Bucephala clangula,common goldeneye,Birds,Phase1+,GCA_964059595.1,birds,exact,Bucephala clangula,True,VGP name identical to tip
+Bucorvus abyssinicus,Bucorvus abyssinicus,Abyssinian ground hornbill,Birds,Phase1+,GCA_009769605.1,birds,exact,Bucorvus abyssinicus,True,VGP name identical to tip
+Buteo buteo,Buteo buteo,,,Families,GCA_964188355.1,birds,exact,Buteo buteo,True,VGP name identical to tip
+Calidris alpina,Calidris alpina,dunlin,Birds,Phase1+,GCA_987196145.1,birds,exact,Calidris alpina,True,VGP name identical to tip
+Caloenas nicobarica,Caloenas nicobarica,,,Families,GCA_036013445.1,birds,exact,Caloenas nicobarica,True,VGP name identical to tip
+Calypte anna,Calypte anna,,,Families,GCA_003957555.2,birds,exact,Calypte anna,True,VGP name identical to tip
+Caprimulgus europaeus,Caprimulgus europaeus,,,Families,GCA_907165065.1,birds,exact,Caprimulgus europaeus,True,VGP name identical to tip
+Carduelis carduelis,Carduelis carduelis,Eurasian goldfinch,Birds,Phase1+,GCA_987197145.1,birds,exact,Carduelis carduelis,True,VGP name identical to tip
+Cariama cristata,Cariama cristata,,,Families,GCA_009819825.1,birds,exact,Cariama cristata,True,VGP name identical to tip
+Catharus ustulatus,Catharus ustulatus,Swainson's thrush,Birds,Phase1+,GCA_009819885.2,birds,exact,Catharus ustulatus,True,VGP name identical to tip
+Certhia familiaris,Certhia familiaris,Eurasian tree-creeper,Birds,Phase1+,GCA_988280705.1,birds,exact,Certhia familiaris,True,VGP name identical to tip
+Cettia cetti,Cettia cetti,Cetti's warbler,Birds,Phase1+,GCA_988281345.1,birds,exact,Cettia cetti,True,VGP name identical to tip
+Chalcostigma stanleyi,Chalcostigma stanleyi,blue-mantled thornbill,Birds,Phase1+,GCA_054051245.1,birds,exact,Chalcostigma stanleyi,True,VGP name identical to tip
+Charadrius hiaticula,Charadrius hiaticula,common ringed plover,Birds,Phase1+,GCA_988281325.1,birds,exact,Charadrius hiaticula,True,VGP name identical to tip
+Chiroxiphia lanceolata,Chiroxiphia lanceolata,lanced-tailed manakin,Birds,Phase1+,GCA_009829145.1,birds,exact,Chiroxiphia lanceolata,True,VGP name identical to tip
+Ciconia ciconia,Ciconia ciconia,white stork,Birds,Phase1+,GCA_987196565.1,birds,exact,Ciconia ciconia,True,VGP name identical to tip
+Ciconia maguari,Ciconia maguari,Maguari stork,Birds,Phase1+,GCA_017639555.1,birds,exact,Ciconia maguari,True,VGP name identical to tip
+Cinclus cinclus,Cinclus cinclus,white-throated dipper,Birds,Phase1+,GCA_963662255.1,birds,exact,Cinclus cinclus,True,VGP name identical to tip
+Circus cyaneus,Circus cyaneus,hen harrier,Birds,Phase1+,GCA_987196875.1,birds,exact,Circus cyaneus,True,VGP name identical to tip
+Clangula hyemalis,Clangula hyemalis,,,Families,GCA_963989345.1,birds,exact,Clangula hyemalis,True,VGP name identical to tip
+Coccothraustes coccothraustes,Coccothraustes coccothraustes,hawfinch,Birds,Phase1+,GCA_965649865.1,birds,exact,Coccothraustes coccothraustes,True,VGP name identical to tip
+Colius striatus,Colius striatus,,,Families,GCA_028858725.2,birds,exact,Colius striatus,True,VGP name identical to tip
+Columba livia,Columba livia,,,Families,GCA_036013475.2,birds,exact,Columba livia,True,VGP name identical to tip
+Columba oenas,Columba oenas,stock dove,Birds,Phase1+,GCA_987196055.1,birds,exact,Columba oenas,True,VGP name identical to tip
+Columba palumbus,Columba palumbus,common wood pigeon,Birds,Phase1+,GCA_965250375.1,birds,exact,Columba palumbus,True,VGP name identical to tip
+Copsychus sechellarum,Copsychus sechellarum,Seychelles magpie-robin,Birds,Phase1+,GCA_054084125.1,birds,exact,Copsychus sechellarum,True,VGP name identical to tip
+Corvus corax,Corvus corax,common raven,Birds,Phase1+,GCA_987196915.1,birds,exact,Corvus corax,True,VGP name identical to tip
+Corvus corone,Corvus corone,carrion crow,Birds,Phase1+,GCA_987196955.1,birds,exact,Corvus corone,True,VGP name identical to tip
+Corvus frugilegus,Corvus frugilegus,rook,Birds,Phase1+,GCA_987196625.1,birds,exact,Corvus frugilegus,True,VGP name identical to tip
+Corvus hawaiiensis,Corvus hawaiiensis,Hawaiian crow,Birds,Phase1+,GCA_020740725.1,birds,exact,Corvus hawaiiensis,True,VGP name identical to tip
+Corvus moneduloides,Corvus moneduloides,,,Families,GCA_009650955.1,birds,exact,Corvus moneduloides,True,VGP name identical to tip
+Coturnix chinensis,Coturnix chinensis,king quail,Birds,Phase1+,GCA_039878825.1,birds,exact,Coturnix chinensis,True,VGP name identical to tip
+Cranioleuca antisiensis,Cranioleuca antisiensis,Line-cheeked spinetail,Birds,Phase1+,GCA_060712555.1,birds,exact,Cranioleuca antisiensis,True,VGP name identical to tip
+Crex crex,Crex crex,corn crake,Birds,Phase1+,GCA_987197635.1,birds,exact,Crex crex,True,VGP name identical to tip
+Cuculus canorus,Cuculus canorus,common cuckoo,Birds,Phase1+,GCA_017976375.1,birds,exact,Cuculus canorus,True,VGP name identical to tip
+Cyanocitta cristata,Cyanocitta cristata,blue jay,Birds,Phase1+,GCA_046129655.1,birds,exact,Cyanocitta cristata,True,VGP name identical to tip
+Cygnus columbianus,Cygnus columbianus,tundra swan,Birds,Phase1+,GCA_965151615.1,birds,exact,Cygnus columbianus,True,VGP name identical to tip
+Cygnus cygnus,Cygnus cygnus,,,Families,GCA_965278775.1,birds,exact,Cygnus cygnus,True,VGP name identical to tip
+Cygnus olor,Cygnus olor,mute swan,Birds,Phase1+,GCA_009769625.2,birds,exact,Cygnus olor,True,VGP name identical to tip
+Dendrocopos major,Dendrocopos major,great rufous woodcreeper,Birds,Phase1+,GCA_987197325.1,birds,exact,Dendrocopos major,True,VGP name identical to tip
+Dromaius novaehollandiae,Dromaius novaehollandiae,emu,Birds,Phase1+,GCA_036370855.1,birds,exact,Dromaius novaehollandiae,True,VGP name identical to tip
+Dumetella carolinensis,Dumetella carolinensis,grey catbird,Birds,Phase1+,GCA_057427935.1,birds,exact,Dumetella carolinensis,True,VGP name identical to tip
+Emberiza citrinella,Emberiza citrinella,yellowhammer,Birds,Phase1+,GCA_987217005.1,birds,exact,Emberiza citrinella,True,VGP name identical to tip
+Emberiza tahapisi,Emberiza tahapisi,cinnamon-breated bunting,Birds,Phase1+,GCA_058130095.1,birds,exact,Emberiza tahapisi,True,VGP name identical to tip
+Erithacus rubecula,Erithacus rubecula,European robin,Birds,Phase1+,GCA_903797595.2,birds,exact,Erithacus rubecula,True,VGP name identical to tip
+Eudromia elegans,Eudromia elegans,elegant crested tinamou,Birds,Phase1+,GCA_047922985.1,birds,exact,Eudromia elegans,True,VGP name identical to tip
+Falco biarmicus,Falco biarmicus,,,Families,GCA_023638135.1,birds,exact,Falco biarmicus,True,VGP name identical to tip
+Falco cherrug,Falco cherrug,,,Families,GCA_023634085.1,birds,exact,Falco cherrug,True,VGP name identical to tip
+Falco naumanni,Falco naumanni,lesser kestrel,Birds,Phase1+,GCA_017639655.1,birds,exact,Falco naumanni,True,VGP name identical to tip
+Falco peregrinus,Falco peregrinus,peregrine falcon,Birds,Phase1+,GCA_023634155.1,birds,exact,Falco peregrinus,True,VGP name identical to tip
+Falco punctatus,Falco punctatus,,,Families,GCA_963210335.1,birds,exact,Falco punctatus,True,VGP name identical to tip
+Falco rusticolus,Falco rusticolus,,,Families,GCA_015220075.1,birds,exact,Falco rusticolus,True,VGP name identical to tip
+Falco tinnunculus,Falco tinnunculus,common kestrel,Birds,Phase1+,GCA_976974455.1,birds,exact,Falco tinnunculus,True,VGP name identical to tip
+Fringilla coelebs,Fringilla coelebs,,,Families,GCA_963513975.1,birds,exact,Fringilla coelebs,True,VGP name identical to tip
+Gallinago gallinago,Gallinago gallinago,common snipe,Birds,Phase1+,GCA_987197645.1,birds,exact,Gallinago gallinago,True,VGP name identical to tip
+Gallinula chloropus,Gallinula chloropus,common moorhen,Birds,Phase1+,GCA_964237585.1,birds,exact,Gallinula chloropus,True,VGP name identical to tip
+Gallus gallus,Gallus gallus,,,Families,GCA_016700215.2,birds,exact,Gallus gallus,True,VGP name identical to tip
+Garrulus glandarius,Garrulus glandarius,Eurasian jay,Birds,Phase1+,GCA_987195975.1,birds,exact,Garrulus glandarius,True,VGP name identical to tip
+Gavia stellata,Gavia stellata,red-throated Loon,Birds,Phase1+,GCA_030936135.1,birds,exact,Gavia stellata,True,VGP name identical to tip
+Geothlypis trichas,Geothlypis trichas,common yellowthroat,Birds,Phase1+,GCA_009764595.1,birds,exact,Geothlypis trichas,True,VGP name identical to tip
+Grus americana,Grus americana,,,Families,GCA_028858705.1,birds,exact,Grus americana,True,VGP name identical to tip
+Grus grus,Grus grus,Eurasian crane,Birds,Phase1+,GCA_964106855.1,birds,exact,Grus grus,True,VGP name identical to tip
+Gypaetus barbatus,Gypaetus barbatus,,,Families,GCA_028022735.1,birds,exact,Gypaetus barbatus,True,VGP name identical to tip
+Haematopus ostralegus,Haematopus ostralegus,Eurasian oystercatcher,Birds,Phase1+,GCA_976988815.1,birds,exact,Haematopus ostralegus,True,VGP name identical to tip
+Haliaeetus albicilla,Haliaeetus albicilla,,,Families,GCA_947461875.1,birds,exact,Haliaeetus albicilla,True,VGP name identical to tip
+Harpia harpyja,Harpia harpyja,,,Families,GCA_026419915.1,birds,exact,Harpia harpyja,True,VGP name identical to tip
+Heliangelus exortis,Heliangelus exortis,tourmaline sunangel,Birds,Phase1+,GCA_036169615.1,birds,exact,Heliangelus exortis,True,VGP name identical to tip
+Hemiprocne comata,Hemiprocne comata,whiskered treeswift,Birds,Phase1+,GCA_020745705.1,birds,exact,Hemiprocne comata,True,VGP name identical to tip
+Hirundo rustica,Hirundo rustica,,,Families,GCA_015227805.3,birds,exact,Hirundo rustica,True,VGP name identical to tip
+Hypocnemis striata,Hypocnemis striata,Spix's warbling antbird,Birds,Phase1+,,birds,exact,Hypocnemis striata,False,VGP name identical to tip
+Lagopus muta,Lagopus muta,rock ptarmigan,Birds,Phase1+,GCA_023343835.1,birds,exact,Lagopus muta,True,VGP name identical to tip
+Larus argentatus,Larus argentatus,herring gull,Birds,Phase1+,GCA_964417175.1,birds,exact,Larus argentatus,True,VGP name identical to tip
+Larus canus,Larus canus,,,Families,GCA_966204495.1,birds,exact,Larus canus,True,VGP name identical to tip
+Larus fuscus,Larus fuscus,lesser black-backed gull,Birds,Phase1+,GCA_963932225.2,birds,exact,Larus fuscus,True,VGP name identical to tip
+Larus glaucescens,Larus glaucescens,,,Families,GCA_965654385.1,birds,exact,Larus glaucescens,True,VGP name identical to tip
+Larus hyperboreus,Larus hyperboreus,,,Families,GCA_965654215.1,birds,exact,Larus hyperboreus,True,VGP name identical to tip
+Larus marinus,Larus marinus,,,Families,GCA_965649785.1,birds,exact,Larus marinus,True,VGP name identical to tip
+Larus michahellis,Larus michahellis,yellow-legged gull,Birds,Phase1+,GCA_964199755.2,birds,exact,Larus michahellis,True,VGP name identical to tip
+Larus occidentalis,Larus occidentalis,Western gull,Birds,Phase1+,GCA_965654455.1,birds,exact,Larus occidentalis,True,VGP name identical to tip
+Lathamus discolor,Lathamus discolor,swift parrot,Birds,Phase1+,GCA_037157495.1,birds,exact,Lathamus discolor,True,VGP name identical to tip
+Leptosomus discolor,Leptosomus discolor,,,Families,GCA_034619465.1,birds,exact,Leptosomus discolor,True,VGP name identical to tip
+Limosa lapponica,Limosa lapponica,bar-tailed godwit,Birds,Phase1+,GCA_987196075.1,birds,exact,Limosa lapponica,True,VGP name identical to tip
+Limosa limosa,Limosa limosa,black-tailed godwit,Birds,Phase1+,GCA_987270375.1,birds,exact,Limosa limosa,True,VGP name identical to tip
+Lonchura striata,Lonchura striata,Bengalese finch,Birds,Phase1+,GCA_046129695.1,birds,exact,Lonchura striata,True,VGP name identical to tip
+Lullula arborea,Lullula arborea,woodlark,Birds,Phase1+,GCA_987195895.1,birds,exact,Lullula arborea,True,VGP name identical to tip
+Luscinia svecica,Luscinia svecica,bluethroat,Birds,Phase1+,GCA_965655245.2,birds,exact,Luscinia svecica,True,VGP name identical to tip
+Lycocorax pyrrhopterus,Lycocorax pyrrhopterus,,,Families,GCA_014706295.1,birds,exact,Lycocorax pyrrhopterus,True,VGP name identical to tip
+Melopsittacus undulatus,Melopsittacus undulatus,,,Families,GCA_012275295.1,birds,exact,Melopsittacus undulatus,True,VGP name identical to tip
+Melospiza georgiana,Melospiza georgiana,swamp sparrow,Birds,Phase1+,GCA_028018845.1,birds,exact,Melospiza georgiana,True,VGP name identical to tip
+Melospiza melodia,Melospiza melodia,,,Families,GCA_035770615.1,birds,exact,Melospiza melodia,True,VGP name identical to tip
+Mergellus albellus,Mergellus albellus,smew,Birds,Phase1+,GCA_971847395.1,birds,exact,Mergellus albellus,True,VGP name identical to tip
+Mergus octosetaceus,Mergus octosetaceus,,,Families,GCA_036873955.1,birds,exact,Mergus octosetaceus,True,VGP name identical to tip
+Mergus serrator,Mergus serrator,red-breasted merganser ,Birds,Phase1+,GCA_977964035.1,birds,exact,Mergus serrator,True,VGP name identical to tip
+Merops nubicus,Merops nubicus,,,Families,GCA_009819595.1,birds,exact,Merops nubicus,True,VGP name identical to tip
+Molothrus ater,Molothrus ater,brown-headed cowbird,Birds,Phase1+,GCA_057560355.1,birds,exact,Molothrus ater,True,VGP name identical to tip
+Monias benschi,Monias benschi,subdesert mesite,Birds,Phase1+,,birds,exact,Monias benschi,False,VGP name identical to tip
+Morphnus guianensis,Morphnus guianensis,,,Families,GCA_045345515.1,birds,exact,Morphnus guianensis,True,VGP name identical to tip
+Morus bassanus,Morus bassanus,,,Families,GCA_031468815.1,birds,exact,Morus bassanus,True,VGP name identical to tip
+Motacilla cinerea,Motacilla cinerea,grey wagtail,Birds,Phase1+,GCA_987196015.1,birds,exact,Motacilla cinerea,True,VGP name identical to tip
+Motacilla flava,Motacilla flava,yellow wagtail,Birds,Phase1+,GCA_987196375.1,birds,exact,Motacilla flava,True,VGP name identical to tip
+Muscicapa striata,Muscicapa striata,spotted flycatcher,Birds,Phase1+,GCA_988136345.1,birds,exact,Muscicapa striata,True,VGP name identical to tip
+Myioborus ornatus,Myioborus ornatus,golden-fronted whitestart,Birds,Phase1+,GCA_057814835.1,birds,exact,Myioborus ornatus,True,VGP name identical to tip
+Nesoenas mayeri,Nesoenas mayeri,,,Families,GCA_963082525.1,birds,exact,Nesoenas mayeri,True,VGP name identical to tip
+Netta rufina,Netta rufina,red-crested pochard,Birds,Phase1+,GCA_964035555.1,birds,exact,Netta rufina,True,VGP name identical to tip
+Numenius arquata,Numenius arquata,Eurasian curlew,Birds,Phase1+,GCA_964106895.1,birds,exact,Numenius arquata,True,VGP name identical to tip
+Nyctibius grandis,Nyctibius grandis,great potoo,Birds,Phase1+,GCA_013368605.1,birds,exact,Nyctibius grandis,True,VGP name identical to tip
+Oenanthe oenanthe,Oenanthe oenanthe,Northern wheatear,Birds,Phase1+,GCA_987359165.1,birds,exact,Oenanthe oenanthe,True,VGP name identical to tip
+Opisthocomus hoazin,Opisthocomus hoazin,hoatzin,Birds,Phase1+,GCA_030867145.1,birds,exact,Opisthocomus hoazin,True,VGP name identical to tip
+Otidiphaps nobilis,Otidiphaps nobilis,pheasant pigeon,Birds,Phase1+,GCA_060712355.1,birds,exact,Otidiphaps nobilis,True,VGP name identical to tip
+Otis tarda,Otis tarda,great bustard,Birds,Phase1+,GCA_987201465.1,birds,exact,Otis tarda,True,VGP name identical to tip
+Passer domesticus,Passer domesticus,,,Families,GCA_036417665.1,birds,exact,Passer domesticus,True,VGP name identical to tip
+Passerculus sandwichensis,Passerculus sandwichensis,Savannah sparrow,Birds,Phase1+,GCA_031885435.1,birds,exact,Passerculus sandwichensis,True,VGP name identical to tip
+Patagioenas fasciata,Patagioenas fasciata,,,Families,GCA_036971685.2,birds,exact,Patagioenas fasciata,True,VGP name identical to tip
+Pelecanus crispus,Pelecanus crispus,dalmatian pelican,Birds,Phase1+,GCA_030463565.1,birds,exact,Pelecanus crispus,True,VGP name identical to tip
+Perdix perdix,Perdix perdix,grey partridge,Birds,Phase1+,GCA_987270415.1,birds,exact,Perdix perdix,True,VGP name identical to tip
+Phaethon aethereus,Phaethon aethereus,red-billed tropicbird,Birds,Phase1+,GCA_964289735.1,birds,exact,Phaethon aethereus,True,VGP name identical to tip
+Phaethornis superciliosus,Phaethornis superciliosus,,,Families,GCA_023637945.2,birds,exact,Phaethornis superciliosus,True,VGP name identical to tip
+Phalacrocorax carbo,Phalacrocorax carbo,great cormorant,Birds,Phase1+,GCA_963921805.1,birds,exact,Phalacrocorax carbo,True,VGP name identical to tip
+Phasianus colchicus,Phasianus colchicus,common pheasant,Birds,Phase1+,GCA_987193195.1,birds,exact,Phasianus colchicus,True,VGP name identical to tip
+Phoenicopterus ruber,Phoenicopterus ruber,American flamingo,Birds,Phase1+,GCA_009819775.1,birds,exact,Phoenicopterus ruber,True,VGP name identical to tip
+Phoenicurus phoenicurus,Phoenicurus phoenicurus,common redstart,Birds,Phase1+,GCA_987197005.1,birds,exact,Phoenicurus phoenicurus,True,VGP name identical to tip
+Phylloscopus collybita,Phylloscopus collybita,Eurasian chiffchaff,Birds,Phase1+,GCA_988136415.1,birds,exact,Phylloscopus collybita,True,VGP name identical to tip
+Phylloscopus proregulus,Phylloscopus proregulus,Pallas's leaf-warbler,Birds,Phase1+,GCA_987196345.1,birds,exact,Phylloscopus proregulus,True,VGP name identical to tip
+Phylloscopus trochilus,Phylloscopus trochilus,willow warbler,Birds,Phase1+,GCA_987197715.1,birds,exact,Phylloscopus trochilus,True,VGP name identical to tip
+Pica pica,Pica pica,Eurasian magpie,Birds,Phase1+,GCA_987212955.1,birds,exact,Pica pica,True,VGP name identical to tip
+Platalea leucorodia,Platalea leucorodia,Eurasian spoonbill,Birds,Phase1+,GCA_965183815.1,birds,exact,Platalea leucorodia,True,VGP name identical to tip
+Pluvialis apricaria,Pluvialis apricaria,,,Families,GCA_017639485.1,birds,exact,Pluvialis apricaria,True,VGP name identical to tip
+Podargus strigoides,Podargus strigoides,,,Families,GCA_028020825.1,birds,exact,Podargus strigoides,True,VGP name identical to tip
+Pogoniulus pusillus,Pogoniulus pusillus,red-fronted tinkerbird,Birds,Phase1+,GCA_015220805.1,birds,exact,Pogoniulus pusillus,True,VGP name identical to tip
+Polyboroides typus,Polyboroides typus,African harrier-hawk,Birds,Phase1+,GCA_060712505.1,birds,exact,Polyboroides typus,True,VGP name identical to tip
+Porphyrio hochstetteri,Porphyrio hochstetteri,takahe,Birds,Phase1+,GCA_020800305.1,birds,exact,Porphyrio hochstetteri,True,VGP name identical to tip
+Prunella modularis,Prunella modularis,dunnock,Birds,Phase1+,GCA_988280745.1,birds,exact,Prunella modularis,True,VGP name identical to tip
+Psittacula krameri,Psittacula krameri,rose-ringed parakeet,Birds,Phase1+,GCA_988280925.1,birds,exact,Psittacula krameri,True,VGP name identical to tip
+Pterocles gutturalis,Pterocles gutturalis,,,Families,GCA_009769525.1,birds,exact,Pterocles gutturalis,True,VGP name identical to tip
+Puffinus puffinus,Puffinus puffinus,Manx shearwater,Birds,Phase1+,GCA_987198025.1,birds,exact,Puffinus puffinus,True,VGP name identical to tip
+Pulsatrix perspicillata,Pulsatrix perspicillata,spectacled owl,Birds,Phase1+,,birds,exact,Pulsatrix perspicillata,False,VGP name identical to tip
+Pycnonotus jocosus,Pycnonotus jocosus,red-whiskered bulbul,Birds,Phase1+,GCA_987196485.1,birds,exact,Pycnonotus jocosus,True,VGP name identical to tip
+Pyrrhocorax pyrrhocorax,Pyrrhocorax pyrrhocorax,red-billed chough,Birds,Phase1+,GCA_987488855.1,birds,exact,Pyrrhocorax pyrrhocorax,True,VGP name identical to tip
+Pyrrhula pyrrhula,Pyrrhula pyrrhula,Eurasian bullfinch,Birds,Phase1+,GCA_987196105.1,birds,exact,Pyrrhula pyrrhula,True,VGP name identical to tip
+Rallus aquaticus,Rallus aquaticus,water rail,Birds,Phase1+,GCA_965250365.1,birds,exact,Rallus aquaticus,True,VGP name identical to tip
+Regulus ignicapilla,Regulus ignicapilla,firecrest,Birds,Phase1+,GCA_987196245.1,birds,exact,Regulus ignicapilla,True,VGP name identical to tip
+Regulus regulus,Regulus regulus,goldcrest,Birds,Phase1+,GCA_988280725.1,birds,exact,Regulus regulus,True,VGP name identical to tip
+Rhea pennata,Rhea pennata,lesser rhea ,Birds,Phase1+,GCA_028389875.1,birds,exact,Rhea pennata,True,VGP name identical to tip
+Rhynochetos jubatus,Rhynochetos jubatus,Kagu,Birds,Phase1+,GCA_027574665.1,birds,exact,Rhynochetos jubatus,True,VGP name identical to tip
+Riparia riparia,Riparia riparia,sand martin,Birds,Phase1+,GCA_987197235.1,birds,exact,Riparia riparia,True,VGP name identical to tip
+Rissa tridactyla,Rissa tridactyla,,,Families,GCA_028500815.1,birds,exact,Rissa tridactyla,True,VGP name identical to tip
+Sarcoramphus papa,Sarcoramphus papa,,,Families,GCA_037962945.1,birds,exact,Sarcoramphus papa,True,VGP name identical to tip
+Sayornis phoebe,Sayornis phoebe,Eastern phoebe,Birds,Phase1+,GCA_055470965.1,birds,exact,Sayornis phoebe,True,VGP name identical to tip
+Serinus canaria,Serinus canaria,canary,Birds,Phase1+,GCA_055764355.1,birds,exact,Serinus canaria,True,VGP name identical to tip
+Sitta carolinensis,Sitta carolinensis,white-breasted nuthatch,Birds,Phase1+,GCA_054054645.1,birds,exact,Sitta carolinensis,True,VGP name identical to tip
+Sitta europaea,Sitta europaea,wood nuthatch,Birds,Phase1+,GCA_965153155.1,birds,exact,Sitta europaea,True,VGP name identical to tip
+Somateria mollissima,Somateria mollissima,common eider,Birds,Phase1+,GCA_951411735.1,birds,exact,Somateria mollissima,True,VGP name identical to tip
+Spheniscus demersus,Spheniscus demersus,African penguin,Birds,Phase1+,GCA_050947425.1,birds,exact,Spheniscus demersus,True,VGP name identical to tip
+Spheniscus humboldti,Spheniscus humboldti,Humboldt penguin,Birds,Phase1+,GCA_027474245.1,birds,exact,Spheniscus humboldti,True,VGP name identical to tip
+Spizella passerina,Spizella passerina,chipping sparrow,Birds,Phase1+,GCA_056783625.1,birds,exact,Spizella passerina,True,VGP name identical to tip
+Steatornis caripensis,Steatornis caripensis,oilbird,Birds,Phase1+,GCA_054099775.1,birds,exact,Steatornis caripensis,True,VGP name identical to tip
+Sterna hirundo,Sterna hirundo,,,Families,GCA_009819605.1,birds,exact,Sterna hirundo,True,VGP name identical to tip
+Sterna paradisaea,Sterna paradisaea,arctic tern,Birds,Phase1+,GCA_987197735.1,birds,exact,Sterna paradisaea,True,VGP name identical to tip
+Streptopelia decaocto,Streptopelia decaocto,,,Families,GCA_964273445.1,birds,exact,Streptopelia decaocto,True,VGP name identical to tip
+Streptopelia turtur,Streptopelia turtur,European turtle dove,Birds,Phase1+,GCA_901699155.2,birds,exact,Streptopelia turtur,True,VGP name identical to tip
+Strix aluco,Strix aluco,,,Families,GCA_031877795.1,birds,exact,Strix aluco,True,VGP name identical to tip
+Struthio camelus,Struthio camelus,,,Families,GCA_040807025.1,birds,exact,Struthio camelus,True,VGP name identical to tip
+Sturnus vulgaris,Sturnus vulgaris,European starling,Birds,Phase1+,GCA_052056855.1,birds,exact,Sturnus vulgaris,True,VGP name identical to tip
+Sylvia atricapilla,Sylvia atricapilla,,,Families,GCA_009819655.1,birds,exact,Sylvia atricapilla,True,VGP name identical to tip
+Sylvia borin,Sylvia borin,garden warbler,Birds,Phase1+,GCA_014839755.1,birds,exact,Sylvia borin,True,VGP name identical to tip
+Tachybaptus ruficollis,Tachybaptus ruficollis,little grebe,Birds,Phase1+,GCA_987562195.1,birds,exact,Tachybaptus ruficollis,True,VGP name identical to tip
+Tadorna tadorna,Tadorna tadorna,common shelduck,Birds,Phase1+,GCA_987308825.1,birds,exact,Tadorna tadorna,True,VGP name identical to tip
+Taeniopygia guttata,Taeniopygia guttata,zebra finch,Birds,Phase1+,GCA_048771995.1,birds,exact,Taeniopygia guttata,True,VGP name identical to tip
+Tauraco erythrolophus,Tauraco erythrolophus,red-crested turaco,Birds,Phase1+,GCA_009769465.1,birds,exact,Tauraco erythrolophus,True,VGP name identical to tip
+Tetrao urogallus,Tetrao urogallus,Western capercaillie,Birds,Phase1+,GCA_951394365.1,birds,exact,Tetrao urogallus,True,VGP name identical to tip
+Theristicus caerulescens,Theristicus caerulescens,,,Families,GCA_020745775.1,birds,exact,Theristicus caerulescens,True,VGP name identical to tip
+Tringa totanus,Tringa totanus,common redshank,Birds,Phase1+,GCA_986271405.1,birds,exact,Tringa totanus,True,VGP name identical to tip
+Troglodytes aedon,Troglodytes aedon,house wren,Birds,Phase1+,GCA_057917895.1,birds,exact,Troglodytes aedon,True,VGP name identical to tip
+Troglodytes troglodytes,Troglodytes troglodytes,Eurasian wren,Birds,Phase1+,GCA_987195935.1,birds,exact,Troglodytes troglodytes,True,VGP name identical to tip
+Trogon surrucura,Trogon surrucura,,,Families,GCA_020746105.1,birds,exact,Trogon surrucura,True,VGP name identical to tip
+Turdus migratorius,Turdus migratorius,American robin,Birds,Phase1+,GCA_052324695.1,birds,exact,Turdus migratorius,True,VGP name identical to tip
+Tyto alba,Tyto alba,barn owl,Birds,Phase1+,GCA_059996075.1,birds,exact,Tyto alba,True,VGP name identical to tip
+Vanellus vanellus,Vanellus vanellus,,,Families,GCA_965231255.1,birds,exact,Vanellus vanellus,True,VGP name identical to tip
+Vidua chalybeata,Vidua chalybeata,,,Families,GCA_026979565.1,birds,exact,Vidua chalybeata,True,VGP name identical to tip
+Zonotrichia albicollis,Zonotrichia albicollis,white-throated sparrow,Birds,Phase1+,GCA_047830755.1,birds,exact,Zonotrichia albicollis,True,VGP name identical to tip
+Zosterops lateralis,Zosterops lateralis,,,Families,GCA_965231275.1,birds,exact,Zosterops lateralis,True,VGP name identical to tip
+Amblyraja radiata,Amblyraja radiata,thorny skate,Fishes,Phase1+,GCA_010909765.2,chondrichthyans,exact,Amblyraja radiata,True,VGP name identical to tip
+Carcharhinus cautus,Carcharhinus cautus,nervous shark,Fishes,Phase1+,GCA_988281195.1,chondrichthyans,exact,Carcharhinus cautus,True,VGP name identical to tip
+Carcharias taurus,Carcharias taurus,sand tiger shark,Fishes,Phase1+,GCA_055471155.1,chondrichthyans,exact,Carcharias taurus,True,VGP name identical to tip
+Carcharodon carcharias,Carcharodon carcharias,great white shark,Fishes,Phase1+,GCA_017639515.1,chondrichthyans,exact,Carcharodon carcharias,True,VGP name identical to tip
+Cetorhinus maximus,Cetorhinus maximus,basking shark,Fishes,Phase1+,GCA_964194155.1,chondrichthyans,exact,Cetorhinus maximus,True,VGP name identical to tip
+Dasyatis pastinaca,Dasyatis pastinaca,common stingray,Fishes,Phase1+,GCA_987106705.1,chondrichthyans,exact,Dasyatis pastinaca,True,VGP name identical to tip
+Echinorhinus cookei,Echinorhinus cookei,prickly shark,Fishes,Phase1+,GCA_057877045.1,chondrichthyans,exact,Echinorhinus cookei,True,VGP name identical to tip
+Galeorhinus galeus,Galeorhinus galeus,school shark,Fishes,Phase1+,GCA_055755705.1,chondrichthyans,exact,Galeorhinus galeus,True,VGP name identical to tip
+Hemiscyllium ocellatum,Hemiscyllium ocellatum,,,Families,GCA_020745735.1,chondrichthyans,exact,Hemiscyllium ocellatum,True,VGP name identical to tip
+Heptranchias perlo,Heptranchias perlo,sharpnose sevengill shark,Fishes,Phase1+,GCA_035084215.1,chondrichthyans,exact,Heptranchias perlo,True,VGP name identical to tip
+Heterodontus francisci,Heterodontus francisci,,,Families,GCA_036365525.1,chondrichthyans,exact,Heterodontus francisci,True,VGP name identical to tip
+Heterodontus portusjacksoni,Heterodontus portusjacksoni,Port Jackson shark,Fishes,Phase1+,,chondrichthyans,exact,Heterodontus portusjacksoni,False,VGP name identical to tip
+Hydrolagus colliei,Hydrolagus colliei,spotted ratfish,Fishes,Phase1+,GCA_035084275.1,chondrichthyans,exact,Hydrolagus colliei,True,VGP name identical to tip
+Leucoraja naevus,Leucoraja naevus,cuckoo ray,Fishes,Phase1+,GCA_965643135.1,chondrichthyans,exact,Leucoraja naevus,True,VGP name identical to tip
+Mustelus asterias,Mustelus asterias,starry smooth-hound shark,Fishes,Phase1+,GCA_964213995.1,chondrichthyans,exact,Mustelus asterias,True,VGP name identical to tip
+Narcine bancroftii,Narcine bancroftii,lesser electric ray,Fishes,Phase1+,GCA_036971445.1,chondrichthyans,exact,Narcine bancroftii,True,VGP name identical to tip
+Orectolobus wardi,Orectolobus wardi,Northern wobbegong,Fishes,Phase1+,GCA_988240335.1,chondrichthyans,exact,Orectolobus wardi,True,VGP name identical to tip
+Potamotrygon marinae,Potamotrygon marinae,gold dust stingray,Fishes,Phase1+,GCA_055471165.1,chondrichthyans,exact,Potamotrygon marinae,True,VGP name identical to tip
+Pristiophorus japonicus,Pristiophorus japonicus,,,Families,GCA_044704955.1,chondrichthyans,exact,Pristiophorus japonicus,True,VGP name identical to tip
+Pristis pectinata,Pristis pectinata,smalltooth sawfish,Fishes,Phase1+,GCA_009764475.2,chondrichthyans,exact,Pristis pectinata,True,VGP name identical to tip
+Pristis zijsron,Pristis zijsron,Longcomb sawfish,Fishes,Phase1+,GCA_988281235.1,chondrichthyans,exact,Pristis zijsron,True,VGP name identical to tip
+Raja brachyura,Raja brachyura,blonde ray,Fishes,Phase1+,GCA_963514005.1,chondrichthyans,exact,Raja brachyura,True,VGP name identical to tip
+Raja clavata,Raja clavata,thornback ray,Fishes,Phase1+,GCA_980434695.1,chondrichthyans,exact,Raja clavata,True,VGP name identical to tip
+Raja microocellata,Raja microocellata,small-eyed ray,Fishes,Phase1+,GCA_982319585.1,chondrichthyans,exact,Raja microocellata,True,VGP name identical to tip
+Raja montagui,Raja montagui,spotted ray,Fishes,Phase1+,GCA_980250545.1,chondrichthyans,exact,Raja montagui,True,VGP name identical to tip
+Raja undulata,Raja undulata,undulate ray,Fishes,Phase1+,GCA_980436725.1,chondrichthyans,exact,Raja undulata,True,VGP name identical to tip
+Scyliorhinus canicula,Scyliorhinus canicula,small-spotted catshark,Fishes,Phase1+,GCA_902713615.2,chondrichthyans,exact,Scyliorhinus canicula,True,VGP name identical to tip
+Somniosus microcephalus,Somniosus microcephalus,Greenland shark,Fishes,Phase1+,GCA_052327205.1,chondrichthyans,exact,Somniosus microcephalus,True,VGP name identical to tip
+Squalus suckleyi,Squalus suckleyi,,,Families,GCA_050613905.1,chondrichthyans,exact,Squalus suckleyi,True,VGP name identical to tip
+Squatina dumeril,Squatina dumeril,Atlantic angel shark,Fishes,Phase1+,,chondrichthyans,exact,Squatina dumeril,False,VGP name identical to tip
+Torpedo marmorata,Torpedo marmorata,marbled electric ray,Fishes,Phase1+,GCA_977017645.1,chondrichthyans,exact,Torpedo marmorata,True,VGP name identical to tip
+Urogymnus asperrimus,Urogymnus asperrimus,porcupine ray,Fishes,Phase1+,GCA_988281385.1,chondrichthyans,exact,Urogymnus asperrimus,True,VGP name identical to tip
+Acomys minous,Acomys minous,,,Families,GCA_964271855.1,mammals,exact,Acomys minous,True,VGP name identical to tip
+Acomys russatus,Acomys russatus,,,Families,GCA_903995435.1,mammals,exact,Acomys russatus,True,VGP name identical to tip
+Amblysomus hottentotus,Amblysomus hottentotus,hottentot golden mole,Mammals,Phase1+,GCA_054824725.1,mammals,exact,Amblysomus hottentotus,True,VGP name identical to tip
+Anomalurus beecrofti,Anomalurus beecrofti,,,Families,,mammals,exact,Anomalurus beecrofti,False,VGP name identical to tip
+Anomalurus derbianus,Anomalurus derbianus,Lord Derby’s flying squirrel,Mammals,Phase1+,GCA_058744715.1,mammals,exact,Anomalurus derbianus,True,VGP name identical to tip
+Antrozous pallidus,Antrozous pallidus,,,Families,GCA_027563665.1,mammals,exact,Antrozous pallidus,True,VGP name identical to tip
+Aplodontia rufa,Aplodontia rufa,mountain beaver,Mammals,Phase1+,,mammals,exact,Aplodontia rufa,False,VGP name identical to tip
+Apodemus sylvaticus,Apodemus sylvaticus,,,Families,GCA_947179515.1,mammals,exact,Apodemus sylvaticus,True,VGP name identical to tip
+Artibeus lituratus,Artibeus lituratus,,,Families,GCA_038363095.3,mammals,exact,Artibeus lituratus,True,VGP name identical to tip
+Arvicanthis niloticus,Arvicanthis niloticus,Nile rat,Mammals,Phase1+,GCA_011762505.3,mammals,exact,Arvicanthis niloticus,True,VGP name identical to tip
+Arvicola amphibius,Arvicola amphibius,European water vole,Mammals,Phase1+,GCA_903992535.2,mammals,exact,Arvicola amphibius,True,VGP name identical to tip
+Aselliscus stoliczkanus,Aselliscus stoliczkanus,,,Families,GCA_043727835.1,mammals,exact,Aselliscus stoliczkanus,True,VGP name identical to tip
+Ateles marginatus,Ateles marginatus,white-cheeked spider monkey,Mammals,Phase1+,,mammals,exact,Ateles marginatus,False,VGP name identical to tip
+Axis porcinus,Axis porcinus,hog deer,Mammals,Phase1+,GCA_054883215.1,mammals,exact,Axis porcinus,True,VGP name identical to tip
+Babyrousa celebensis,Babyrousa celebensis,North Sulawesi babirusa,Mammals,Phase1+,GCA_057927545.1,mammals,exact,Babyrousa celebensis,True,VGP name identical to tip
+Balaenoptera acutorostrata,Balaenoptera acutorostrata,common minke whale,Mammals,Phase1+,GCA_949987535.1,mammals,exact,Balaenoptera acutorostrata,True,VGP name identical to tip
+Balaenoptera borealis,Balaenoptera borealis,,,Families,GCA_965194805.1,mammals,exact,Balaenoptera borealis,True,VGP name identical to tip
+Balaenoptera musculus,Balaenoptera musculus,,,Families,GCA_009873245.3,mammals,exact,Balaenoptera musculus,True,VGP name identical to tip
+Balaenoptera physalus,Balaenoptera physalus,finback whale,Mammals,Phase1+,GCA_965194825.1,mammals,exact,Balaenoptera physalus,True,VGP name identical to tip
+Bos taurus,Bos taurus,Brahman cow,Mammals,Phase1+,GCA_003369695.2,mammals,exact,Bos taurus,True,VGP name identical to tip
+Callithrix jacchus,Callithrix jacchus,common marmoset,Mammals,Phase1+,GCA_049354715.1,mammals,exact,Callithrix jacchus,True,VGP name identical to tip
+Callospermophilus lateralis,Callospermophilus lateralis,golden-mantled ground squirrel,Mammals,Phase1+,GCA_048772815.1,mammals,exact,Callospermophilus lateralis,True,VGP name identical to tip
+Camelus dromedarius,Camelus dromedarius,,,Families,GCA_036321535.1,mammals,exact,Camelus dromedarius,True,VGP name identical to tip
+Canis lupus,Canis lupus,,,Families,GCA_011100685.1,mammals,exact,Canis lupus,True,VGP name identical to tip
+Capra hircus,Capra hircus,goat,Mammals,Phase1+,GCA_041735815.1,mammals,exact,Capra hircus,True,VGP name identical to tip
+Capra nubiana,Capra nubiana,Nubian ibex,Mammals,Phase1+,GCA_054855995.1,mammals,exact,Capra nubiana,True,VGP name identical to tip
+Carollia sowelli,Carollia sowelli,Sowell's short-tailed bat,Mammals,Phase1+,GCA_051307085.1,mammals,exact,Carollia sowelli,True,VGP name identical to tip
+Castor canadensis,Castor canadensis,,,Families,GCA_047511655.1,mammals,exact,Castor canadensis,True,VGP name identical to tip
+Castor fiber,Castor fiber,Eurasian beaver,Mammals,Phase1+,GCA_977036005.1,mammals,exact,Castor fiber,True,VGP name identical to tip
+Centurio senex,Centurio senex,wrinkle-faced bat,Mammals,Phase1+,GCA_058972505.1,mammals,exact,Centurio senex,True,VGP name identical to tip
+Cephalophus zebra,Cephalophus zebra,zebra duiker,Mammals,Phase1+,GCA_054099735.1,mammals,exact,Cephalophus zebra,True,VGP name identical to tip
+Cervus elaphus,Cervus elaphus,,,Families,GCA_910594005.1,mammals,exact,Cervus elaphus,True,VGP name identical to tip
+Chionomys nivalis,Chionomys nivalis,,,Families,GCA_950005125.1,mammals,exact,Chionomys nivalis,True,VGP name identical to tip
+Choloepus didactylus,Choloepus didactylus,Linnaeus's two-toed sloth,Mammals,Phase1+,GCA_015220235.1,mammals,exact,Choloepus didactylus,True,VGP name identical to tip
+Corynorhinus townsendii,Corynorhinus townsendii,,,Families,GCA_026230055.1,mammals,exact,Corynorhinus townsendii,True,VGP name identical to tip
+Ctenodactylus gundi,Ctenodactylus gundi,,,Families,GCA_048771875.1,mammals,exact,Ctenodactylus gundi,True,VGP name identical to tip
+Cynocephalus volans,Cynocephalus volans,Philippine flying lemur,Mammals,Phase1+,GCA_027409185.1,mammals,exact,Cynocephalus volans,True,VGP name identical to tip
+Dama dama,Dama dama,fallow deer,Mammals,Phase1+,GCA_048126745.1,mammals,exact,Dama dama,True,VGP name identical to tip
+Dasypus novemcinctus,Dasypus novemcinctus,nine-banded armadillo,Mammals,Phase1+,GCA_030445035.2,mammals,exact,Dasypus novemcinctus,True,VGP name identical to tip
+Dasyurus maculatus,Dasyurus maculatus,tiger quoll,Mammals,Phase1+,GCA_048593285.1,mammals,exact,Dasyurus maculatus,True,VGP name identical to tip
+Delphinus delphis,Delphinus delphis,,,Families,GCA_949987515.2,mammals,exact,Delphinus delphis,True,VGP name identical to tip
+Dermanura phaeotis,Dermanura phaeotis,pygmy fruit-eating bat,Mammals,Phase1+,GCA_051107565.1,mammals,exact,Dermanura phaeotis,True,VGP name identical to tip
+Desmodus rotundus,Desmodus rotundus,common vampire bat,Mammals,Phase1+,GCA_022682495.2,mammals,exact,Desmodus rotundus,True,VGP name identical to tip
+Dicerorhinus sumatrensis,Dicerorhinus sumatrensis,Western Sumatran rhinoceros,Mammals,Phase1+,GCA_060039915.1,mammals,exact,Dicerorhinus sumatrensis,True,VGP name identical to tip
+Diceros bicornis,Diceros bicornis,,,Families,GCA_020826845.1,mammals,exact,Diceros bicornis,True,VGP name identical to tip
+Dromiciops gliroides,Dromiciops gliroides,,,Families,GCA_019393635.1,mammals,exact,Dromiciops gliroides,True,VGP name identical to tip
+Dugong dugon,Dugong dugon,dugong,Mammals,Phase1+,GCA_030035585.1,mammals,exact,Dugong dugon,True,VGP name identical to tip
+Eidolon dupreanum,Eidolon dupreanum,Madagascan fruit bat,Mammals,Phase1+,GCA_059749095.1,mammals,exact,Eidolon dupreanum,True,VGP name identical to tip
+Elephas maximus,Elephas maximus,,,Families,GCA_051911825.1,mammals,exact,Elephas maximus,True,VGP name identical to tip
+Eptesicus chiriquinus,Eptesicus chiriquinus,Chiriquinan serotine,Mammals,Phase1+,GCA_054100705.1,mammals,exact,Eptesicus chiriquinus,True,VGP name identical to tip
+Eptesicus furinalis,Eptesicus furinalis,Argentine brown bat,Mammals,Phase1+,GCA_054644455.1,mammals,exact,Eptesicus furinalis,True,VGP name identical to tip
+Eptesicus fuscus,Eptesicus fuscus,big brown bat,Mammals,Phase1+,GCA_027574615.1,mammals,exact,Eptesicus fuscus,True,VGP name identical to tip
+Eptesicus nilssonii,Eptesicus nilssonii,,,Families,GCA_951640355.1,mammals,exact,Eptesicus nilssonii,True,VGP name identical to tip
+Equus caballus,Equus caballus,Arabian horse,Mammals,Phase1+,GCA_036426135.1,mammals,exact,Equus caballus,True,VGP name identical to tip
+Equus grevyi,Equus grevyi,Grevy's zebra,Mammals,Phase1+,GCA_057876975.1,mammals,exact,Equus grevyi,True,VGP name identical to tip
+Erethizon dorsatum,Erethizon dorsatum,North American porcupine,Mammals,Phase1+,GCA_028451465.1,mammals,exact,Erethizon dorsatum,True,VGP name identical to tip
+Erinaceus europaeus,Erinaceus europaeus,European hedgehog,Mammals,Phase1+,GCA_950295315.1,mammals,exact,Erinaceus europaeus,True,VGP name identical to tip
+Eschrichtius robustus,Eschrichtius robustus,,,Families,GCA_028021215.1,mammals,exact,Eschrichtius robustus,True,VGP name identical to tip
+Eubalaena glacialis,Eubalaena glacialis,North Atlantic right whale,Mammals,Phase1+,GCA_028564815.2,mammals,exact,Eubalaena glacialis,True,VGP name identical to tip
+Glis glis,Glis glis,fat dormouse,Mammals,Phase1+,GCA_986694645.1,mammals,exact,Glis glis,True,VGP name identical to tip
+Globicephala melas,Globicephala melas,,,Families,GCA_963455315.2,mammals,exact,Globicephala melas,True,VGP name identical to tip
+Gorilla gorilla,Gorilla gorilla,,,Families,GCA_029281585.3,mammals,exact,Gorilla gorilla,True,VGP name identical to tip
+Grampus griseus,Grampus griseus,,,Families,GCA_964374135.1,mammals,exact,Grampus griseus,True,VGP name identical to tip
+Halichoerus grypus,Halichoerus grypus,,,Families,GCA_964656455.1,mammals,exact,Halichoerus grypus,True,VGP name identical to tip
+Heterohyrax brucei,Heterohyrax brucei,yellow-spotted rock hyrax,Mammals,Phase1+,GCA_028571685.1,mammals,exact,Heterohyrax brucei,True,VGP name identical to tip
+Hippopotamus amphibius,Hippopotamus amphibius,East African hippopotamus,Mammals,Phase1+,GCA_030028045.1,mammals,exact,Hippopotamus amphibius,True,VGP name identical to tip
+Hipposideros larvatus,Hipposideros larvatus,intermediate roundleaf bat,Mammals,Phase1+,GCA_031876335.1,mammals,exact,Hipposideros larvatus,True,VGP name identical to tip
+Homo sapiens,Homo sapiens,human,Mammals,Phase1+,GCA_009914755.4,mammals,exact,Homo sapiens,True,VGP name identical to tip
+Hyperoodon ampullatus,Hyperoodon ampullatus,,,Families,GCA_949752795.1,mammals,exact,Hyperoodon ampullatus,True,VGP name identical to tip
+Ia io,Ia io,great evening bat,Mammals,Phase1+,GCA_054824925.1,mammals,exact,Ia io,True,VGP name identical to tip
+Ictidomys tridecemlineatus,Ictidomys tridecemlineatus,,,Families,GCA_052094955.1,mammals,exact,Ictidomys tridecemlineatus,True,VGP name identical to tip
+Inia geoffrensis,Inia geoffrensis,,,Families,GCA_036417435.1,mammals,exact,Inia geoffrensis,True,VGP name identical to tip
+Jaculus jaculus,Jaculus jaculus,,,Families,GCA_020740685.1,mammals,exact,Jaculus jaculus,True,VGP name identical to tip
+Kogia breviceps,Kogia breviceps,pygmy sperm whale,Mammals,Phase1+,GCA_026419965.1,mammals,exact,Kogia breviceps,True,VGP name identical to tip
+Lagenorhynchus acutus,Lagenorhynchus acutus,Atlantic white-sided dolphin,Mammals,Phase1+,GCA_964270905.1,mammals,exact,Lagenorhynchus acutus,True,VGP name identical to tip
+Lagenorhynchus albirostris,Lagenorhynchus albirostris,,,Families,GCA_949774975.1,mammals,exact,Lagenorhynchus albirostris,True,VGP name identical to tip
+Lasiurus ega,Lasiurus ega,Southern yellow bat,Mammals,Phase1+,GCA_058971415.1,mammals,exact,Lasiurus ega,True,VGP name identical to tip
+Lemur catta,Lemur catta,ring-tailed lemur,Mammals,Phase1+,GCA_020740605.1,mammals,exact,Lemur catta,True,VGP name identical to tip
+Leontopithecus rosalia,Leontopithecus rosalia,golden lion tamarin,Mammals,Phase1+,GCA_054824895.1,mammals,exact,Leontopithecus rosalia,True,VGP name identical to tip
+Lestoros inca,Lestoros inca,Incan caenolestid,Mammals,Phase1+,GCA_054644205.1,mammals,exact,Lestoros inca,True,VGP name identical to tip
+Lophostoma evotis,Lophostoma evotis,,,Families,GCA_051307075.1,mammals,exact,Lophostoma evotis,True,VGP name identical to tip
+Loxodonta africana,Loxodonta africana,,,Families,GCA_030014295.1,mammals,exact,Loxodonta africana,True,VGP name identical to tip
+Lutra lutra,Lutra lutra,Eurasian otter,Mammals,Phase1+,GCA_902655055.2,mammals,exact,Lutra lutra,True,VGP name identical to tip
+Lycaon pictus,Lycaon pictus,African hunting dog,Mammals,Phase1+,GCA_040955705.1,mammals,exact,Lycaon pictus,True,VGP name identical to tip
+Lynx canadensis,Lynx canadensis,Canada lynx,Mammals,Phase1+,GCA_007474595.2,mammals,exact,Lynx canadensis,True,VGP name identical to tip
+Macaca fascicularis,Macaca fascicularis,,,Families,GCA_037993035.1,mammals,exact,Macaca fascicularis,True,VGP name identical to tip
+Macaca mulatta,Macaca mulatta,Rhesus macaque,Mammals,Phase1+,GCA_049350105.2,mammals,exact,Macaca mulatta,True,VGP name identical to tip
+Macaca nemestrina,Macaca nemestrina,,,Families,GCA_043159975.1,mammals,exact,Macaca nemestrina,True,VGP name identical to tip
+Macropus eugenii,Macropus eugenii,Tammar wallaby,Mammals,Phase1+,GCA_028372415.2,mammals,exact,Macropus eugenii,True,VGP name identical to tip
+Macrotis lagotis,Macrotis lagotis,,,Families,GCA_037893015.1,mammals,exact,Macrotis lagotis,True,VGP name identical to tip
+Manis pentadactyla,Manis pentadactyla,Chinese pangolin,Mammals,Phase1+,GCA_030020395.1,mammals,exact,Manis pentadactyla,True,VGP name identical to tip
+Marmota flaviventris,Marmota flaviventris,yellow bellied marmot,Mammals,Phase1+,GCA_047511675.1,mammals,exact,Marmota flaviventris,True,VGP name identical to tip
+Martes martes,Martes martes,,,Families,GCA_963455335.1,mammals,exact,Martes martes,True,VGP name identical to tip
+Megaderma spasma,Megaderma spasma,,,Families,GCA_043880595.1,mammals,exact,Megaderma spasma,True,VGP name identical to tip
+Megaptera novaeangliae,Megaptera novaeangliae,humpback whale,Mammals,Phase1+,GCA_041834305.1,mammals,exact,Megaptera novaeangliae,True,VGP name identical to tip
+Meles meles,Meles meles,,,Families,GCA_922984935.2,mammals,exact,Meles meles,True,VGP name identical to tip
+Meriones unguiculatus,Meriones unguiculatus,Mongolian gerbil,Mammals,Phase1+,GCA_030254825.1,mammals,exact,Meriones unguiculatus,True,VGP name identical to tip
+Mesoplodon bidens,Mesoplodon bidens,,,Families,GCA_964165515.1,mammals,exact,Mesoplodon bidens,True,VGP name identical to tip
+Mesoplodon densirostris,Mesoplodon densirostris,,,Families,GCA_025265405.1,mammals,exact,Mesoplodon densirostris,True,VGP name identical to tip
+Mesoplodon mirus,Mesoplodon mirus,,,Families,GCA_964341445.1,mammals,exact,Mesoplodon mirus,True,VGP name identical to tip
+Micromys minutus,Micromys minutus,,,Families,GCA_963924665.1,mammals,exact,Micromys minutus,True,VGP name identical to tip
+Micronycteris microtis,Micronycteris microtis,,,Families,GCA_051107205.1,mammals,exact,Micronycteris microtis,True,VGP name identical to tip
+Microtus agrestis,Microtus agrestis,field vole,Mammals,Phase1+,GCA_987114375.1,mammals,exact,Microtus agrestis,True,VGP name identical to tip
+Microtus ochrogaster,Microtus ochrogaster,prairie vole,Mammals,Phase1+,GCA_984569965.1,mammals,exact,Microtus ochrogaster,True,VGP name identical to tip
+Microtus pennsylvanicus,Microtus pennsylvanicus,Eastern meadow vole,Mammals,Phase1+,GCA_037038515.1,mammals,exact,Microtus pennsylvanicus,True,VGP name identical to tip
+Miniopterus natalensis,Miniopterus natalensis,Natal long-fingered bat,Mammals,Phase1+,GCA_054644295.1,mammals,exact,Miniopterus natalensis,True,VGP name identical to tip
+Miniopterus schreibersii,Miniopterus schreibersii,,,Families,GCA_964146895.2,mammals,exact,Miniopterus schreibersii,True,VGP name identical to tip
+Molossus alvarezi,Molossus alvarezi,Alvarez's mastiff bat,Mammals,Phase1+,GCA_037157525.1,mammals,exact,Molossus alvarezi,True,VGP name identical to tip
+Molossus molossus,Molossus molossus,,,Families,GCA_014108415.1,mammals,exact,Molossus molossus,True,VGP name identical to tip
+Monodelphis domestica,Monodelphis domestica,,,Families,GCA_027887165.1,mammals,exact,Monodelphis domestica,True,VGP name identical to tip
+Monodon monoceros,Monodon monoceros,narwhal,Mammals,Phase1+,GCA_005190385.4,mammals,exact,Monodon monoceros,True,VGP name identical to tip
+Mops condylurus,Mops condylurus,,,Families,GCA_043748645.1,mammals,exact,Mops condylurus,True,VGP name identical to tip
+Muntiacus reevesi,Muntiacus reevesi,,,Families,GCA_963930625.1,mammals,exact,Muntiacus reevesi,True,VGP name identical to tip
+Mus musculus,Mus musculus,house mouse,Mammals,Phase1+,GCA_056825265.1,mammals,exact,Mus musculus,True,VGP name identical to tip
+Muscardinus avellanarius,Muscardinus avellanarius,,,Families,GCA_963383645.1,mammals,exact,Muscardinus avellanarius,True,VGP name identical to tip
+Mustela erminea,Mustela erminea,,,Families,GCA_009829155.1,mammals,exact,Mustela erminea,True,VGP name identical to tip
+Mustela lutreola,Mustela lutreola,European mink,Mammals,Phase1+,GCA_030435805.1,mammals,exact,Mustela lutreola,True,VGP name identical to tip
+Mustela nivalis,Mustela nivalis,,,Families,GCA_964662115.1,mammals,exact,Mustela nivalis,True,VGP name identical to tip
+Myodes glareolus,Myodes glareolus,bank vole,Mammals,Phase1+,GCA_982192425.1,mammals,exact,Myodes glareolus,True,VGP name identical to tip
+Myotis auriculus,Myotis auriculus,Southwestern myotis,Mammals,Phase1+,GCA_056320785.1,mammals,exact,Myotis auriculus,True,VGP name identical to tip
+Myotis californicus,Myotis californicus,California myotis,Mammals,Phase1+,GCA_056320955.1,mammals,exact,Myotis californicus,True,VGP name identical to tip
+Myotis daubentonii,Myotis daubentonii,,,Families,GCA_963259705.2,mammals,exact,Myotis daubentonii,True,VGP name identical to tip
+Myotis emarginatus,Myotis emarginatus,,,Families,GCA_965115925.2,mammals,exact,Myotis emarginatus,True,VGP name identical to tip
+Myotis evotis,Myotis evotis,long-eared myotis,Mammals,Phase1+,GCA_056320405.1,mammals,exact,Myotis evotis,True,VGP name identical to tip
+Myotis lucifugus,Myotis lucifugus,little brown bat,Mammals,Phase1+,GCA_048340685.1,mammals,exact,Myotis lucifugus,True,VGP name identical to tip
+Myotis myotis,Myotis myotis,,,Families,GCA_014108235.1,mammals,exact,Myotis myotis,True,VGP name identical to tip
+Myotis mystacinus,Myotis mystacinus,,,Families,GCA_964094495.2,mammals,exact,Myotis mystacinus,True,VGP name identical to tip
+Myotis nattereri,Myotis nattereri,,,Families,GCA_964212035.2,mammals,exact,Myotis nattereri,True,VGP name identical to tip
+Myotis nesopolus,Myotis nesopolus,Cucacao myotis,Mammals,Phase1+,GCA_054855985.1,mammals,exact,Myotis nesopolus,True,VGP name identical to tip
+Myotis nigricans,Myotis nigricans,,,Families,,mammals,exact,Myotis nigricans,False,VGP name identical to tip
+Myotis occultus,Myotis occultus,Arizona myotis,Mammals,Phase1+,GCA_056320795.1,mammals,exact,Myotis occultus,True,VGP name identical to tip
+Myotis sodalis,Myotis sodalis,Indiana bat,Mammals,Phase1+,GCA_057945255.1,mammals,exact,Myotis sodalis,True,VGP name identical to tip
+Myotis thysanodes,Myotis thysanodes,fringed myotis,Mammals,Phase1+,GCA_056320715.1,mammals,exact,Myotis thysanodes,True,VGP name identical to tip
+Myotis tricolor,Myotis tricolor,Cape hairy bat,Mammals,Phase1+,GCA_054824995.1,mammals,exact,Myotis tricolor,True,VGP name identical to tip
+Myotis velifer,Myotis velifer,cave myotis,Mammals,Phase1+,GCA_056320415.1,mammals,exact,Myotis velifer,True,VGP name identical to tip
+Myotis volans,Myotis volans,long-legged myotis,Mammals,Phase1+,GCA_056320705.1,mammals,exact,Myotis volans,True,VGP name identical to tip
+Nasalis larvatus,Nasalis larvatus,proboscis monkey,Mammals,Phase1+,GCA_047834645.1,mammals,exact,Nasalis larvatus,True,VGP name identical to tip
+Neofelis nebulosa,Neofelis nebulosa,clouded leopard,Mammals,Phase1+,GCA_028018385.1,mammals,exact,Neofelis nebulosa,True,VGP name identical to tip
+Neotoma floridana,Neotoma floridana,Key Largo woodrat,Mammals,Phase1+,GCA_050000055.1,mammals,exact,Neotoma floridana,True,VGP name identical to tip
+Notoryctes typhlops,Notoryctes typhlops,,,Families,GCA_048126345.1,mammals,exact,Notoryctes typhlops,True,VGP name identical to tip
+Nyctalus leisleri,Nyctalus leisleri,lesser noctule,Mammals,Phase1+,GCA_964264875.2,mammals,exact,Nyctalus leisleri,True,VGP name identical to tip
+Nycticebus coucang,Nycticebus coucang,sunda slow loris,Mammals,Phase1+,GCA_027406575.1,mammals,exact,Nycticebus coucang,True,VGP name identical to tip
+Ochotona princeps,Ochotona princeps,American pika,Mammals,Phase1+,GCA_030435755.1,mammals,exact,Ochotona princeps,True,VGP name identical to tip
+Oligoryzomys nigripes,Oligoryzomys nigripes,black-footed pygmy rice rat,Mammals,Phase1+,GCA_057876635.1,mammals,exact,Oligoryzomys nigripes,True,VGP name identical to tip
+Onychomys torridus,Onychomys torridus,Southern grasshopper mouse,Mammals,Phase1+,GCA_903995425.1,mammals,exact,Onychomys torridus,True,VGP name identical to tip
+Orcinus orca,Orcinus orca,,,Families,GCA_937001465.1,mammals,exact,Orcinus orca,True,VGP name identical to tip
+Ornithorhynchus anatinus,Ornithorhynchus anatinus,platypus,Mammals,Phase1+,GCA_004115215.4,mammals,exact,Ornithorhynchus anatinus,True,VGP name identical to tip
+Orycteropus afer,Orycteropus afer,aardvark,Mammals,Phase1+,GCA_054668785.1,mammals,exact,Orycteropus afer,True,VGP name identical to tip
+Oryctolagus cuniculus,Oryctolagus cuniculus,European rabbit,Mammals,Phase1+,GCA_964237555.1,mammals,exact,Oryctolagus cuniculus,True,VGP name identical to tip
+Ovis aries,Ovis aries,,,Families,GCA_040805955.1,mammals,exact,Ovis aries,True,VGP name identical to tip
+Ovis canadensis,Ovis canadensis,bighorn sheep,Mammals,Phase1+,GCA_042477335.2,mammals,exact,Ovis canadensis,True,VGP name identical to tip
+Pan paniscus,Pan paniscus,,,Families,GCA_029289425.3,mammals,exact,Pan paniscus,True,VGP name identical to tip
+Pan troglodytes,Pan troglodytes,,,Families,GCA_028858775.2,mammals,exact,Pan troglodytes,True,VGP name identical to tip
+Panthera onca,Panthera onca,jaguar,Mammals,Phase1+,GCA_046562875.2,mammals,exact,Panthera onca,True,VGP name identical to tip
+Pedetes capensis,Pedetes capensis,South African springhare,Mammals,Phase1+,,mammals,exact,Pedetes capensis,False,VGP name identical to tip
+Peponocephala electra,Peponocephala electra,melon-headed whale,Mammals,Phase1+,GCA_051427945.1,mammals,exact,Peponocephala electra,True,VGP name identical to tip
+Peromyscus gossypinus,Peromyscus gossypinus,Key Largo cotton mouse,Mammals,Phase1+,GCA_057877385.1,mammals,exact,Peromyscus gossypinus,True,VGP name identical to tip
+Peromyscus maniculatus,Peromyscus maniculatus,,,Families,GCA_026229955.1,mammals,exact,Peromyscus maniculatus,True,VGP name identical to tip
+Phascolarctos cinereus,Phascolarctos cinereus,,,Families,GCA_003287225.2,mammals,exact,Phascolarctos cinereus,True,VGP name identical to tip
+Phoca vitulina,Phoca vitulina,harbor seal,Mammals,Phase1+,GCA_988265205.1,mammals,exact,Phoca vitulina,True,VGP name identical to tip
+Phocoena phocoena,Phocoena phocoena,harbor porpoise,Mammals,Phase1+,GCA_963924675.1,mammals,exact,Phocoena phocoena,True,VGP name identical to tip
+Phocoena sinus,Phocoena sinus,vaquita,Mammals,Phase1+,GCA_008692025.1,mammals,exact,Phocoena sinus,True,VGP name identical to tip
+Phyllostomus discolor,Phyllostomus discolor,,,Families,GCA_004126475.3,mammals,exact,Phyllostomus discolor,True,VGP name identical to tip
+Physeter macrocephalus,Physeter macrocephalus,sperm whale,Mammals,Phase1+,GCA_978012005.1,mammals,exact,Physeter macrocephalus,True,VGP name identical to tip
+Pipistrellus hanaki,Pipistrellus hanaki,,,Families,GCA_964339955.1,mammals,exact,Pipistrellus hanaki,True,VGP name identical to tip
+Pipistrellus kuhlii,Pipistrellus kuhlii,,,Families,GCA_014108245.1,mammals,exact,Pipistrellus kuhlii,True,VGP name identical to tip
+Pipistrellus nathusii,Pipistrellus nathusii,Nathusius's pipistrelle,Mammals,Phase1+,GCA_964656225.2,mammals,exact,Pipistrellus nathusii,True,VGP name identical to tip
+Pipistrellus pipistrellus,Pipistrellus pipistrellus,,,Families,GCA_903992545.1,mammals,exact,Pipistrellus pipistrellus,True,VGP name identical to tip
+Pipistrellus pygmaeus,Pipistrellus pygmaeus,soprano pipistrelle,Mammals,Phase1+,GCA_949987585.2,mammals,exact,Pipistrellus pygmaeus,True,VGP name identical to tip
+Platyrrhinus helleri,Platyrrhinus helleri,Heller's broad-nosed bat,Mammals,Phase1+,GCA_051107505.1,mammals,exact,Platyrrhinus helleri,True,VGP name identical to tip
+Plecotus auritus,Plecotus auritus,brown big-eared bat,Mammals,Phase1+,GCA_963455305.1,mammals,exact,Plecotus auritus,True,VGP name identical to tip
+Pongo abelii,Pongo abelii,,,Families,GCA_028885655.2,mammals,exact,Pongo abelii,True,VGP name identical to tip
+Pongo pygmaeus,Pongo pygmaeus,,,Families,GCA_028885625.2,mammals,exact,Pongo pygmaeus,True,VGP name identical to tip
+Pontoporia blainvillei,Pontoporia blainvillei,franciscana,Mammals,Phase1+,GCA_987193245.1,mammals,exact,Pontoporia blainvillei,True,VGP name identical to tip
+Pseudorca crassidens,Pseudorca crassidens,false killer whale,Mammals,Phase1+,GCA_039906515.1,mammals,exact,Pseudorca crassidens,True,VGP name identical to tip
+Pteropus rufus,Pteropus rufus,Madagascan flying fox,Mammals,Phase1+,GCA_056363885.1,mammals,exact,Pteropus rufus,True,VGP name identical to tip
+Ptilocercus lowii,Ptilocercus lowii,pen-tailed treeshrew,Mammals,Phase1+,,mammals,exact,Ptilocercus lowii,False,VGP name identical to tip
+Puma concolor,Puma concolor,puma,Mammals,Phase1+,GCA_028749985.4,mammals,exact,Puma concolor,True,VGP name identical to tip
+Rangifer tarandus,Rangifer tarandus,Svalbard reindeer,Mammals,Phase1+,GCA_949782905.1,mammals,exact,Rangifer tarandus,True,VGP name identical to tip
+Rattus norvegicus,Rattus norvegicus,Norway rat,Mammals,Phase1+,GCA_015227675.2,mammals,exact,Rattus norvegicus,True,VGP name identical to tip
+Rhinolophus affinis,Rhinolophus affinis,,,Families,GCA_043728065.1,mammals,exact,Rhinolophus affinis,True,VGP name identical to tip
+Rhinolophus blasii,Rhinolophus blasii,Blasius's horseshoe bat,Mammals,Phase1+,GCA_057428245.1,mammals,exact,Rhinolophus blasii,True,VGP name identical to tip
+Rhinolophus clivosus,Rhinolophus clivosus,Geoffroy's horseshoe bat,Mammals,Phase1+,GCA_054645015.1,mammals,exact,Rhinolophus clivosus,True,VGP name identical to tip
+Rhinolophus darlingi,Rhinolophus darlingi,Darling's horseshoe bat,Mammals,Phase1+,GCA_057427945.1,mammals,exact,Rhinolophus darlingi,True,VGP name identical to tip
+Rhinolophus ferrumequinum,Rhinolophus ferrumequinum,greater horseshoe bat,Mammals,Phase1+,GCA_004115265.3,mammals,exact,Rhinolophus ferrumequinum,True,VGP name identical to tip
+Rhinolophus hipposideros,Rhinolophus hipposideros,lesser horseshoe bat,Mammals,Phase1+,GCA_964194185.1,mammals,exact,Rhinolophus hipposideros,True,VGP name identical to tip
+Rhinolophus trifoliatus,Rhinolophus trifoliatus,,,Families,GCA_043728145.1,mammals,exact,Rhinolophus trifoliatus,True,VGP name identical to tip
+Rhinopoma microphyllum,Rhinopoma microphyllum,,,Families,GCA_043880545.1,mammals,exact,Rhinopoma microphyllum,True,VGP name identical to tip
+Rhynchocyon petersi,Rhynchocyon petersi,black and rufous elephant shrew,Mammals,Phase1+,GCA_043290085.1,mammals,exact,Rhynchocyon petersi,True,VGP name identical to tip
+Rhynchonycteris naso,Rhynchonycteris naso,,,Families,GCA_037038545.1,mammals,exact,Rhynchonycteris naso,True,VGP name identical to tip
+Rousettus aegyptiacus,Rousettus aegyptiacus,,,Families,GCA_014176215.1,mammals,exact,Rousettus aegyptiacus,True,VGP name identical to tip
+Rousettus madagascariensis,Rousettus madagascariensis,Madagascan rousette,Mammals,Phase1+,GCA_059802055.1,mammals,exact,Rousettus madagascariensis,True,VGP name identical to tip
+Rucervus eldii,Rucervus eldii,Eld's deer,Mammals,Phase1+,GCA_054824845.1,mammals,exact,Rucervus eldii,True,VGP name identical to tip
+Saccopteryx bilineata,Saccopteryx bilineata,,,Families,GCA_036850765.1,mammals,exact,Saccopteryx bilineata,True,VGP name identical to tip
+Saccopteryx leptura,Saccopteryx leptura,lesser sac-winged bat,Mammals,Phase1+,GCA_036850995.1,mammals,exact,Saccopteryx leptura,True,VGP name identical to tip
+Saguinus oedipus,Saguinus oedipus,cotton-top tamarin,Mammals,Phase1+,GCA_054851365.1,mammals,exact,Saguinus oedipus,True,VGP name identical to tip
+Saimiri boliviensis,Saimiri boliviensis,Bolivian squirrel monkey,Mammals,Phase1+,GCA_048565385.1,mammals,exact,Saimiri boliviensis,True,VGP name identical to tip
+Sarcophilus harrisii,Sarcophilus harrisii,,,Families,GCA_048593225.1,mammals,exact,Sarcophilus harrisii,True,VGP name identical to tip
+Sciurus carolinensis,Sciurus carolinensis,grey squirrel,Mammals,Phase1+,GCA_902686445.2,mammals,exact,Sciurus carolinensis,True,VGP name identical to tip
+Sciurus vulgaris,Sciurus vulgaris,Eurasian red squirrel,Mammals,Phase1+,GCA_902686455.2,mammals,exact,Sciurus vulgaris,True,VGP name identical to tip
+Sminthopsis crassicaudata,Sminthopsis crassicaudata,fat-tailed dunnart,Mammals,Phase1+,GCA_048593235.1,mammals,exact,Sminthopsis crassicaudata,True,VGP name identical to tip
+Solenodon paradoxus,Solenodon paradoxus,Hispaniolan solenodon,Mammals,Phase1+,,mammals,exact,Solenodon paradoxus,False,VGP name identical to tip
+Sorex araneus,Sorex araneus,,,Families,GCA_027595985.1,mammals,exact,Sorex araneus,True,VGP name identical to tip
+Speothos venaticus,Speothos venaticus,,,Families,,mammals,exact,Speothos venaticus,False,VGP name identical to tip
+Spermophilus citellus,Spermophilus citellus,European ground squirrel,Mammals,Phase1+,GCA_964194105.1,mammals,exact,Spermophilus citellus,True,VGP name identical to tip
+Stenella coeruleoalba,Stenella coeruleoalba,,,Families,GCA_951394435.1,mammals,exact,Stenella coeruleoalba,True,VGP name identical to tip
+Sturnira parvidens,Sturnira parvidens,little yellow-shouldered Mesoamerican bat,Mammals,Phase1+,GCA_054855685.1,mammals,exact,Sturnira parvidens,True,VGP name identical to tip
+Suncus etruscus,Suncus etruscus,,,Families,GCA_024139225.1,mammals,exact,Suncus etruscus,True,VGP name identical to tip
+Sus scrofa,Sus scrofa,,,Families,GCA_048338725.1,mammals,exact,Sus scrofa,True,VGP name identical to tip
+Symphalangus syndactylus,Symphalangus syndactylus,,,Families,GCA_028878055.3,mammals,exact,Symphalangus syndactylus,True,VGP name identical to tip
+Tachyglossus aculeatus,Tachyglossus aculeatus,,,Families,GCA_015852505.1,mammals,exact,Tachyglossus aculeatus,True,VGP name identical to tip
+Tadarida brasiliensis,Tadarida brasiliensis,,,Families,GCA_030848825.1,mammals,exact,Tadarida brasiliensis,True,VGP name identical to tip
+Tadarida teniotis,Tadarida teniotis,European free-tailed bat,Mammals,Phase1+,GCA_976988885.1,mammals,exact,Tadarida teniotis,True,VGP name identical to tip
+Talpa europaea,Talpa europaea,,,Families,GCA_964194135.1,mammals,exact,Talpa europaea,True,VGP name identical to tip
+Tamandua tetradactyla,Tamandua tetradactyla,Southern tamandua ,Mammals,Phase1+,GCA_023851605.1,mammals,exact,Tamandua tetradactyla,True,VGP name identical to tip
+Tamiasciurus hudsonicus,Tamiasciurus hudsonicus,American red squirrel,Mammals,Phase1+,GCA_057657825.1,mammals,exact,Tamiasciurus hudsonicus,True,VGP name identical to tip
+Tapirus indicus,Tapirus indicus,,,Families,GCA_031878705.1,mammals,exact,Tapirus indicus,True,VGP name identical to tip
+Tenrec ecaudatus,Tenrec ecaudatus,,,Families,GCA_050624435.1,mammals,exact,Tenrec ecaudatus,True,VGP name identical to tip
+Thomomys bottae,Thomomys bottae,,,Families,GCA_031878675.1,mammals,exact,Thomomys bottae,True,VGP name identical to tip
+Trichechus inunguis,Trichechus inunguis,Amazon manatee,Mammals,Phase1+,GCA_046562895.1,mammals,exact,Trichechus inunguis,True,VGP name identical to tip
+Trichosurus vulpecula,Trichosurus vulpecula,,,Families,GCA_011100635.1,mammals,exact,Trichosurus vulpecula,True,VGP name identical to tip
+Tupaia tana,Tupaia tana,,,Families,GCA_026018925.1,mammals,exact,Tupaia tana,True,VGP name identical to tip
+Tursiops truncatus,Tursiops truncatus,,,Families,GCA_011762595.2,mammals,exact,Tursiops truncatus,True,VGP name identical to tip
+Urocitellus parryii,Urocitellus parryii,,,Families,GCA_045843805.1,mammals,exact,Urocitellus parryii,True,VGP name identical to tip
+Ursus americanus,Ursus americanus,American black bear,Mammals,Phase1+,GCA_024610735.2,mammals,exact,Ursus americanus,True,VGP name identical to tip
+Vespertilio murinus,Vespertilio murinus,,,Families,GCA_963924515.1,mammals,exact,Vespertilio murinus,True,VGP name identical to tip
+Vicugna pacos,Vicugna pacos,Alpaca,Mammals,Phase1+,GCA_056363735.1,mammals,exact,Vicugna pacos,True,VGP name identical to tip
+Vulpes vulpes,Vulpes vulpes,red fox,Mammals,Phase1+,GCA_964106825.2,mammals,exact,Vulpes vulpes,True,VGP name identical to tip
+Zalophus californianus,Zalophus californianus,California sea lion,Mammals,Phase1+,GCA_009762305.2,mammals,exact,Zalophus californianus,True,VGP name identical to tip
+Zapus hudsonius,Zapus hudsonius,Preble's meadow jumping mouse,Mammals,Phase1+,GCA_057945845.1,mammals,exact,Zapus hudsonius,True,VGP name identical to tip
+Anguis fragilis,Anguis fragilis,,,Families,,squamates,exact,Anguis fragilis,False,VGP name identical to tip
+Anniella stebbinsi,Anniella stebbinsi,,,Families,GCA_029215775.1,squamates,exact,Anniella stebbinsi,True,VGP name identical to tip
+Anolis sagrei,Anolis sagrei,brown anole,Reptiles,Phase1+,GCA_037176765.1,squamates,exact,Anolis sagrei,True,VGP name identical to tip
+Aspidoscelis tigris,Aspidoscelis tigris,Western whiptail stejnegeri,Reptiles,Phase1+,GCA_023333525.2,squamates,exact,Aspidoscelis tigris,True,VGP name identical to tip
+Bothrops pictus,Bothrops pictus,desert lancehead,Reptiles,Phase1+,GCA_058248175.2,squamates,exact,Bothrops pictus,True,VGP name identical to tip
+Bradypodion pumilum,Bradypodion pumilum,,,Families,GCA_047715975.1,squamates,exact,Bradypodion pumilum,True,VGP name identical to tip
+Bradypodion ventrale,Bradypodion ventrale,Southern dwarf chameleon,Reptiles,Phase1+,GCA_035047345.1,squamates,exact,Bradypodion ventrale,True,VGP name identical to tip
+Candoia aspera,Candoia aspera,,,Families,GCA_035149785.1,squamates,exact,Candoia aspera,True,VGP name identical to tip
+Cyclura pinguis,Cyclura pinguis,,,Families,GCA_030412105.1,squamates,exact,Cyclura pinguis,True,VGP name identical to tip
+Dibamus smithi,Dibamus smithi,,,Families,GCA_046126795.1,squamates,exact,Dibamus smithi,True,VGP name identical to tip
+Elgaria multicarinata,Elgaria multicarinata,Southern alligator lizard,Reptiles,Phase1+,GCA_023053635.2,squamates,exact,Elgaria multicarinata,True,VGP name identical to tip
+Erythrolamprus reginae,Erythrolamprus reginae,,,Families,GCA_031021105.1,squamates,exact,Erythrolamprus reginae,True,VGP name identical to tip
+Eublepharis macularius,Eublepharis macularius,leopard gecko,Reptiles,Phase1+,GCA_028583425.1,squamates,exact,Eublepharis macularius,True,VGP name identical to tip
+Euleptes europaea,Euleptes europaea,,,Families,GCA_029931775.1,squamates,exact,Euleptes europaea,True,VGP name identical to tip
+Furcifer pardalis,Furcifer pardalis,,,Families,GCA_030440675.1,squamates,exact,Furcifer pardalis,True,VGP name identical to tip
+Lacerta agilis,Lacerta agilis,sand lizard,Reptiles,Phase1+,GCA_009819535.1,squamates,exact,Lacerta agilis,True,VGP name identical to tip
+Liasis olivaceus,Liasis olivaceus,olive python,Reptiles,Phase1+,GCA_030867105.1,squamates,exact,Liasis olivaceus,True,VGP name identical to tip
+Podarcis bocagei,Podarcis bocagei,,,Families,GCA_964188305.1,squamates,exact,Podarcis bocagei,True,VGP name identical to tip
+Podarcis cretensis,Podarcis cretensis,,,Families,GCA_951804945.1,squamates,exact,Podarcis cretensis,True,VGP name identical to tip
+Podarcis erhardii,Podarcis erhardii,,,Families,GCA_964252035.1,squamates,exact,Podarcis erhardii,True,VGP name identical to tip
+Podarcis filfolensis,Podarcis filfolensis,,,Families,GCA_964270895.1,squamates,exact,Podarcis filfolensis,True,VGP name identical to tip
+Podarcis gaigeae,Podarcis gaigeae,,,Families,GCA_964106915.2,squamates,exact,Podarcis gaigeae,True,VGP name identical to tip
+Podarcis liolepis,Podarcis liolepis,,,Families,GCA_965112155.1,squamates,exact,Podarcis liolepis,True,VGP name identical to tip
+Podarcis melisellensis,Podarcis melisellensis,Dalmatian wall lizard,Reptiles,Phase1+,GCA_964234715.1,squamates,exact,Podarcis melisellensis,True,VGP name identical to tip
+Podarcis muralis,Podarcis muralis,,,Families,GCA_964188315.1,squamates,exact,Podarcis muralis,True,VGP name identical to tip
+Podarcis pityusensis,Podarcis pityusensis,,,Families,GCA_964106645.2,squamates,exact,Podarcis pityusensis,True,VGP name identical to tip
+Podarcis siculus,Podarcis siculus,,,Families,GCA_964188175.1,squamates,exact,Podarcis siculus,True,VGP name identical to tip
+Podarcis tiliguerta,Podarcis tiliguerta,,,Families,GCA_965153285.1,squamates,exact,Podarcis tiliguerta,True,VGP name identical to tip
+Podarcis vaucheri,Podarcis vaucheri,Andalusian wall lizard,Reptiles,Phase1+,GCA_965113315.1,squamates,exact,Podarcis vaucheri,True,VGP name identical to tip
+Rhineura floridana,Rhineura floridana,,,Families,GCA_030035675.1,squamates,exact,Rhineura floridana,True,VGP name identical to tip
+Rhinotyphlops lalandei,Rhinotyphlops lalandei,Delalande's beaked blind snake,Reptiles,Phase1+,GCA_057127545.1,squamates,exact,Rhinotyphlops lalandei,True,VGP name identical to tip
+Shinisaurus crocodilurus,Shinisaurus crocodilurus,Chinese crocodile lizard,Reptiles,Phase1+,GCA_021292165.1,squamates,exact,Shinisaurus crocodilurus,True,VGP name identical to tip
+Sphenodon punctatus,Sphenodon punctatus,tuatara,Reptiles,Phase1+,,squamates,exact,Sphenodon punctatus,False,VGP name identical to tip
+Thamnophis elegans,Thamnophis elegans,,,Families,GCA_009769535.1,squamates,exact,Thamnophis elegans,True,VGP name identical to tip
+Tiliqua scincoides,Tiliqua scincoides,blue-tongued skink,Reptiles,Phase1+,GCA_035046505.1,squamates,exact,Tiliqua scincoides,True,VGP name identical to tip
+Vipera berus,Vipera berus,adder,Reptiles,Phase1+,GCA_964194415.1,squamates,exact,Vipera berus,True,VGP name identical to tip
+Vipera latastei,Vipera latastei,,,Families,GCA_024294585.1,squamates,exact,Vipera latastei,True,VGP name identical to tip
+Vipera ursinii,Vipera ursinii,Hungarian meadow viper,Reptiles,Phase1+,GCA_947247035.1,squamates,exact,Vipera ursinii,True,VGP name identical to tip
+Zootoca vivipara,Zootoca vivipara,,,Families,GCA_963506605.1,squamates,exact,Zootoca vivipara,True,VGP name identical to tip
+Abramis brama,Abramis brama,common bream,Fishes,Phase1+,GCA_963993115.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Abudefduf saxatilis,Abudefduf saxatilis,sergeant major,Fishes,Phase1+,GCA_977929305.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Abudefduf sexfasciatus,Abudefduf sexfasciatus,scissortail sergeant ,Fishes,Phase1+,GCA_988280665.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Acanthocybium solandri,Acanthocybium solandri,wahoo,Fishes,Phase1+,GCA_988240765.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Acanthopagrus latus,Acanthopagrus latus,yellowfin sea bream,Fishes,Phase1+,GCA_904848185.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Acanthopagrus schlegelii,Acanthopagrus schlegelii,,,Families,GCA_041753875.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Acanthurus coeruleus,Acanthurus coeruleus,blue tang surgeonfish,Fishes,Phase1+,GCA_977062895.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Acanthurus nigricans,Acanthurus nigricans,whitecheek surgeonfish,Fishes,Phase1+,GCA_988281435.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Acanthurus tractus,Acanthurus tractus,fiveband surgeonfish,Fishes,Phase1+,GCA_980438365.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Acipenser naccarii,Acipenser naccarii,Adriatic sturgeon,Fishes,Phase1+,GCA_055691345.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Acipenser ruthenus,Acipenser ruthenus,sterlet,Fishes,Phase1+,GCA_902713425.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Agonus cataphractus,Agonus cataphractus,hooknose,Fishes,Phase1+,GCA_975247245.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Aidablennius sphynx,Aidablennius sphynx,sphinx blenny,Fishes,Phase1+,GCA_977009285.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Albula glossodonta,Albula glossodonta,roundjaw bonefish,Fishes,Phase1+,GCA_056783665.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Albula vulpes,Albula vulpes,,,Families,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Alepocephalus australis,Alepocephalus australis,,,Families,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Alepocephalus tenebrosus,Alepocephalus tenebrosus,California slickhead,Fishes,Phase1+,GCA_056824585.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Alligator mississippiensis,Alligator mississippiensis,American alligator,Reptiles,Phase1+,GCA_030867095.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Crocodylia
+Alosa sapidissima,Alosa sapidissima,,,Families,GCA_018492685.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Alphestes afer,Alphestes afer,mutton hamlet,Fishes,Phase1+,GCA_977120785.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Amblyopsis spelaea,Amblyopsis spelaea,Northern cavefish,Fishes,Phase1+,GCA_046255685.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Amia calva,Amia calva,,,Families,GCA_036373705.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Amia ocellicauda,Amia ocellicauda,emerald bowfin,Fishes,Phase1+,GCA_036373705.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Ammodytes marinus,Ammodytes marinus,,,Families,GCA_949987685.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Anabas testudineus,Anabas testudineus,climbing perch,Fishes,Phase1+,GCA_900324465.3,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Anableps anableps,Anableps anableps,largescale four-eyes,Fishes,Phase1+,GCA_014839685.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Anguilla anguilla,Anguilla anguilla,European eel,Fishes,Phase1+,GCA_013347855.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Anguilla rostrata,Anguilla rostrata,American eel,Fishes,Phase1+,GCA_018555375.3,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Antennarius maculatus,Antennarius maculatus,,,Families,GCA_013358685.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Anthias anthias,Anthias anthias,swallowtail seaperch,Fishes,Phase1+,GCA_964269795.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Aphareus rutilans,Aphareus rutilans,rusty jobfish,Fishes,Phase1+,GCA_988281405.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Apletodon dentatus,Apletodon dentatus,Small-headed clingfish,Fishes,Phase1+,GCA_965542115.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Aplidium turbinatum,Aplidium turbinatum,clonial sea squirt,Invertebrates,Phase1+,GCA_918807975.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Ascidiacea
+Aplocheilus lineatus,Aplocheilus lineatus,striped panchax,Fishes,Phase1+,GCA_058223795.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Aplochiton taeniatus,Aplochiton taeniatus,,,Families,GCA_017639675.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Apogon imberbis,Apogon imberbis,,,Families,GCA_964211915.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Archocentrus centrarchus,Archocentrus centrarchus,flier cichlid,Fishes,Phase1+,GCA_007364275.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Argentina silus,Argentina silus,,,Families,GCA_951799395.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Arnoglossus laterna,Arnoglossus laterna,scaldfish,Fishes,Phase1+,GCA_965260895.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Arnoglossus thori,Arnoglossus thori,Thor's scaldfish,Fishes,Phase1+,GCA_984981365.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Arripis georgiana,Arripis georgiana,,,Families,GCA_042242135.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: nan
+Ascidia mentula,Ascidia mentula,pink sea squirt,Invertebrates,Phase1+,GCA_947561715.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Ascidiacea
+Ascidiella aspersa,Ascidiella aspersa,,,Families,GCA_963924565.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Ascidiacea
+Astatotilapia calliptera,Astatotilapia calliptera,Eastern happy,Fishes,Phase1+,GCA_964374335.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Asterias rubens,Asterias rubens,,,Families,GCA_902459465.3,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Asteroidea
+Astrapogon puncticulatus,Astrapogon puncticulatus,Blackfin cardinalfish,Fishes,Phase1+,GCA_977014485.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Astyanax mexicanus,Astyanax mexicanus,Mexican tetra,Fishes,Phase1+,GCA_023375975.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Ateleopus japonicus,Ateleopus japonicus,Pacific jellynose fish,Fishes,Phase1+,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Atherina boyeri,Atherina boyeri,big-scale sand smelt,Fishes,Phase1+,GCA_978019495.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Atherina hepsetus,Atherina hepsetus,Mediterranean sand smelt,Fishes,Phase1+,GCA_977020125.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Atherina presbyter,Atherina presbyter,sand smelt,Fishes,Phase1+,GCA_965295175.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Atractosteus spatula,Atractosteus spatula,alligator gar,Fishes,Phase1+,GCA_055471065.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Aulonocara stuartgranti,Aulonocara stuartgranti,,,Families,GCA_965226115.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Aulostomus maculatus,Aulostomus maculatus,,,Families,GCA_048301465.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Balanoglossus misakiensis,Balanoglossus misakiensis,tongue acorn worm,Invertebrates,Phase1+,GCA_040954625.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Enteropneusta
+Barbatula barbatula,Barbatula barbatula,,,Families,GCA_947034865.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Barbus barbus,Barbus barbus,barbel,Fishes,Phase1+,GCA_936440315.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Bathysaurus mollis,Bathysaurus mollis,bathysaur,Fishes,Phase1+,GCA_965279225.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Benthalbella elongata,Benthalbella elongata,pearleye,Fishes,Phase1+,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Betta splendens,Betta splendens,,,Families,GCA_900634795.4,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Blennius ocellaris,Blennius ocellaris,,,Families,GCA_963422515.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Borostomias antarcticus,Borostomias antarcticus,large-eye snaggletooth,Fishes,Phase1+,GCA_949987555.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Bothus lunatus,Bothus lunatus,plate fish,Fishes,Phase1+,GCA_982266815.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Botrylloides diegensis,Botrylloides diegensis,colonial ascidian,Invertebrates,Phase1+,GCA_986708585.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Ascidiacea
+Branchiostoma belcheri,Branchiostoma belcheri,,,Families,GCA_019207075.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Leptocardii
+Branchiostoma floridae,Branchiostoma floridae,Florida amphioxus,Invertebrates,Phase1+,GCA_015852565.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Leptocardii
+Branchiostoma lanceolatum,Branchiostoma lanceolatum,European lancelet,Invertebrates,Phase1+,GCA_035083965.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Leptocardii
+Buglossidium luteum,Buglossidium luteum,solenette,Fishes,Phase1+,GCA_978045355.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Caesio teres,Caesio teres,,,Families,GCA_048129055.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Capros aper,Capros aper,boarfish,Fishes,Phase1+,GCA_965364685.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Caranx crysos,Caranx crysos,blue runner,Fishes,Phase1+,GCA_984588375.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Carapus acus,Carapus acus,Pearlfish,Fishes,Phase1+,GCA_984795795.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Carassius carassius,Carassius carassius,crucian carp,Fishes,Phase1+,GCA_963082965.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Caretta caretta,Caretta caretta,,,Families,GCA_965140235.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Carettochelys insculpta,Carettochelys insculpta,,,Families,GCA_033958435.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Centroberyx gerrardi,Centroberyx gerrardi,,,Families,GCA_048128805.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Cephalopholis fulva,Cephalopholis fulva,coney,Fishes,Phase1+,GCA_977019285.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Cephalopholis miniata,Cephalopholis miniata,coral hind,Fishes,Phase1+,GCA_988281155.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Cepola macrophthalma,Cepola macrophthalma,red bandfish,Fishes,Phase1+,GCA_978015445.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Ceratoscopelus maderensis,Ceratoscopelus maderensis,Madeira lanternfish,Fishes,Phase1+,GCA_987459045.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chaetodon auriga,Chaetodon auriga,threadfin butterflyfish,Fishes,Phase1+,GCA_051107435.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chaetodon trifascialis,Chaetodon trifascialis,,,Families,GCA_039877785.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chanos chanos,Chanos chanos,,,Families,GCA_902362185.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Characidium zebra,Characidium zebra,zebra darter,Fishes,Phase1+,GCA_059491945.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chaunax flavomaculatus,Chaunax flavomaculatus,yellowspot frogmouth,Fishes,Phase1+,GCA_977071325.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chelidonichthys cuculus,Chelidonichthys cuculus,red gurnard,Fishes,Phase1+,GCA_971798655.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chelidonichthys lucerna,Chelidonichthys lucerna,tub gurnard,Fishes,Phase1+,GCA_965644535.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chelidonichthys obscurus,Chelidonichthys obscurus,longfin gurnard,Fishes,Phase1+,GCA_987338565.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chelmon rostratus,Chelmon rostratus,,,Families,GCA_017976325.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chelmonops curiosus,Chelmonops curiosus,Western talma,Fishes,Phase1+,GCA_988240345.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chelon auratus,Chelon auratus,golden grey mullet,Fishes,Phase1+,GCA_982589965.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chelon labrosus,Chelon labrosus,,,Families,GCA_963514085.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chelon ramada,Chelon ramada,thin-lipped mullet,Fishes,Phase1+,GCA_987345715.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chelonia mydas,Chelonia mydas,,,Families,GCA_015237465.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Chilomycterus antillarum,Chilomycterus antillarum,web burrfish,Fishes,Phase1+,GCA_986419385.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chironemus georgianus,Chironemus georgianus,,,Families,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: nan
+Chitra chitra,Chitra chitra,striped narrow-headed giant softshell turtle,Reptiles,Phase1+,GCA_052575445.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Choerodon rubescens,Choerodon rubescens,baldchin grouper,Fishes,Phase1+,GCA_056506755.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Choerodon schoenleinii,Choerodon schoenleinii,blackspot tuskfish,Fishes,Phase1+,GCA_047301625.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chromis chromis,Chromis chromis,damselfish,Fishes,Phase1+,GCA_984582935.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Chromogobius zebratus,Chromogobius zebratus,Kolombatovic's goby,Fishes,Phase1+,GCA_982768625.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Ciliata mustela,Ciliata mustela,fivebeard rockling,Fishes,Phase1+,GCA_987197175.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Clarias gariepinus,Clarias gariepinus,North African catfish,Fishes,Phase1+,GCA_024256435.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Clavelina lepadiformis,Clavelina lepadiformis,,,Families,GCA_947623445.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Ascidiacea
+Cobitis taenia,Cobitis taenia,spined loach,Fishes,Phase1+,GCA_987197225.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Cochleoceps spatula,Cochleoceps spatula,spadenose clingfish,Fishes,Phase1+,GCA_988281175.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Coilia mystus,Coilia mystus,,,Families,GCA_048544225.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Conger conger,Conger conger,,,Families,GCA_963514075.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Corcyrogobius liechtensteini,Corcyrogobius liechtensteini,Liechtenstein's goby,Fishes,Phase1+,GCA_982529875.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Coregonus lavaretus,Coregonus lavaretus,,,Families,GCA_964263955.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Corella eumyota,Corella eumyota,Orange-tipped sea squirt,Invertebrates,Phase1+,GCA_963082875.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Ascidiacea
+Coris auricularis,Coris auricularis,Western king wrasse,Fishes,Phase1+,GCA_988280635.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Coryphoblennius galerita,Coryphoblennius galerita,,,Families,GCA_965229965.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Coryphopterus venezuelae,Coryphopterus venezuelae,sand-canyon goby,Fishes,Phase1+,GCA_977063065.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Cottoperca gobio,Cottoperca gobio,channel bull blenny,Fishes,Phase1+,GCA_900634415.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Cristiceps australis,Cristiceps australis,crested weedfish,Fishes,Phase1+,GCA_049082185.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Crocodylus niloticus,Crocodylus niloticus,Nile crocodile,Reptiles,Phase1+,GCA_054954115.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Crocodylia
+Ctenochaetus striatus,Ctenochaetus striatus,striated surgeonfish,Fishes,Phase1+,GCA_988228115.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Ctenolabrus rupestris,Ctenolabrus rupestris,,,Families,GCA_965358205.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Cyclopterus lumpus,Cyclopterus lumpus,,,Families,GCA_009769545.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: nan
+Cypho purpurascens,Cypho purpurascens,Oblique-lined dottyback,Fishes,Phase1+,GCA_988281225.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Cyprinella lutrensis,Cyprinella lutrensis,red shiner,Fishes,Phase1+,GCA_054825075.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Cyprinella venusta,Cyprinella venusta,,,Families,GCA_038024135.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Danio rerio,Danio rerio,zebrafish,Fishes,Phase1+,GCA_052040795.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Datnioides microlepis,Datnioides microlepis,,,Families,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Datnioides polota,Datnioides polota,Four-banded tigerfish,Fishes,Phase1+,GCA_054851445.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Denticeps clupeoides,Denticeps clupeoides,,,Families,GCA_900700375.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Dermatemys mawii,Dermatemys mawii,Central American river turtle,Reptiles,Phase1+,GCA_054099655.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Dermochelys coriacea,Dermochelys coriacea,leatherback sea turtle,Reptiles,Phase1+,GCA_009764565.4,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Dicentrarchus labrax,Dicentrarchus labrax,European seabass,Fishes,Phase1+,GCA_977040325.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Dicentrarchus punctatus,Dicentrarchus punctatus,spotted seabass,Fishes,Phase1+,GCA_987113135.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Diodon holocanthus,Diodon holocanthus,long-spine porcupinefish,Fishes,Phase1+,GCA_984586875.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Diodon nicthemerus,Diodon nicthemerus,globefish,Fishes,Phase1+,GCA_984752085.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Diplecogaster bimaculata,Diplecogaster bimaculata,Two-spotted clingfish,Fishes,Phase1+,GCA_976919225.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Diplodus annularis,Diplodus annularis,annular seabream,Fishes,Phase1+,GCA_977110885.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Diplodus sargus,Diplodus sargus,white seabream,Fishes,Phase1+,GCA_988281045.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Diplodus vulgaris,Diplodus vulgaris,Common two-banded seabream,Fishes,Phase1+,GCA_978021955.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Diretmus argenteus,Diretmus argenteus,silver spinyfin,Fishes,Phase1+,GCA_048569125.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Drepane punctata,Drepane punctata,,,Families,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Echeneis naucrates,Echeneis naucrates,live sharksucker,Fishes,Phase1+,GCA_900963305.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Echiichthys vipera,Echiichthys vipera,,,Families,GCA_963691815.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: nan
+Elacatinus chancei,Elacatinus chancei,shortstripe goby,Fishes,Phase1+,GCA_978163275.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Elacatinus prochilos,Elacatinus prochilos,broadstripe goby,Fishes,Phase1+,GCA_984808015.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Electrona antarctica,Electrona antarctica,Antarctic lanternfish,Fishes,Phase1+,GCA_951216825.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Electrona carlsbergi,Electrona carlsbergi,Electron subantarctic,Fishes,Phase1+,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Electrona subaspera,Electrona subaspera,rough lanternfish,Fishes,Phase1+,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Electrophorus electricus,Electrophorus electricus,,,Families,GCA_041902795.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Emys orbicularis,Emys orbicularis,European pond turtle,Reptiles,Phase1+,GCA_028017835.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Enoplosus armatus,Enoplosus armatus,old wife,Fishes,Phase1+,GCA_043641665.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Epinephelus lanceolatus,Epinephelus lanceolatus,,,Families,GCA_041903045.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Epinephelus rankini,Epinephelus rankini,,,Families,GCA_048129235.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Eretmochelys imbricata,Eretmochelys imbricata,Hawksbill sea turtle,Reptiles,Phase1+,GCA_965152235.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Erpetoichthys calabaricus,Erpetoichthys calabaricus,reedfish,Fishes,Phase1+,GCA_900747795.4,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Esox lucius,Esox lucius,Northern pike,Fishes,Phase1+,GCA_011004845.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Eumegistus illustris,Eumegistus illustris,brilliant pomfret,Fishes,Phase1+,GCA_984747365.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Eutrigla gurnardus,Eutrigla gurnardus,,,Families,GCA_963514095.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: nan
+Ferdauia orthogrammus,Ferdauia orthogrammus,island trevally,Fishes,Phase1+,GCA_988281245.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Fishes
+Fundulus diaphanus,Fundulus diaphanus,,,Families,GCA_037039145.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gadus morhua,Gadus morhua,Atlantic cod,Fishes,Phase1+,GCA_902167405.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gaidropsarus vulgaris,Gaidropsarus vulgaris,three-bearded rockling,Fishes,Phase1+,GCA_987197165.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gasterosteus aculeatus,Gasterosteus aculeatus,,,Families,GCA_964276395.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gavialis gangeticus,Gavialis gangeticus,Indian gharial,Reptiles,Phase1+,GCA_030020295.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Crocodylia
+Girardinichthys multiradiatus,Girardinichthys multiradiatus,,,Families,GCA_021462225.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Glaucosoma hebraicum,Glaucosoma hebraicum,Westralian jewfish,Fishes,Phase1+,GCA_988281275.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Fishes
+Gnatholepis thompsoni,Gnatholepis thompsoni,Goldspot goby,Fishes,Phase1+,GCA_984577815.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gobiesox punctulatus,Gobiesox punctulatus,stippled clingfish,Fishes,Phase1+,GCA_977017485.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gobio gobio,Gobio gobio,gudgeon,Fishes,Phase1+,GCA_949357685.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gobioclinus haitiensis,Gobioclinus haitiensis,longfin blenny,Fishes,Phase1+,GCA_977007065.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gobius cobitis,Gobius cobitis,giant goby,Fishes,Phase1+,GCA_977064505.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gobius niger,Gobius niger,black goby,Fishes,Phase1+,GCA_951799975.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gobius paganellus,Gobius paganellus,,,Families,GCA_965278345.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gobius xanthocephalus,Gobius xanthocephalus,yellow-headed goby,Fishes,Phase1+,GCA_984808095.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gopherus evgoodei,Gopherus evgoodei,,,Families,GCA_007399415.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Gopherus flavomarginatus,Gopherus flavomarginatus,Mexican gopher tortoise,Reptiles,Phase1+,GCA_025201925.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Gouania willdenowi,Gouania willdenowi,,,Families,GCA_900634775.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gymnammodytes semisquamatus,Gymnammodytes semisquamatus,,,Families,GCA_949987685.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gymnoscopelus braueri,Gymnoscopelus braueri,,,Families,GCA_963280865.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gymnoscopelus microlampas,Gymnoscopelus microlampas,,,Families,GCA_963454915.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gymnothorax miliaris,Gymnothorax miliaris,goldentail moray,Fishes,Phase1+,GCA_987191265.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Gymnothorax moringa,Gymnothorax moringa,spotted moray,Fishes,Phase1+,GCA_978019835.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Haemulon aurolineatum,Haemulon aurolineatum,tomtate grunt,Fishes,Phase1+,GCA_977014745.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Haemulon flavolineatum,Haemulon flavolineatum,French grunt,Fishes,Phase1+,GCA_977076405.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Halichoeres bivittatus,Halichoeres bivittatus,slippery dick,Fishes,Phase1+,GCA_977929225.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Halichoeres poeyi,Halichoeres poeyi,blackear wrasse,Fishes,Phase1+,GCA_965645315.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Halichoeres radiatus,Halichoeres radiatus,puddingwife wrasse,Fishes,Phase1+,GCA_977964395.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Haplochromis burtoni,Haplochromis burtoni,Burton's mouthbrooder,Fishes,Phase1+,GCA_054824465.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Helicolenus dactylopterus,Helicolenus dactylopterus,blackbelly rosefish,Fishes,Phase1+,GCA_981148845.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Heteropriacanthus cruentatus,Heteropriacanthus cruentatus,glasseye,Fishes,Phase1+,GCA_977009785.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Heteroscarus acroptilus,Heteroscarus acroptilus,rainbow cale,Fishes,Phase1+,GCA_056506875.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Hiodon alosoides,Hiodon alosoides,goldeye,Fishes,Phase1+,GCA_056783565.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Hippocampus hippocampus,Hippocampus hippocampus,short-snouted seahorse,Fishes,Phase1+,GCA_965263715.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Hippoglossus hippoglossus,Hippoglossus hippoglossus,Atlantic halibut,Fishes,Phase1+,GCA_009819705.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Holocentrus rufus,Holocentrus rufus,longspine squirrelfish,Fishes,Phase1+,GCA_978836905.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Hoplias malabaricus,Hoplias malabaricus,,,Families,GCA_029633855.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Hoplostethus mediterraneus,Hoplostethus mediterraneus,Mediterranean slimehead,Fishes,Phase1+,GCA_988240805.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Hydromedusa tectifera,Hydromedusa tectifera,,,Families,GCA_049999965.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Hyperoplus immaculatus,Hyperoplus immaculatus,greater sand eel,Fishes,Phase1+,GCA_949357725.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Hypomesus transpacificus,Hypomesus transpacificus,delta smelt,Fishes,Phase1+,GCA_059995925.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Indotestudo elongata,Indotestudo elongata,,,Families,GCA_050000095.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Kaupichthys nuchalis,Kaupichthys nuchalis,collared eel,Fishes,Phase1+,GCA_978019975.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Labrus bergylta,Labrus bergylta,ballan wrasse,Fishes,Phase1+,GCA_963930695.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Labrus mixtus,Labrus mixtus,,,Families,GCA_963584025.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Labrus viridis,Labrus viridis,green wrasse,Fishes,Phase1+,GCA_980909795.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lampanyctus crocodilus,Lampanyctus crocodilus,jewel lanternfish,Fishes,Phase1+,GCA_987222375.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lampanyctus macdonaldi,Lampanyctus macdonaldi,rakery lanternfish,Fishes,Phase1+,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lampetra fluviatilis,Lampetra fluviatilis,European river lamprey,Fishes,Phase1+,GCA_964198595.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Petromyzonti
+Lampetra planeri,Lampetra planeri,European brook lamprey,Fishes,Phase1+,GCA_965212315.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Petromyzonti
+Lampris incognitus,Lampris incognitus,smalleye Pacific opah,Fishes,Phase1+,GCA_029633865.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lateolabrax maculatus,Lateolabrax maculatus,,,Families,GCA_031216445.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Latimeria chalumnae,Latimeria chalumnae,,,Families,GCA_037176945.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Sarcopterygii
+Lepadogaster candolii,Lepadogaster candolii,connemarra clingfish,Fishes,Phase1+,GCA_965278445.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lepadogaster purpurea,Lepadogaster purpurea,cornish sucker,Fishes,Phase1+,GCA_965274325.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lepidochelys kempii,Lepidochelys kempii,Kemp's ridley sea turtle,Reptiles,Phase1+,GCA_965140285.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Lepidochelys olivacea,Lepidochelys olivacea,Pacific ridley sea turtle,Reptiles,Phase1+,GCA_965140295.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Lepidogalaxias salamandroides,Lepidogalaxias salamandroides,,,Families,GCA_049190665.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lepidorhombus whiffiagonis,Lepidorhombus whiffiagonis,megrim,Fishes,Phase1+,GCA_965246675.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lepisosteus oculatus,Lepisosteus oculatus,spotted gar,Fishes,Phase1+,GCA_040954835.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lepisosteus platostomus,Lepisosteus platostomus,shortnose gar,Fishes,Phase1+,GCA_059453375.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lethrinus laticaudis,Lethrinus laticaudis,grass emperor,Fishes,Phase1+,GCA_056507095.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lethrinus nebulosus,Lethrinus nebulosus,spangled emperor,Fishes,Phase1+,GCA_045362495.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Leuciscus leuciscus,Leuciscus leuciscus,common dace,Fishes,Phase1+,GCA_965113295.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Leviprora inops,Leviprora inops,longhead flathead,Fishes,Phase1+,GCA_984746715.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Limanda limanda,Limanda limanda,common dab,Fishes,Phase1+,GCA_963576545.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lipophrys pholis,Lipophrys pholis,,,Families,GCA_963383615.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lota lota,Lota lota,burbot,Fishes,Phase1+,GCA_988280975.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lutjanus argentimaculatus,Lutjanus argentimaculatus,mangrove red snapper,Fishes,Phase1+,GCA_988280985.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lutjanus carponotatus,Lutjanus carponotatus,stripey snapper,Fishes,Phase1+,GCA_059550285.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lutjanus erythropterus,Lutjanus erythropterus,crimson snapper,Fishes,Phase1+,GCA_056507045.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lutjanus fulviflamma,Lutjanus fulviflamma,blackspot snapper,Fishes,Phase1+,GCA_059550335.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lutjanus quinquelineatus,Lutjanus quinquelineatus,five-lined snapper,Fishes,Phase1+,GCA_057930395.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lutjanus russellii,Lutjanus russellii,Moses' snapper,Fishes,Phase1+,GCA_059550235.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lutjanus sebae,Lutjanus sebae,red emperor,Fishes,Phase1+,GCA_059550175.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lutjanus vitta,Lutjanus vitta,brownstripe snapper,Fishes,Phase1+,GCA_059550215.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Lycodopsis pacificus,Lycodopsis pacificus,,,Families,GCA_028022725.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: nan
+Macrochelys suwanniensis,Macrochelys suwanniensis,,,Families,GCA_033349115.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Macroramphosus scolopax,Macroramphosus scolopax,longspine snipefish,Fishes,Phase1+,GCA_987433295.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Malacanthus latovittatus,Malacanthus latovittatus,blue blanquillo,Fishes,Phase1+,GCA_988280605.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Malaclemys terrapin,Malaclemys terrapin,,,Families,GCA_027887155.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Mastacembelus armatus,Mastacembelus armatus,,,Families,GCA_900324485.3,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Megalops cyprinoides,Megalops cyprinoides,Indo-pacific tarpon,Fishes,Phase1+,GCA_013368585.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Melanonus zugmayeri,Melanonus zugmayeri,arrowtail,Fishes,Phase1+,GCA_057876845.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Melanostigma gelatinosum,Melanostigma gelatinosum,limp eelpout,Fishes,Phase1+,GCA_949748355.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Melanotaenia boesemani,Melanotaenia boesemani,Boeseman’s rainbowfish,Fishes,Phase1+,GCA_017639745.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Melichthys vidua,Melichthys vidua,pinktail triggerfish,Fishes,Phase1+,GCA_984657235.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Menidia menidia,Menidia menidia,Atlantic silverside,Fishes,Phase1+,GCA_048628825.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Merluccius merluccius,Merluccius merluccius,European hake,Fishes,Phase1+,GCA_988279885.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Microchirus variegatus,Microchirus variegatus,thickback sole,Fishes,Phase1+,GCA_963457635.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Micromesistius poutassou,Micromesistius poutassou,blue whiting,Fishes,Phase1+,GCA_964030765.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Fishes
+Micropterus salmoides,Micropterus salmoides,large-mouth bass,Fishes,Phase1+,GCA_019677235.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Microstomus kitt,Microstomus kitt,,,Families,GCA_964266715.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Monacanthus ciliatus,Monacanthus ciliatus,fringed filefish,Fishes,Phase1+,GCA_977018155.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Mullus surmuletus,Mullus surmuletus,,,Families,GCA_965276695.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Muraena helena,Muraena helena,Mediterranean moray,Fishes,Phase1+,GCA_978019965.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Myoxocephalus scorpius,Myoxocephalus scorpius,shorthorn sculpin,Fishes,Phase1+,GCA_054668685.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Myrichthys ocellatus,Myrichthys ocellatus,goldspotted eel,Fishes,Phase1+,GCA_975146105.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Myripristis jacobus,Myripristis jacobus,blackbar soldierfish,Fishes,Phase1+,GCA_977872305.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Myripristis murdjan,Myripristis murdjan,pinecone soldierfish,Fishes,Phase1+,GCA_902150065.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Myuchelys georgesi,Myuchelys georgesi,Bellinger river turtle,Reptiles,Phase1+,GCA_040894355.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Myxine glutinosa,Myxine glutinosa,Atlantic hagfish,Fishes,Phase1+,GCA_964187855.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Myxini
+Nannobrachium achirus,Nannobrachium achirus,Lantern fish,Fishes,Phase1+,GCA_963921795.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Nansenia antarctica,Nansenia antarctica,pencil smelt,Fishes,Phase1+,GCA_963989245.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Natator depressus,Natator depressus,Australian flatback sea turtle,Reptiles,Phase1+,GCA_965152275.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Neatypus obliquus,Neatypus obliquus,Western footballer,Fishes,Phase1+,GCA_984650095.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Nemadactylus valenciennesi,Nemadactylus valenciennesi,sea carp,Fishes,Phase1+,GCA_988240375.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Fishes
+Nematolebias whitei,Nematolebias whitei,Rio pearlfish,Fishes,Phase1+,GCA_059746955.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Neoarius graeffei,Neoarius graeffei,,,Families,GCA_027579695.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Neosynchiropus ocellatus,Neosynchiropus ocellatus,ocellated dragonet,Fishes,Phase1+,GCA_044231665.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Fishes
+Nessorhamphus ingolfianus,Nessorhamphus ingolfianus,duckbill oceanic eel,Fishes,Phase1+,GCA_987430295.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Notacanthus chemnitzii,Notacanthus chemnitzii,,,Families,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Notolabrus celidotus,Notolabrus celidotus,New Zealand spotty wrasse,Fishes,Phase1+,GCA_009762535.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Notolabrus parilus,Notolabrus parilus,brownspotted wrasse,Fishes,Phase1+,GCA_988263725.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Notolepis coatsi,Notolepis coatsi,,,Families,GCA_963971535.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Notothenia rossii,Notothenia rossii,,,Families,GCA_949606895.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: nan
+Ocyurus chrysurus,Ocyurus chrysurus,yellowtail snapper,Fishes,Phase1+,GCA_977019275.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Odontesthes bonariensis,Odontesthes bonariensis,pejerrey,Fishes,Phase1+,GCA_027942865.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Olisthops cyanomelas,Olisthops cyanomelas,herring cale,Fishes,Phase1+,GCA_984755405.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Ophidion barbatum,Ophidion barbatum,,,Families,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Ophthalmolebias constanciae,Ophthalmolebias constanciae,featherfin pearlfish,Fishes,Phase1+,GCA_058774925.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Ophthalmolepis lineolata,Ophthalmolepis lineolata,Maori wrasse,Fishes,Phase1+,GCA_988240315.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Oryzias latipes,Oryzias latipes,Japanese medaka,Fishes,Phase1+,GCA_053564925.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Osmerus eperlanus,Osmerus eperlanus,European smelt,Fishes,Phase1+,GCA_963692335.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Osmerus mordax,Osmerus mordax,,,Families,GCA_038355195.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pagellus acarne,Pagellus acarne,axillary seabream,Fishes,Phase1+,GCA_987348135.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pagellus bogaraveo,Pagellus bogaraveo,blackspot seabream,Fishes,Phase1+,GCA_979666705.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pagellus erythrinus,Pagellus erythrinus,common pandora,Fishes,Phase1+,GCA_965643245.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pagrus pagrus,Pagrus pagrus,,,Families,GCA_965226575.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pangasianodon hypophthalmus,Pangasianodon hypophthalmus,striped catfish,Fishes,Phase1+,GCA_027358585.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pangshura tecta,Pangshura tecta,Indian roofed turtle,Reptiles,Phase1+,GCA_045781085.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Pantodon buchholzi,Pantodon buchholzi,African butterflyfish,Fishes,Phase1+,GCA_059756545.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Parablennius gattorugine,Parablennius gattorugine,tompot blenny,Fishes,Phase1+,GCA_965278395.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Parablennius pilicornis,Parablennius pilicornis,ringneck blenny,Fishes,Phase1+,GCA_988194615.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Parablennius zvonimiri,Parablennius zvonimiri,Zvonimir's blenny,Fishes,Phase1+,GCA_982586725.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Paracanthurus hepatus,Paracanthurus hepatus,palette surgeonfish,Fishes,Phase1+,GCA_988280615.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Paraclinus nigripinnis,Paraclinus nigripinnis,blackfin blenny,Fishes,Phase1+,GCA_984586885.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Parambassis ranga,Parambassis ranga,Indian glassy fish,Fishes,Phase1+,GCA_900634625.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Paraplesiops meleagris,Paraplesiops meleagris,Southern blue devil,Fishes,Phase1+,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Parequula melbournensis,Parequula melbournensis,silverbelly,Fishes,Phase1+,GCA_984656905.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Fishes
+Pelodiscus sinensis,Pelodiscus sinensis,,,Families,GCA_051311755.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Pelomedusa somalica,Pelomedusa somalica,,,Families,GCA_051311615.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Pempheris klunzingeri,Pempheris klunzingeri,rough bullseye,Fishes,Phase1+,GCA_042242105.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pempheris schomburgkii,Pempheris schomburgkii,copper sweeper,Fishes,Phase1+,GCA_054100275.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pentaceropsis recurvirostris,Pentaceropsis recurvirostris,longsnout boarfish,Fishes,Phase1+,GCA_984749165.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Fishes
+Periophthalmus magnuspinnatus,Periophthalmus magnuspinnatus,,,Families,GCA_009829125.3,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Petromyzon marinus,Petromyzon marinus,sea lamprey,Fishes,Phase1+,GCA_048934315.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Petromyzonti
+Phallusia mammillata,Phallusia mammillata,,,Families,GCA_965637545.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Ascidiacea
+Pholidichthys leucotaenia,Pholidichthys leucotaenia,convict blenny,Fishes,Phase1+,GCA_020510985.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pholis gunnellus,Pholis gunnellus,,,Families,GCA_910591455.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Phoxinus phoxinus,Phoxinus phoxinus,,,Families,GCA_949152265.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Phycis blennoides,Phycis blennoides,greater forkbeard,Fishes,Phase1+,GCA_988281055.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Phycis phycis,Phycis phycis,forkbeard,Fishes,Phase1+,GCA_978484525.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pimephales promelas,Pimephales promelas,fathead minnow,Fishes,Phase1+,GCA_988280905.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Platax teira,Platax teira,tiera batfish,Fishes,Phase1+,GCA_061099485.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Platichthys flesus,Platichthys flesus,European flounder,Fishes,Phase1+,GCA_949316205.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Platysternon megacephalum,Platysternon megacephalum,big-headed turtle,Reptiles,Phase1+,GCA_057946115.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Plectropomus leopardus,Plectropomus leopardus,leopard coralgrouper,Fishes,Phase1+,GCA_988280655.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pleuronectes platessa,Pleuronectes platessa,European plaice,Fishes,Phase1+,GCA_947347685.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Podocnemis expansa,Podocnemis expansa,arrau turtle,Reptiles,Phase1+,GCA_045364815.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Podocnemis unifilis,Podocnemis unifilis,,,Families,GCA_050000005.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Pollachius pollachius,Pollachius pollachius,,,Families,GCA_949987615.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pollachius virens,Pollachius virens,saithe,Fishes,Phase1+,GCA_988280125.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Polyacanthonotus merretti,Polyacanthonotus merretti,Bahamas spiny eel,Fishes,Phase1+,GCA_057931045.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Polymixia berndti,Polymixia berndti,,,Families,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Polymixia lowei,Polymixia lowei,,,Families,GCA_047511565.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Polyprion americanus,Polyprion americanus,Wreckfish,Fishes,Phase1+,GCA_977971305.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pomatoschistus minutus,Pomatoschistus minutus,sand goby,Fishes,Phase1+,GCA_965276375.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Poromitra crassiceps,Poromitra crassiceps,,,Families,GCA_964638095.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pristigenys meyeri,Pristigenys meyeri,redstripe bigeye,Fishes,Phase1+,GCA_056506805.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pristipomoides typus,Pristipomoides typus,sharptooth jobfish,Fishes,Phase1+,GCA_045363895.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Prochilodus lineatus,Prochilodus lineatus,streaked prochilod,Fishes,Phase1+,GCA_054851125.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Protomyctophum bolini,Protomyctophum bolini,,,Families,GCA_963924005.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Protomyctophum parallelum,Protomyctophum parallelum,,,Families,GCA_964188405.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Protopterus annectens,Protopterus annectens,,,Families,GCA_040939525.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Sarcopterygii
+Pseudolabrus biserialis,Pseudolabrus biserialis,redband wrasse,Fishes,Phase1+,GCA_988281145.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pseudophycis breviuscula,Pseudophycis breviuscula,Northern bastard codling,Fishes,Phase1+,GCA_988281425.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Fishes
+Pseudopleuronectes americanus,Pseudopleuronectes americanus,winter flounder,Fishes,Phase1+,GCA_054850875.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Psilogobius mainlandi,Psilogobius mainlandi,Hawaiian shrimp goby,Fishes,Phase1+,GCA_059746265.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pterois volitans,Pterois volitans,red lionfish,Fishes,Phase1+,GCA_977110895.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pungitius pungitius,Pungitius pungitius,ninespine stickleback,Fishes,Phase1+,GCA_949316345.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Pygocentrus nattereri,Pygocentrus nattereri,,,Families,GCA_015220715.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Ranzania laevis,Ranzania laevis,slender sunfish,Fishes,Phase1+,GCA_056748195.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Rhamphochromis chilingali,Rhamphochromis chilingali,,,Families,GCA_963969265.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Rhinesomus triqueter,Rhinesomus triqueter,smooth trunkfish,Fishes,Phase1+,GCA_977090075.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Fishes
+Rhinogobio nasutus,Rhinogobio nasutus,Rhinogobio nasutus,Fishes,Phase1+,GCA_048301585.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Rivulus cylindraceus,Rivulus cylindraceus,green rivulus,Fishes,Phase1+,GCA_058775085.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Rutilus rutilus,Rutilus rutilus,roach minnow,Fishes,Phase1+,GCA_951802725.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Saccoglossus kowalevskii,Saccoglossus kowalevskii,acorn worm,Invertebrates,Phase1+,GCA_978046115.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Enteropneusta
+Salarias fasciatus,Salarias fasciatus,jewelled blenny,Fishes,Phase1+,GCA_902148845.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Salminus brasiliensis,Salminus brasiliensis,golden dorado,Fishes,Phase1+,GCA_030463535.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Salmo trutta,Salmo trutta,brown trout,Fishes,Phase1+,GCA_901001165.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Salvelinus alpinus,Salvelinus alpinus,,,Families,GCA_036784965.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Sardina pilchardus,Sardina pilchardus,sardine,Fishes,Phase1+,GCA_963854185.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Sarpa salpa,Sarpa salpa,salema porgy,Fishes,Phase1+,GCA_977007045.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Scardinius erythrophthalmus,Scardinius erythrophthalmus,,,Families,GCA_964197995.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Scatophagus argus,Scatophagus argus,,,Families,GCA_020382885.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Scleropages formosus,Scleropages formosus,golden arowana,Fishes,Phase1+,GCA_900964775.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Scomber japonicus,Scomber japonicus,Pacific chub mackerel,Fishes,Phase1+,GCA_027409825.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Scomber scombrus,Scomber scombrus,,,Families,GCA_963691925.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Scophthalmus maximus,Scophthalmus maximus,turbot,Fishes,Phase1+,GCA_963854745.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Scorpaena notata,Scorpaena notata,small red scorpionfish,Fishes,Phase1+,GCA_978406735.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Scorpaena plumieri,Scorpaena plumieri,spotted scorpionfish,Fishes,Phase1+,GCA_977109165.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Scorpaena porcus,Scorpaena porcus,black scorpionfish,Fishes,Phase1+,GCA_984586865.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Scorpaena scrofa,Scorpaena scrofa,red scorpionfish,Fishes,Phase1+,GCA_982374735.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Scorpaenodes tredecimspinosus,Scorpaenodes tredecimspinosus,deepreef scorpionfish,Fishes,Phase1+,GCA_978264465.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Sebastes fasciatus,Sebastes fasciatus,Acadian redfish,Fishes,Phase1+,GCA_043250625.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Sebastes mentella,Sebastes mentella,deepwater redfish,Fishes,Phase1+,GCA_054850865.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Sebastes umbrosus,Sebastes umbrosus,,,Families,GCA_015220745.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Serranocirrhitus latus,Serranocirrhitus latus,hawkfish anthias,Fishes,Phase1+,GCA_988281215.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Serranus cabrilla,Serranus cabrilla,comber,Fishes,Phase1+,GCA_965643205.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Serranus scriba,Serranus scriba,painted comber,Fishes,Phase1+,GCA_977118025.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Silurus aristotelis,Silurus aristotelis,,,Families,GCA_946808225.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Solea solea,Solea solea,common sole,Fishes,Phase1+,GCA_958295425.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Sparus aurata,Sparus aurata,gilthead seabream,Fishes,Phase1+,GCA_900880675.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Sphaeramia orbicularis,Sphaeramia orbicularis,orbiculate cardinalfish,Fishes,Phase1+,GCA_902148855.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Sphyraena novaehollandiae,Sphyraena novaehollandiae,,,Families,GCA_050436885.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Spicara maena,Spicara maena,blotched picarel,Fishes,Phase1+,GCA_978045295.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Spinachia spinachia,Spinachia spinachia,sea stickleback,Fishes,Phase1+,GCA_048126635.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Spirinchus thaleichthys,Spirinchus thaleichthys,longfin smelt,Fishes,Phase1+,GCA_052324805.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Spondyliosoma cantharus,Spondyliosoma cantharus,black seabream,Fishes,Phase1+,GCA_965243705.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Sprattus sprattus,Sprattus sprattus,,,Families,GCA_963457725.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Squalius cephalus,Squalius cephalus,European chub,Fishes,Phase1+,GCA_949319135.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Sternotherus odoratus,Sternotherus odoratus,,,Families,GCA_032164245.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Stigmatopora argus,Stigmatopora argus,spotted pipefish,Fishes,Phase1+,GCA_988281015.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Stomias gracilis,Stomias gracilis,,,Families,,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Styela clava,Styela clava,,,Families,GCA_964204865.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Ascidiacea
+Stylephorus chordatus,Stylephorus chordatus,tube-eye,Fishes,Phase1+,GCA_056824485.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Symphodus bailloni,Symphodus bailloni,Baillon's wrasse,Fishes,Phase1+,GCA_977007755.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Symphodus cinereus,Symphodus cinereus,grey wrasse,Fishes,Phase1+,GCA_977927475.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Symphodus doderleini,Symphodus doderleini,Doderleini's wrasse,Fishes,Phase1+,GCA_979616585.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Symphodus mediterraneus,Symphodus mediterraneus,axillary wrasse,Fishes,Phase1+,GCA_980914855.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Symphodus melops,Symphodus melops,corkwing wrasse,Fishes,Phase1+,GCA_947650265.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Symphodus rostratus,Symphodus rostratus,pointed-snout wrasse,Fishes,Phase1+,GCA_982582535.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Symphorus nematophorus,Symphorus nematophorus,,,Families,GCA_048128725.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Synchiropus picturatus,Synchiropus picturatus,,,Families,GCA_044231675.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Syngnathus acus,Syngnathus acus,greater pipefish,Fishes,Phase1+,GCA_901709675.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Syngnathus rostellatus,Syngnathus rostellatus,Nilsson's pipefish,Fishes,Phase1+,GCA_965643225.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Syngnathus typhle,Syngnathus typhle,broad-nosed pipefish,Fishes,Phase1+,GCA_048301445.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Takifugu rubripes,Takifugu rubripes,,,Families,GCA_901000725.3,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Taurulus bubalis,Taurulus bubalis,long-spined sea scorpion,Fishes,Phase1+,GCA_910589615.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Tautogolabrus adspersus,Tautogolabrus adspersus,,,Families,GCA_020745685.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Telmatherina bonti,Telmatherina bonti,,,Families,GCA_933228915.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Thalassoma bifasciatum,Thalassoma bifasciatum,bluehead wrasse,Fishes,Phase1+,GCA_054084025.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Thalassophryne amazonica,Thalassophryne amazonica,,,Families,GCA_902500255.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Thalia democratica,Thalia democratica,,,Families,GCA_965202585.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Thaliacea
+Thorogobius ephippiatus,Thorogobius ephippiatus,leopard-spotted goby,Fishes,Phase1+,GCA_965366085.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Thunnus albacares,Thunnus albacares,,,Families,GCA_914725855.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Thunnus maccoyii,Thunnus maccoyii,southern bluefin tuna,Fishes,Phase1+,GCA_910596095.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Thunnus obesus,Thunnus obesus,bigeye tuna,Fishes,Phase1+,GCA_984655505.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Thunnus thynnus,Thunnus thynnus,northern bluefin tuna,Fishes,Phase1+,GCA_963924715.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Toxotes jaculatrix,Toxotes jaculatrix,banded archerfish,Fishes,Phase1+,GCA_017976425.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Trachinops noarlungae,Trachinops noarlungae,yellowhead hulafish,Fishes,Phase1+,GCA_056507015.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Trachinus draco,Trachinus draco,greater weever,Fishes,Phase1+,GCA_977007615.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Trachinus radiatus,Trachinus radiatus,starry weever,Fishes,Phase1+,GCA_978019985.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Trachurus trachurus,Trachurus trachurus,Atlantic horse mackerel,Fishes,Phase1+,GCA_905171665.2,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Trichomycterus rosablanca,Trichomycterus rosablanca,,,Families,GCA_030014385.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Trididemnum clinides,Trididemnum clinides,,,Families,GCA_963675345.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Ascidiacea
+Trigloporus lastoviza,Trigloporus lastoviza,streaked gurnard,Fishes,Phase1+,GCA_987194825.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Tripterygion delaisi,Tripterygion delaisi,black-faced blenny,Fishes,Phase1+,GCA_965643125.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Trisopterus luscus,Trisopterus luscus,pouting,Fishes,Phase1+,GCA_976225255.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Umbrina canariensis,Umbrina canariensis,canary drum,Fishes,Phase1+,GCA_988264985.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Variola louti,Variola louti,yellow-edged lyretail,Fishes,Phase1+,GCA_988240395.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Vijayachelys silvatica,Vijayachelys silvatica,Cochin Forest cane turtle,Reptiles,Phase1+,GCA_060712455.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Testudines
+Xenentodon cancila,Xenentodon cancila,needlefish,Fishes,Phase1+,GCA_014839995.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Xiphias gladius,Xiphias gladius,swordfish,Fishes,Phase1+,GCA_016859285.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Zeugopterus punctatus,Zeugopterus punctatus,topknot,Fishes,Phase1+,GCA_977007055.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Zeugopterus regius,Zeugopterus regius,Eckstrom's topknot,Fishes,Phase1+,GCA_965642325.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Zeus faber,Zeus faber,,,Families,GCA_960531495.1,,no_VertLife_tree_for_lineage,,False,lineage without a VertLife tree: Actinopterygii
+Guaruba guaruba,Guaruba guaruba,golden parakeet,Birds,Phase1+,GCA_045345405.1,birds,orthographic,Guaruba guarouba,True,spelling variant (similarity 0.97)
+Acanthis cabaret,Acanthis cabaret,lesser redpoll,Birds,Phase1+,GCA_988280675.1,birds,split_from_tip,Carduelis flammea,True,"GBIF: Acanthis cabaret treated as synonym of A. flammea; lesser redpoll recognised as a separate species by IOC, lumped in tree taxonomy (BirdLife 2012)"
+Butorides sundevalli,Butorides sundevalli,lava heron,Birds,Phase1+,GCA_057816235.1,birds,split_from_tip,Butorides striata,True,GBIF: Butorides striata sundevalli
+Calonectris borealis,Calonectris borealis,Cory's shearwater,Birds,Phase1+,GCA_964195595.2,birds,split_from_tip,Calonectris diomedea,True,IUCN 2026-1 accepts both C. borealis and C. diomedea; tree taxonomy lumps borealis into C. diomedea
+Chlamydotis macqueenii,Chlamydotis macqueenii,,,Families,GCA_036417535.1,birds,split_from_tip,Chlamydotis undulata,True,GBIF: Chlamydotis undulata macqueenii
+Psittacula echo,Psittacula echo,Mauritius parakeet,Birds,Phase1+,GCA_963264785.1,birds,split_from_tip,Psittacula eques,True,GBIF: Psittacula eques echo
+Willisornis vidua,Willisornis vidua,Xingu scale-backed antbird,Birds,Phase1+,GCA_045364795.1,birds,split_from_tip,Willisornis poecilinotus,True,only congener in tree (monotypic genus in tree taxonomy)
+Artibeus intermedius,Artibeus intermedius,intermediate fruit-eating bat,Mammals,Phase1+,GCA_038363145.1,mammals,split_from_tip,Artibeus lituratus,True,MDD: split from A. lituratus (still often treated as a synonym)
+Balaenoptera ricei,Balaenoptera ricei,Rice's whale,Mammals,Phase1+,GCA_028023285.1,mammals,split_from_tip,Balaenoptera edeni,True,MDD (note on tip species): previously included B. brydei and populations now attributed to B. ricei; this taxonomic arrangement has not been accepted by some researchers given that there 
+Eumops nanus,Eumops nanus,dwarf bonneted bat,Mammals,Phase1+,GCA_058972175.1,mammals,split_from_tip,Eumops bonariensis,True,GBIF: Eumops bonariensis nanus
+Gardnerycteris keenani,Gardnerycteris keenani,Keenan's hairy-nosed bat,Mammals,Phase1+,GCA_050655435.1,mammals,split_from_tip,Mimon crenulatum,True,GBIF: Mimon crenulatum keenani
+Giraffa tippelskirchi,Giraffa tippelskirchi,Masai giraffe,Mammals,Phase1+,GCA_054371585.1,mammals,split_from_tip,Giraffa camelopardalis,True,"MDD: split from G. camelopardalis; includes thornicrofti, which was considered distinct by Groves & Grubb 2011; for additional information regarding the MDD's decisi"
+Glossophaga mutica,Glossophaga mutica,Merriam's long-tongued bat,Mammals,Phase1+,GCA_039655065.1,mammals,split_from_tip,Glossophaga soricina,True,MDD: split from G. soricina
+Molossus nigricans,Molossus nigricans,Ebon mastiff bat,Mammals,Phase1+,GCA_039880945.1,mammals,split_from_tip,Molossus rufus,True,MDD: split from M. rufus
+Myotis pilosatibialis,Myotis pilosatibialis,hairy-legged bat,Mammals,Phase1+,GCA_057888715.1,mammals,split_from_tip,Myotis keaysi,True,MDD: split from M. keaysi
+Pteronotus mesoamericanus,Pteronotus mesoamericanus,Mesoamerican mustached bat,Mammals,Phase1+,GCA_056363955.1,mammals,split_from_tip,Pteronotus parnellii,True,MDD: split from P. parnellii
+Rhinolophus perniger,Rhinolophus perniger,Northern woolly horseshoe bat,Mammals,Phase1+,GCA_043748575.1,mammals,split_from_tip,Rhinolophus luctus,True,"MDD: split from R. luctus; previously known as lanosus, but perniger has nomenclatural priority"
+Rhinolophus yonghoiseni,Rhinolophus yonghoiseni,Yong hoi sen's woolly horseshoe bat,Mammals,Phase1+,GCA_043880425.1,mammals,split_from_tip,Rhinolophus sedulus,True,MDD: recently described based on populations previously attributed to R. sedulus
+Natrix helvetica,Natrix helvetica,barred grass snake,Reptiles,Phase1+,GCA_964273705.1,squamates,split_from_tip,Natrix natrix,True,GBIF: Natrix natrix helvetica
+Acanthis flammea,Acanthis flammea,common redpoll,Birds,Phase1+,GCA_987194025.1,birds,synonym_of_tip,Carduelis flammea,True,GBIF backbone accepted name: Acanthis_flammea
+Ammospiza maritima,Ammospiza maritima,,,Families,GCA_036010785.1,birds,synonym_of_tip,Ammodramus maritimus,True,GBIF backbone accepted name: Ammospiza_maritima
+Ammospiza nelsoni,Ammospiza nelsoni,Nelson's sparrow,Birds,Phase1+,GCA_027579445.1,birds,synonym_of_tip,Ammodramus nelsoni,True,GBIF backbone accepted name: Ammospiza_nelsoni
+Bubo scandiacus,Bubo scandiacus,snowy owl,Birds,Phase1+,GCA_965212795.1,birds,synonym_of_tip,Bubo scandiaca,True,GBIF backbone accepted name: Bubo_scandiacus
+Chloris chloris,Chloris chloris,European greenfinch,Birds,Phase1+,GCA_987196555.1,birds,synonym_of_tip,Carduelis chloris,True,GBIF backbone accepted name: Chloris_chloris
+Chroicocephalus ridibundus,Chroicocephalus ridibundus,black-headed gull,Birds,Phase1+,GCA_963924245.1,birds,synonym_of_tip,Larus ridibundus,True,GBIF backbone accepted name: Chroicocephalus_ridibundus
+Coloeus monedula,Coloeus monedula,,,Families,GCA_965178545.1,birds,synonym_of_tip,Corvus monedula,True,GBIF backbone accepted name: Coloeus_monedula
+Curruca communis,Curruca communis,greater whitethroat,Birds,Phase1+,GCA_987195945.1,birds,synonym_of_tip,Sylvia communis,True,GBIF backbone accepted name: Sylvia_communis
+Cyanistes caeruleus,Cyanistes caeruleus,blue tit,Birds,Phase1+,GCA_971803275.1,birds,synonym_of_tip,Parus caeruleus,True,GBIF backbone accepted name: Cyanistes_caeruleus
+Dixiphia pipra,Dixiphia pipra,white-crowned manakin,Birds,Phase1+,GCA_036250125.1,birds,synonym_of_tip,Pipra pipra,True,GBIF backbone accepted name: Pipra_pipra
+Dryobates pubescens,Dryobates pubescens,,,Families,GCA_014839835.1,birds,synonym_of_tip,Picoides pubescens,True,GBIF backbone accepted name: Dryobates_pubescens
+Emberiza calandra,Emberiza calandra,corn bunting,Birds,Phase1+,GCA_988240425.1,birds,synonym_of_tip,Miliaria calandra,True,GBIF backbone accepted name: Emberiza_calandra
+Eurasian siskin,Spinus spinus,Spinus spinus,Birds,Phase1+,GCA_987197695.1,birds,synonym_of_tip,Carduelis spinus,True,GBIF: Carduelis spinus
+Geokichla citrina,Geokichla citrina,Orange-headed thrush,Birds,Phase1+,GCA_987211125.1,birds,synonym_of_tip,Zoothera citrina,True,GBIF backbone accepted name: Geokichla_citrina
+Gulosus aristotelis,Gulosus aristotelis,European shag,Birds,Phase1+,GCA_949628215.1,birds,synonym_of_tip,Phalacrocorax aristotelis,True,GBIF backbone accepted name: Phalacrocorax_aristotelis
+Haemorhous mexicanus,Haemorhous mexicanus,house finch,Birds,Phase1+,GCA_027477595.1,birds,synonym_of_tip,Carpodacus mexicanus,True,GBIF backbone accepted name: Haemorhous_mexicanus
+Linaria cannabina,Linaria cannabina,Eurasian linnet,Birds,Phase1+,GCA_987195915.1,birds,synonym_of_tip,Carduelis cannabina,True,GBIF backbone accepted name: Linaria_cannabina
+Mareca strepera,Mareca strepera,,,Families,GCA_965278785.1,birds,synonym_of_tip,Anas strepera,True,GBIF backbone accepted name: Mareca_strepera
+Microcarbo africanus,Microcarbo africanus,,,Families,,birds,synonym_of_tip,Phalacrocorax africanus,False,GBIF backbone accepted name: Microcarbo_africanus
+Oenanthe melanoleuca,Oenanthe melanoleuca,eastern black-eared wheatear,Birds,Phase1+,GCA_029582105.1,birds,synonym_of_tip,Oenanthe hispanica,True,GBIF backbone accepted name: Oenanthe_hispanica
+Poecile atricapillus,Poecile atricapillus,,,Families,GCA_030490865.1,birds,synonym_of_tip,Parus atricapillus,True,GBIF backbone accepted name: Poecile_atricapillus
+Poecile palustris,Poecile palustris,marsh tit,Birds,Phase1+,GCA_987201445.1,birds,synonym_of_tip,Parus palustris,True,GBIF backbone accepted name: Poecile_palustris
+Spatula clypeata,Spatula clypeata,Northern shoveler,Birds,Phase1+,GCA_977066335.1,birds,synonym_of_tip,Anas clypeata,True,GBIF backbone accepted name: Spatula_clypeata
+Spinus tristis,Spinus tristis,American goldfinch,Birds,Phase1+,GCA_057381415.1,birds,synonym_of_tip,Carduelis tristis,True,GBIF backbone accepted name: Spinus_tristis
+Strigops habroptilus,Strigops habroptilus,,,Families,GCA_004027225.2,birds,synonym_of_tip,Strigops habroptila,True,GBIF backbone accepted name: Strigops_habroptila
+Thalasseus sandvicensis,Thalasseus sandvicensis,sandwich tern,Birds,Phase1+,GCA_987195995.1,birds,synonym_of_tip,Sterna sandvicensis,True,GBIF backbone accepted name: Thalasseus_sandvicensis
+Dipturus intermedius,Dipturus intermedius,flapper skate,Fishes,Phase1+,GCA_983203515.1,chondrichthyans,synonym_of_tip,Dipturus intermedia,True,GBIF backbone accepted name: Dipturus_batis
+Hypanus sabinus,Hypanus sabinus,,,Families,GCA_030144855.1,chondrichthyans,synonym_of_tip,Dasyatis sabina,True,GBIF backbone accepted name: Hypanus_sabinus
+Mobula birostris,Mobula birostris,Atlantic manta ray,Fishes,Phase1+,GCA_030028105.1,chondrichthyans,synonym_of_tip,Manta birostris,True,GBIF backbone accepted name: Mobula_birostris
+Stegostoma tigrinum,Stegostoma tigrinum,zebra shark,Fishes,Phase1+,GCA_030684315.1,chondrichthyans,synonym_of_tip,Stegostoma fasciatum,True,GBIF backbone accepted name: Stegostoma_fasciatum
+Carlito syrichta,Carlito syrichta,Philippine tarsier,Mammals,Phase1+,GCA_059932695.1,mammals,synonym_of_tip,Tarsius syrichta,True,GBIF backbone accepted name: Carlito_syrichta
+Cephalophula zebra,Cephalophula zebra,,,Families,,mammals,synonym_of_tip,Cephalophus zebra,False,MDD: tree tip Cephalophus_zebra reconciles to MDD Cephalophula_zebra; VGP sheet misspelling of Cephalophus zebra
+Chiropotes utahicki,Chiropotes utahicki,Uta Hick's bearded saki,Mammals,Phase1+,,mammals,synonym_of_tip,Chiropotes utahickae,False,GBIF backbone accepted name: Chiropotes_utahicki
+Doryrhina cyclops,Doryrhina cyclops,Cyclops roundleaf bat,Mammals,Phase1+,GCA_043880285.1,mammals,synonym_of_tip,Hipposideros cyclops,True,GBIF backbone accepted name: Doryrhina_cyclops
+Lophostoma evote,Lophostoma evote,Davis's round-eared bat,Mammals,Phase1+,GCA_051307075.1,mammals,synonym_of_tip,Lophostoma evotis,True,GBIF backbone accepted name: Lophostoma_evotis
+Monodon monocero,Monodon monocero,,,Families,GCA_005190385.3,mammals,synonym_of_tip,Monodon monoceros,True,GBIF backbone accepted name: Monodon_monoceros
+Neogale vison,Neogale vison,American mink,Mammals,Phase1+,GCA_964106545.1,mammals,synonym_of_tip,Neovison vison,True,MDD: tree tip Neovison_vison reconciles to MDD Neogale_vison
+Rhinopoma cystops,Rhinopoma cystops,Egyptian mouse-tailed bat,Mammals,Phase1+,GCA_055761895.1,mammals,synonym_of_tip,Rhinopoma macinnesi,True,MDD: tree tip R. macinnesi reconciles to MDD R. cystops (v1 reconciliation)
+Podarcis raffonei,Podarcis raffonei,,,Families,GCA_027172205.1,squamates,synonym_of_tip,Podarcis raffoneae,True,GBIF backbone accepted name: Podarcis_raffonei

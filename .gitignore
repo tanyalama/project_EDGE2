@@ -13,3 +13,6 @@ trees/
 *.tre
 *.zip
 results/
+
+# shinylive build output
+_site/
