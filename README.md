@@ -1,121 +1,76 @@
-# project_edge2 — EDGE2 rankings for the Upham mammalian supertree
+# project_EDGE2: EDGE2 rankings × VGP genome coverage across vertebrate trees
 
-EDGE2 (Evolutionarily Distinct and Globally Endangered) conservation-priority
-rankings for all **5,911 mammal species** in the Upham et al. (2019) supertree,
-computed under the **EDGE2 protocol** (Gumbs et al. 2023) with uncertainty
-propagated across **1,000 posterior trees**.
+This repository holds EDGE2 (Evolutionarily Distinct and Globally Endangered, Gumbs et al. 2023) rankings for five VertLife phylogenies. Each ranking is cross-referenced against the Vertebrate Genomes Project (VGP) Ordinal List to measure how many high-priority species already have a reference genome.
 
-## What's here
+**v2 (September 2026).** Mammals were re-run, and birds, squamates (with tuatara), amphibians and chondrichthyans were added. All five clades use IUCN Red List 2026-1 and the updated VGP list. The v1 mammal-only release is kept in `archive/v1_mammals/`.
+
+## Summary
+
+| Clade | Tree | Species | EDGE spp. | EDGE with VGP genome | Expected PD loss (median) |
+|---|---|---|---|---|---|
+| Mammals | Upham et al. 2019 | 5,911 | 610 | 38 (6.2%) | 10.1% |
+| Birds | Jetz et al. 2012 (Hackett) | 9,993 | 531 | 14 (2.6%) | 6.7% |
+| Squamates | Tonini et al. 2016 | 9,755 | 875 | 3 (0.3%) | 10.9% |
+| Amphibians | Jetz & Pyron 2018 | 7,238 | 1,314 | 3 (0.2%) | 15.5% |
+| Chondrichthyans | Stein et al. 2018 | 1,192 | 263 | 10 (3.8%) | 15.1% |
+
+VGP coverage is several-fold higher among the most distinct and highest-ranked species than across each clade as a whole (fig 11). Mammals: 4% of all species have a genome, versus 16% of the top-25 EDGE species. Chondrichthyans: 2.9% versus 20%.
+
+Of the 1,063 VGP species, all 637 that fall in these five clades are placed on a tree tip. The other 426 belong to lineages without a VertLife tree: ray-finned fishes, turtles, crocodilians and other chordates. See `data/vgp_species_placement.csv`.
+
+## Layout
 
 ```
-data/       EDGE2 ranked lists and reconciliation tables (CSV)
-figures/    Publication-quality figures (PNG, 300 dpi)
-R/          The EDGE2 engine and SLURM run scripts
-docs/       Full methods documentation
+data/<clade>/        EDGE2_ranked_species_FULL.csv, EDGE_species_list.csv, EDGE_borderline_list.csv,
+                     EDGE_DD_watchlist.csv, EDGE_species_missing_VGP_genome.csv,
+                     taxonomic_summary_by_{order|family}.csv, ePD_per_tree.csv
+data/mammals/comparison_vs_previous_run.csv   per-species v1 → v2 changes
+data/cross_clade_summary.csv                  one row per clade
+data/vgp_species_placement.csv                every VGP name: placement tier, tree tip, evidence
+data/vgp_distinctness_enrichment.csv          coverage by distinctness/rank tier
+data/reconciliation_all_clades.csv            tree tip → IUCN 2026-1 category and match route
+figures/<clade>/     fig1–fig7 (PDF + 300-dpi PNG)
+figures/cross_clade/ fig8–fig11
+docs/METHODS.md      full methods, v1 → v2 changes, caveats
+R/                   EDGE2 engine (vendored rEDGE), SLURM chunk/aggregate scripts
+python/              table builder and figure module (Arial, Zissou1 palette)
+archive/v1_mammals/  previous release
 ```
 
-### Key outputs (`data/`)
+## Figures
 
-| File | Contents |
+Each clade folder contains:
+
+| Figure | Content |
 |---|---|
-| `EDGE2_ranked_species_FULL.csv` | All 5,911 species — EDGE2 rank (`EDGErank`) and ED2 rank (`EDrank`), taxonomy, Red List category, median & IQR of EDGE2 / ED2 / pext, EDGE-species flag, match provenance |
-| `EDGE_species_list.csv` | 586 threatened EDGE species (VU/EN/CR, ED above median in ≥50 % of trees) — the core priority list |
-| `EDGE_borderline_list.csv` | 286 near-threshold species (flagged in 25–50 % of trees) — watch list |
-| `EDGE_DD_watchlist.csv` | 938 Data-Deficient / Not-Evaluated species by ED2 — assessment priority |
-| `reconciliation_report.csv` | Every tree tip → matched MDD name, match type, taxonomy, IUCN category |
-| `taxonomic_summary_by_order.csv` | Per-order species counts, EDGE counts, % EDGE, median EDGE2 |
-| `EDGE_species_missing_VGP_genome.csv` | 552 EDGE species lacking a VGP reference genome, ranked by EDGE2 — the genome-sequencing gap (see below) |
+| fig1 | Rank curve |
+| fig2 | ED2 vs GE2 |
+| fig3 | Top-50 EDGE species |
+| fig4 | EDGE species by order or family |
+| fig5 | Top 50 by EDGE2, all categories |
+| fig6 | Top 50 by ED2 |
+| fig7 | Top EDGE species without a genome, and coverage by order or family |
 
-### Top 10 EDGE species
+The cross-clade folder contains:
 
-| Rank | Species | Order | RL | EDGE2 (Myr) |
-|---|---|---|---|---|
-| 1 | *Burramys parvus* (mountain pygmy possum) | Diprotodontia | CR | 24.4 |
-| 2 | *Daubentonia madagascariensis* (aye-aye) | Primates | EN | 20.0 |
-| 3 | *Gymnobelideus leadbeateri* (Leadbeater's possum) | Diprotodontia | CR | 19.6 |
-| 4 | *Myrmecobius fasciatus* (numbat) | Dasyuromorphia | EN | 14.9 |
-| 5 | *Manis culionensis* (Philippine pangolin) | Pholidota | CR | 14.8 |
-| 6 | *Desmana moschata* (Russian desman) | Eulipotyphla | CR | 14.3 |
-| 7 | *Manis pentadactyla* (Chinese pangolin) | Pholidota | CR | 14.2 |
-| 8 | *Manis javanica* (Sunda pangolin) | Pholidota | CR | 14.2 |
-| 9 | *Varecia variegata* (black-and-white ruffed lemur) | Primates | CR | 12.1 |
-| 10 | *Varecia rubra* (red ruffed lemur) | Primates | CR | 12.0 |
+| Figure | Content |
+|---|---|
+| fig8 | Threatened PD and VGP coverage |
+| fig9 | Red List composition of VGP genomes |
+| fig10 | Every EDGE species with a VGP genome |
+| fig11 | VGP coverage vs distinctness and rank |
 
-## Figures (`figures/`)
-
-- `fig1_edge2_rank_curve.png` — EDGE2 score vs rank, with cross-tree IQR band
-- `fig2_ed_vs_ge2_scatter.png` — ED2 vs GE2 (pext), coloured by Red List category
-- `fig3_top50_edge_species.png` — top-50 **EDGE species** (threatened VU/EN/CR, flagged), median ± IQR
-- `fig4_ordinal_summary.png` — EDGE species counts and typical EDGE2 by order
-- `fig5_top50_by_edge2_allcats.png` — top-50 by **EDGE2 score**, *all* Red List categories
-- `fig6_top50_by_ED.png` — top-50 by **ED2** (raw evolutionary distinctness), *all* categories
-- `fig7_vgp_genome_gap.png` — EDGE species genome gap: top-30 EDGE mammals lacking a VGP genome + per-order coverage
-
-**Three top-50 views, three questions.** `fig3` answers "which threatened species
-should we act on?" (the EDGE species list). `fig5` answers "which species carry the
-most EDGE2 score regardless of threat status?" — this surfaces highly distinct
-non-threatened lineage relicts such as *Dromiciops gliroides* (monito del monte,
-sole living microbiotherian). `fig6` answers "which species are most
-evolutionarily distinct?" purely on ED2, where such relicts dominate (33 of the
-top 50 are Least Concern). A species can rank high on the full EDGE2 list (e.g.
-*Dromiciops*, EDGErank 39, EDrank 2) yet be absent from `fig3` because it is not
-in a threatened category — this is correct EDGE2 behaviour, not an omission.
-
-## VGP genome-sequencing gap
-
-Cross-referencing the 586 threatened EDGE species against the Vertebrate Genomes
-Project (VGP) target list (with genome presence defined as a deposited GCA/GCF
-assembly accession, and names reconciled through MDD synonymy so no assembly is
-missed under a taxonomic split):
-
-- **Only 34 of 586 EDGE mammals (5.8%) have a VGP reference genome.**
-- The remaining **552 have no genome — and none of them are on the VGP target
-  list at all** (unplanned, not merely unsequenced).
-- Coverage is uniformly low across threat categories: **CR 7/107 (6.5%),
-  EN 16/239 (6.7%), VU 11/240 (4.6%)**.
-- The top 3 EDGE mammals overall — and 8 of the top 10 — have no genome. The 34
-  that do are largely charismatic megafauna and great apes (pangolins, orangutans,
-  rhinoceroses, koala, elephants, whales, *Gorilla*, *Pan*).
-- By order, the gap is dominated by **Primates (132), Rodentia (106),
-  Chiroptera (78), Artiodactyla (47), and Diprotodontia (41)**.
-
-`data/EDGE_species_missing_VGP_genome.csv` lists all 552, ranked by EDGE2, with
-order/family/Red List category, EDGE2 & ED2 medians, pext, and an
-`on_vgp_target_list` flag. See `figures/fig7_vgp_genome_gap.png`.
-
-## Method (summary)
-
-For each of 1,000 posterior trees: each species' Red List category is mapped to a
-sampled extinction probability (`pext`, Isaac et al. 2007 model); internal
-branches are weighted by the product of descendant `pext`; the tip-to-root sum of
-weighted branches is **EDGE2**, and **ED2 = EDGE2 / pext**. Results are summarised
-per species as the **median and IQR** across trees. A species is an **EDGE
-species** if it is threatened (VU/EN/CR/EW/EX) and its ED2 is above the tree
-median in ≥50 % of trees. See [`docs/METHODS.md`](docs/METHODS.md) for full detail,
-data versions, and taxonomy reconciliation.
-
-## Data sources
-
-- **Phylogeny:** Upham, Esselstyn & Jetz (2019), completed 5,911-species
-  node-dated credible tree set (topoCons FBD), VertLife.
-- **Taxonomy + IUCN categories:** Mammal Diversity Database (current release).
-- **Algorithm:** rEDGE (Ramos-Gutiérrez & Gumbs) / `EDGE.2.calc` (Gumbs);
-  vendored engine validated to machine precision against the reference.
-
-> The endangerment layer uses the IUCN categories embedded in the current MDD
-> release. Substituting a fresh IUCN Red List export is a drop-in replacement of
-> the category table followed by re-running `R/aggregate.R`.
+All figures use Arial and the Wes Anderson Zissou1 palette. `RLcat = NM` marks tips with no Red List match (a project code, not an IUCN category). Their GE2 is imputed exactly as for DD.
 
 ## Reproducing
 
-The engine (`R/edge2_engine.R`) needs R with `ape`, `phylobase`, `data.table`,
-`dplyr`. `R/run_chunk.R` is the per-tree SLURM-array driver (extinction model
-`Isaac`, base seed 20240601); `R/aggregate.R` collapses per-tree results into the
-ranked species table.
+1. Download the tree sets from data.vertlife.org and the IUCN 2026-1 DwC-A (GBIF-hosted).
+2. Split each tree set to one tree per file and write `run/<clade>/tree_index.txt` and `edge_table.csv`.
+3. Run `sbatch --export=ALL,CLADE=<clade> R/chunk.sbatch`, followed by `R/agg.sbatch`.
+4. Run `python/build_tables.py` and `python/edge2_figs.py`.
+
+See `docs/METHODS.md` for details.
 
 ## References
 
-- Gumbs R. et al. (2023) The EDGE2 protocol. *PLoS Biology* 21(2):e3001991.
-- Upham N.S., Esselstyn J.A., Jetz W. (2019) Inferring the mammal tree. *PLoS Biology* 17(12):e3000494.
-- Isaac N.J.B. et al. (2007) Mammals on the EDGE. *PLoS ONE* 2(3):e296.
-- Mammal Diversity Database, American Society of Mammalogists, mammaldiversity.org.
+Gumbs R. et al. (2023) *PLoS Biol* 21:e3001991 · Gumbs R. et al. (2024) *Nat Commun* 15:1101 · Upham N.S. et al. (2019) *PLoS Biol* 17:e3000494 · Jetz W. et al. (2012) *Nature* 491:444 · Tonini J.F.R. et al. (2016) *Biol Conserv* 204:23 · Jetz W. & Pyron R.A. (2018) *Nat Ecol Evol* 2:850 · Stein R.W. et al. (2018) *Nat Ecol Evol* 2:288 · IUCN (2026) Red List v2026-1.

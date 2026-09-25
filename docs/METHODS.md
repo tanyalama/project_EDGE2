@@ -1,179 +1,155 @@
-# EDGE2 Rankings for the Upham et al. Mammalian Supertree — Methods
+# EDGE2 × VGP, v2 (September 2026): mammals re-run and four VertLife clades added
 
-**Deliverable:** Evolutionarily Distinct and Globally Endangered (EDGE2) rankings
-for every species in the Upham et al. (2019) mammal supertree, computed under the
-EDGE2 protocol (Gumbs et al. 2023) with uncertainty propagated across 1,000
-posterior trees.
+## 1. What changed from v1
 
----
-
-## 1. Method — the EDGE2 protocol
-
-EDGE2 (Gumbs et al. 2023, *PLoS Biology* 21(2):e3001991,
-doi:10.1371/journal.pbio.3001991) prioritises species by combining:
-
-- **ED2 (Evolutionary Distinctness):** how much unique evolutionary history a
-  species represents, computed on a phylogeny with branches weighted by the
-  extinction probability of *other* species — so a species' ED2 rises when its
-  close relatives are themselves at risk.
-- **GE2 (Global Endangerment):** a per-species probability of extinction (`pext`)
-  derived from its IUCN Red List category.
-- **EDGE2 = expected PD loss attributable to a species**, i.e. the product of its
-  distinctness and its extinction risk, expressed in millions of years (Myr).
-
-For each tree, EDGE2 is computed as (following the protocol and the rEDGE /
-`EDGE.2.calc` reference implementations):
-
-1. Each Red List category is mapped to an extinction probability `pext`. We use
-   the **Isaac et al. (2007)** model (the protocol/rEDGE default): CR = 0.97, and
-   halving per step down — EN = 0.485, VU = 0.2425, NT = 0.12125, LC = 0.0606.
-2. `pext` is **sampled**, not fixed: a monotone logit spline through the five
-   category anchors defines a continuous `pext` curve, and each species draws a
-   `pext` from the distribution for its category. Data Deficient (DD) and Not
-   Evaluated (NE) species draw from the pooled distribution across all categories
-   (pext < 0.999). This is the "GE2 distribution" and is what carries endangerment
-   uncertainty into the result.
-3. On the tree, every internal branch is weighted by the product of the `pext`
-   values of all species descending from it. Summing weighted branch lengths from
-   a tip to the root gives that tip's **EDGE2** score; **ED2 = EDGE2 / pext**.
-4. A species is flagged an **EDGE species** in a tree if its ED2 is at or above the
-   median ED2 of the tree **and** it is in a threatened category (VU, EN, CR, EW,
-   or EX).
-
-**Uncertainty** is captured on two axes simultaneously: (a) *phylogenetic* — the
-calculation is repeated across 1,000 trees from the posterior distribution; and
-(b) *endangerment* — the per-species `pext` is re-sampled each tree. Per-species
-results are then summarised as the **median** and **inter-quartile range (IQR)**
-across the 1,000 trees. A species is a final EDGE species if it was flagged in
-**≥ 50 %** of trees (`isEDGEsp_frac ≥ 0.5`).
-
----
-
-## 2. Data sources & versions
-
-| Component | Source | Version / access |
+| | v1 (mammals only) | v2 |
 |---|---|---|
-| **Phylogeny** | Upham, Esselstyn & Jetz (2019), *PLoS Biology*, "Inferring the mammal tree" | VertLife `data.vertlife.org/mammaltree`, file `Completed_5911sp_topoCons_FBDasZhouEtAl.zip` (node-dated, topology-constrained, birth-death / FBD-as-Zhou-et-al credible tree set) |
-| **Posterior sample** | 1,000 trees | Every 10th tree of the 10,000-tree posterior (tree0000 … tree9990), spanning the full posterior |
-| **Taxonomy + IUCN categories** | Mammal Diversity Database (MDD) | Current master `mdd.csv` from `mammaldiversity.github.io/_data/mdd.csv` (6,904 rows), field `iucnStatus` |
-| **EDGE2 algorithm** | rEDGE (Ramos-Gutiérrez & Gumbs) & `EDGE.2.calc` (Gumbs) | github.com/iramosgutierrez/rEDGE ; github.com/rgumbs/EDGE2 |
+| Clades | Mammals | Mammals, birds, squamates (with *Sphenodon*), amphibians, chondrichthyans |
+| Red List layer | IUCN categories embedded in MDD | IUCN Red List v2026-1 (GBIF-hosted DwC-A) for every clade |
+| VGP list | earlier VGP Ordinal List | updated *VGP Ordinal List.xlsx* (sheets "VGP Phase 1+" and "VGP Families") |
+| Engine | vendored rEDGE (`R/edge2_engine.R`) | unchanged: Isaac pext, base seed 20240601, 1,000 trees, 20 × 50-tree SLURM chunks; `CLADE` env var selects `run/<clade>/` |
+| Extra outputs | none | per-tree total PD and expected PD loss (`ePD_per_tree.csv`); IUCN English common names |
 
-**Tree variant rationale:** the `topoCons` (topology-constrained) FBD completed
-5,911-species set is the node-dated credible set that includes all described
-species (DNA-based + imputed placements), matching MDD taxonomy at the tips.
+## 2. Phylogenies (VertLife, data.vertlife.org)
 
-> **Note on IUCN categories.** This run uses the IUCN Red List categories
-> **embedded in the current MDD release** as the endangerment layer. MDD tracks
-> current IUCN assessments and provides the exact taxonomic namespace of the tree
-> tips, so it is a complete and internally consistent baseline. If a fresh IUCN
-> Red List export is supplied, swapping it in is a drop-in replacement of the
-> category table (`edge_table.csv`) followed by re-running the aggregation — the
-> phylogenetic computation does not change.
+| Clade | Tree set | Trees used | Tips |
+|---|---|---|---|
+| Mammals | Upham et al. 2019, `Completed_5911sp_topoCons_FBDasZhouEtAl` | every 10th of 10,000 (1,000) | 5,911 |
+| Birds | Jetz et al. 2012, Hackett Stage 2 full-data, `HackettStage2_0001_1000` | 1,000 | 9,993 |
+| Squamates | Tonini et al. 2016, `squam_shl_new_Posterior_9755` (first 1,000-tree file) | 1,000 | 9,755 (includes *Sphenodon punctatus*) |
+| Amphibians | Jetz & Pyron 2018, `amph_shl_new_Posterior_7238` (first 1,000-tree file) | 1,000 | 7,238 (*Homo sapiens* outgroup removed) |
+| Chondrichthyans | Stein et al. 2018, `Chond.10Cal.10kTreeSet` | every 10th of 10,000 (1,000) | 1,192 |
 
----
+VertLife has no trees for ray-finned fishes, turtles or crocodilians, so those VGP lineages are not scored here.
 
-## 3. Taxonomy reconciliation (tree tips → IUCN categories)
+## 3. Red List reconciliation
 
-The tree has **5,987 tips**: **5,911 real species** (`Genus_species`) plus **76
-fossil FBD backbone tips** (prefixed `X_`, e.g. `X_Shuotherium`) that are dropped
-before EDGE2 computation.
+Each tip was assigned an IUCN 2026-1 global category using the first rule that matched:
 
-The 5,911 real tips were matched to MDD (and thereby to an IUCN category) by:
+1. Direct binomial match to an IUCN accepted name.
+2. Mammals only: the MDD name from the v1 reconciliation (`reconciliation_report.csv`), then matched to IUCN.
+3. The GBIF backbone accepted species for the tip name (strict match, kingdom Animalia), then matched to IUCN.
+4. GBIF's IUCN Red List category link for that GBIF species.
+5. Mammals only: fall back to MDD `iucnStatus`.
+6. Otherwise, **NM (no Red List match)**. This is a project code, not an IUCN category: it marks tips that could not be matched to any IUCN 2026-1 assessment. v1 labelled these tips DD. The engine treats NM exactly as it treats DD and NE: GE2 is drawn at random from the full pext distribution. Relabelling therefore leaves every EDGE2 score unchanged, and genuine IUCN Data Deficient species keep the DD label.
 
-1. **Direct match** on `sciName` (`Genus_species`): **5,037**
-2. **Synonym via MSW3** name (`MSW3_sciName`): **469**
-3. **Synonym via MDD nominal-name index** (33,620 historical synonyms): **232**
-4. **Unmatched: 173** — predominantly Pleistocene / recently-extinct megafauna
-   (e.g. *Mammuthus*, *Smilodon*, *Ursus spelaeus*, archaic *Homo*) and a residue
-   of genus-reassignment synonyms.
+The IUCN archive contains accepted names only and no synonyms, so rules 2 to 4 do the synonym resolution.
 
-**Result: 5,738 / 5,911 tips (97.1 %) reconciled to an IUCN category.** The 173
-unmatched tips were assigned **DD** as a placeholder (flagged in
-`reconciliation_report.csv`), so they still receive a sampled `pext` and appear in
-the ranking; they are candidates for refinement with a curated IUCN export.
+| Clade | direct | MDD synonym | GBIF accepted | GBIF IUCN link | NM (no match) |
+|---|---|---|---|---|---|
+| Mammals | 5,316 | 336 | 77 | 53 | 129 |
+| Birds | 7,931 | – | 1,105 | 763 | 194 |
+| Squamates | 8,636 | – | 612 | 268 | 239 |
+| Amphibians | 6,069 | – | 879 | 237 | 53 |
+| Chondrichthyans | 979 | – | 101 | 74 | 38 |
 
-Per-tip category counts entering the run: LC 3299, DD 826 (incl. 173 placeholders),
-VU 530, EN 499, NT 365, CR 206, NE 112, EX 73, EW 1.
+"Conservation dependent" was mapped to NT. EX and EW species are retained in the trees, following v1 and rEDGE. An **EDGE species** is defined as threatened (VU/EN/CR) with EDGE2 above the median in at least 50% of trees (`isEDGEsp_frac ≥ 0.5`). **Borderline** species are threatened with `isEDGEsp_frac` between 0.25 and 0.5.
 
----
+Order and family labels come from each clade's VertLife taxonomy file, with IUCN genus-level lookup as the fallback. Squamates are summarised by family.
 
-## 4. Compute & parameters
+## 4. VGP cross-reference
 
-- **Cluster:** Smith (SLURM). Conda R 4.3.3 environment (`ape`, `phylobase`,
-  `data.table`, `dplyr`).
-- **Engine:** a vendored, self-contained R implementation
-  (`edge2_engine.R`) faithful to rEDGE. Its only change from the reference is an
-  O(n) refactor of the per-species `pext` sampler that preserves the exact
-  `set.seed()`+`sample()` draw sequence. **Validated against the rEDGE source on
-  two full 5,911-species trees: max |ΔEDGE| = 0, max |ΔED| = 0, max |Δpext| = 0,
-  identical EDGE-species flags** — i.e. machine-precision equivalence.
-- **Parallelism:** 1,000 trees split into a 20-task SLURM array, 50 trees per
-  task (~3.3 min each; whole run ~5 min wall).
-- **Reproducibility:** extinction model `Isaac`; base seed **20240601**; per-tree
-  seed = `20240601 + tree_index` (deterministic and reproducible).
+The two sheets were combined: "VGP Phase 1+" (731 species) and "VGP Families" (332 additional species), giving 1,063 binomials, of which 1,022 have a GCA_/GCF_ accession. As in v1, a species **has a genome** if its main-haplotype field contains a GCA_/GCF_ accession.
 
----
+**Scope.** 426 of the 1,063 VGP names belong to lineages that have no VertLife tree, so they are out of scope rather than failed matches. These are ray-finned fishes, turtles, crocodilians, lampreys, hagfish, the coelacanth, lungfish, and non-vertebrate chordates and invertebrates. The remaining 637 names fall in the five tree-covered clades, and **all 637 are placed on a tree tip**.
 
-## 5. Output files
+**Placement tiers.** Each name is assigned the first tier it qualifies for. The per-name tier and evidence are recorded in `vgp_species_placement.csv`.
 
-| File | Contents |
+| Tier | n | Rule | Genome credited to tip |
+|---|---|---|---|
+| exact | 577 | VGP name identical to a tip label | yes |
+| synonym_of_tip | 39 | Same taxon under another name, from GBIF backbone accepted name, MDD synonymy or IUCN accepted name. Examples: generic reassignments such as *Poecile* → *Parus* and *Mobula* → *Manta*; gender endings such as *Strigops habroptilus/-a*; VGP sheet misspellings (*Monodon monocero*, *Lophostoma evote*, *Cephalophula zebra*) and a row with swapped name columns ("Eurasian siskin" → *Spinus spinus* → *Carduelis spinus*) | yes |
+| orthographic | 1 | Spelling variant of a tip: *Guaruba guaruba* / *Guaruba guarouba* | yes |
+| split_from_tip | 18 | Species split after the tree was built. Evidence is an MDD "split from" or "now attributed to" note (mammals), a GBIF subspecies record under the tip in the same genus or a documented renamed genus, or a single congener in the tree. Examples: *Giraffa tippelskirchi* → *G. camelopardalis*; *Balaenoptera ricei* → *B. edeni*; *Chlamydotis macqueenii* → *C. undulata*; *Natrix helvetica* → *N. natrix* | yes, flagged |
+| domestic_form_of_tip | 2 | MDD "domestic form of": *Bubalus bubalis* → *B. arnee*; *Equus asinus* → *E. africanus* | no |
+| no_VertLife_tree_for_lineage | 426 | Lineage has no VertLife tree | – |
+
+Synonym credit is given only when the VGP name has no direct tip in that tree. This prevents lumps such as *Bos taurus* → *B. indicus*. Subspecies evidence is accepted only within the same genus, because shared epithets such as *vidua* and *nanus* also occur in unrelated genera.
+
+Five tips receive more than one VGP name:
+
+- *Monodon monoceros*, *Lophostoma evotis* and *Cephalophus zebra*: the same taxon listed twice, once misspelled.
+- *Carduelis flammea* (*Acanthis flammea* + *A. cabaret*) and *Artibeus lituratus* (+ *A. intermedius*): two taxa that the tree taxonomy lumps into one tip.
+
+Genome counts are per tip, so these duplicates do not inflate coverage.
+
+A deduplication bug in the first v2 draft dropped the correct row whenever a misspelled duplicate hit the same tip. That draft therefore reported 613 names placed; the fix above supersedes it.
+
+## 5. Results summary (IUCN 2026-1)
+
+| Clade | Species | Threatened | EDGE spp. | EDGE with VGP genome | Top-50 EDGE with genome | Expected PD loss, median % (Gy) |
+|---|---|---|---|---|---|---|
+| Mammals | 5,911 | 1,284 | 610 | 38 (6.2%) | 7 | 10.1% (3.0) |
+| Birds | 9,993 | 1,091 | 531 | 14 (2.6%) | 4 | 6.7% (5.7) |
+| Squamates | 9,755 | 1,527 | 875 | 3 (0.3%) | 1 | 10.9% (13.8) |
+| Amphibians | 7,238 | 2,481 | 1,314 | 3 (0.2%) | 1 | 15.5% (21.0) |
+| Chondrichthyans | 1,192 | 401 | 263 | 10 (3.8%) | 5 | 15.1% (6.1) |
+
+**VGP coverage is concentrated among distinct lineages** (`vgp_distinctness_enrichment.csv`):
+
+| Clade | % of all species sequenced | % of clade ED2 captured | % of top-100 ED2 species | % of top-25 EDGE species | Orders (families) with a genome |
+|---|---|---|---|---|---|
+| Mammals | 4.0 | 6.5 | 11 | 16 | 28/28 |
+| Birds | 2.5 | 3.7 | 13 | 12 | 39/40 |
+| Squamates | 0.4 | 0.8 | 4 | 4 | 19/88 families |
+| Amphibians | 0.6 | 1.1 | 3 | 4 | 3/3 |
+| Chondrichthyans | 2.9 | 5.2 | 10 | 20 | 12/14 |
+
+## 6. Mammals: v2 compared with v1
+
+- EDGE2 ranks are highly concordant (Spearman ρ = 0.967 across all 5,911 species).
+- There are 610 threatened EDGE species, compared with 586 in v1: 26 gained and 2 lost.
+  - Of the 26 gained, 20 were DD or NE in the MDD layer and are threatened in IUCN 2026-1, 1 moved from LC to VU, and 5 kept their category but crossed the 50%-of-trees threshold.
+  - The two lost are *Myrmecobius fasciatus* (numbat), which moved from EN to NT in IUCN 2026-1, and *Habromys lepturus*, which remains CR but dropped below the threshold.
+- 38 threatened EDGE mammals now have a VGP genome, compared with 34 in v1.
+  - New genomes: *Nasalis larvatus*, *Pontoporia blainvillei* and *Rangifer tarandus*.
+  - Newly credited through a split: *Giraffa camelopardalis*, via the *G. tippelskirchi* genome.
+  - No species lost its genome.
+- `data/mammals/comparison_vs_previous_run.csv` gives the category and rank change for each species.
+
+## 7. Figures (Arial; Wes Anderson Zissou1)
+
+The palette is `#3B9AB2 #78B7C5 #EBCC2A #E1AF00 #F21A00`, assigned to the Red List categories as follows:
+
+| Category | Colour |
 |---|---|
-| `EDGE2_ranked_species_FULL.csv` | All 5,911 species: rank, taxonomy, RL category, median & IQR of EDGE2 / ED2 / pext, TBL, EDGE-species flag & fraction, match provenance |
-| `EDGE_species_list.csv` | 586 threatened EDGE species (VU/EN/CR, flagged in ≥50 % of trees) — the core priority list |
-| `EDGE_borderline_list.csv` | 286 threatened species near the ED-median threshold (flagged in 25–50 % of trees) — a watch list |
-| `EDGE_DD_watchlist.csv` | 938 Data-Deficient / Not-Evaluated species ranked by ED2 (339 with above-median ED2) — high-priority for assessment |
-| `reconciliation_report.csv` | Every tree tip: matched MDD name, match type, taxonomy, IUCN category |
-| `taxonomic_summary_by_order.csv` | Per-order species counts, EDGE-species counts, % EDGE, median EDGE2 |
-| `fig1_edge2_rank_curve.png` | EDGE2 score vs rank, with cross-tree IQR band |
-| `fig2_ed_vs_ge2_scatter.png` | ED2 vs GE2 (pext), coloured by Red List category |
-| `fig3_top50_edge_species.png` | Top-50 EDGE species (threatened VU/EN/CR, flagged), median ± IQR |
-| `fig4_ordinal_summary.png` | EDGE species counts & typical EDGE2 by order |
-| `fig5_top50_by_edge2_allcats.png` | Top-50 by EDGE2 score, all Red List categories |
-| `fig6_top50_by_ED.png` | Top-50 by ED2 (raw evolutionary distinctness), all categories |
+| LC | #3B9AB2 |
+| NT | #78B7C5 |
+| VU | #EBCC2A |
+| EN | #E96500 |
+| CR | #F21A00 |
+| EX/EW | near-black |
+| DD | grey (#B8B8B8) |
+| NM (no Red List match) | light grey (#E6E6E6) |
 
-**On the three top-50 views.** `fig3` is the top of the EDGE species list —
-threatened species only, the actionable priority set. `fig5` ranks by EDGE2 score
-irrespective of threat status, so highly distinct non-threatened lineage relicts
-(e.g. *Dromiciops gliroides*) become visible. `fig6` ranks purely by ED2. A
-non-threatened species can score high on the full EDGE2 list yet be absent from
-`fig3` by definition: "EDGE species" requires a threatened category.
+"Has VGP genome" is drawn in #3B9AB2. EN uses the Zissou1Continuous ramp colour #E96500 because the discrete #E1AF00 cannot be told apart from VU at marker size.
 
-## 6. Column dictionary (ranked list)
+Every figure is saved as a PDF (Type-42 embedded Arial) and a 300-dpi PNG under `figures/<clade>/`:
 
-- `EDGErank` — rank by descending median EDGE2 (1 = highest priority)
-- `EDrank` — rank by descending median ED2 (raw evolutionary distinctness)
-- `EDGEmed` / `EDGEiqr` — median and IQR of EDGE2 across 1,000 trees (Myr)
-- `EDmed` / `EDiqr` — median and IQR of ED2 (Myr)
-- `pextmed` / `pextiqr` — median and IQR of the sampled extinction probability
-- `TBLmn` — mean terminal branch length (Myr)
-- `isEDGEsp` — 1 if a final EDGE species (threatened & ED above median in ≥50 % of trees)
-- `isEDGEsp_frac` — fraction of trees in which the species met the EDGE-species criterion
-- `match` — how the tip was reconciled (`direct`, `synonym:MSW3`, `synonym:nominalName`, `unmatched`)
+| Figure | Content |
+|---|---|
+| fig1 | EDGE2 rank curve |
+| fig2 | ED2 vs GE2 |
+| fig3 | Top 50 EDGE species |
+| fig4 | EDGE species by order/family |
+| fig5 | Top 50 by EDGE2, all categories |
+| fig6 | Top 50 by ED2 |
+| fig7 | VGP genome gap |
 
----
+The cross-clade figures are in `figures/cross_clade/`:
 
-## 6b. VGP genome cross-reference
+| Figure | Content |
+|---|---|
+| fig8 | Threatened PD and VGP coverage |
+| fig9 | Red List composition of VGP genomes compared with each full clade |
+| fig10 | Every EDGE species that already has a VGP genome, with its within-clade EDGE2 rank |
+| fig11 | VGP coverage rising from all species to top-ED2 and top-EDGE species |
 
-The 586 threatened EDGE species were cross-referenced against the Vertebrate
-Genomes Project (VGP) ordinal target list (`VGP Ordinal List_1k.xlsx`, "VGP
-Phase 1+" sheet). A species was scored as having a genome if its row carried a
-deposited assembly accession (GCA_/GCF_) in the main-haplotype column; species
-present on the list without an accession were scored as *planned, not yet
-sequenced*. To avoid falsely flagging an EDGE species as genome-less when an
-assembly exists under a different name, VGP binomials and EDGE tree-tip names
-were both normalised to `Genus_species` and resolved to accepted MDD names
-through the MDD synonym set (`sciName`, `MSW3_sciName`, `CMW_sciName`,
-`originalNameCombination`, `nominalNames`). Direct and synonym-aware matching
-returned the identical set of 34 covered species, confirming no assembly was
-hidden under synonymy. `data/EDGE_species_missing_VGP_genome.csv` reports the 552
-uncovered species ranked by EDGE2; `on_vgp_target_list` is `False` for all of
-them (none are on the VGP list).
+NM tips are drawn in light grey (#E6E6E6), separate from IUCN DD (#B8B8B8).
 
----
+## 8. Caveats
 
-## 7. References
-
-- Gumbs R. et al. (2023) The EDGE2 protocol. *PLoS Biology* 21(2):e3001991.
-- Upham N.S., Esselstyn J.A., Jetz W. (2019) Inferring the mammal tree. *PLoS Biology* 17(12):e3000494.
-- Isaac N.J.B. et al. (2007) Mammals on the EDGE. *PLoS ONE* 2(3):e296.
-- Mammal Diversity Database (American Society of Mammalogists), mammaldiversity.org.
+- Tree taxonomies are older than IUCN 2026-1 (BirdLife 2012, Reptile Database 2015 and similar). Recently split taxa therefore inherit their parent's category through GBIF synonymy, and NM tips (0.7% to 3.2% per clade) receive an imputed GE2.
+- Squamate and amphibian posteriors were taken from the first 1,000-tree file of each 10,000-tree set rather than thinned across all 10,000.
+- VGP placement is name- and taxonomy-based. Splits are credited to the broader tip; domestic forms are placed but not credited; see `vgp_species_placement.csv`.
+- Reproduce: `R/` (engine, chunk/aggregate scripts, sbatch files), then `python/build_tables.py` and `python/edge2_figs.py`.

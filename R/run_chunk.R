@@ -14,8 +14,8 @@ WS        <- Sys.getenv("EDGE2_WS")
 CHUNK     <- as.integer(Sys.getenv("CHUNK_SIZE", "50"))
 EXT_PROB  <- Sys.getenv("EXT_PROB", "Isaac")
 BASE_SEED <- as.integer(Sys.getenv("BASE_SEED", "20240601"))
-RUNDIR    <- file.path(WS, "run")
-source(file.path(RUNDIR, "edge2_engine.R"))
+RUNDIR    <- file.path(WS, "run", Sys.getenv("CLADE"))
+source(file.path(WS, "run", "edge2_engine.R"))
 
 tree_paths <- readLines(file.path(RUNDIR, "tree_index.txt"))
 tab <- read.csv(file.path(RUNDIR, "edge_table.csv"), stringsAsFactors = FALSE)
@@ -27,7 +27,7 @@ i1 <- min(chunk_id*CHUNK, n_trees)
 if(i0 > n_trees){ cat("chunk", chunk_id, "empty\n"); quit(status=0) }
 cat(sprintf("chunk %d : trees %d..%d of %d | ext.prob=%s\n", chunk_id, i0, i1, n_trees, EXT_PROB))
 
-out <- vector("list", i1 - i0 + 1L)
+out <- vector("list", i1 - i0 + 1L); epd <- vector("list", i1 - i0 + 1L)
 k <- 0L
 for(ti in i0:i1){
   k <- k + 1L
@@ -42,10 +42,12 @@ for(ti in i0:i1){
   dt <- as.data.table(res[, c("species","RLcat","TBL","pext","ED","EDGE","isEDGEsp")])
   dt[, tree := ti]
   out[[k]] <- dt
+  e <- attr(res, "ePD"); epd[[k]] <- data.table(tree = ti, PD = e$PD, ePDloss = e$ePDloss)
   if(k %% 5 == 0) cat("  done", k, "trees\n")
 }
 res_all <- rbindlist(out)
 dir.create(file.path(RUNDIR, "results"), showWarnings = FALSE)
 saveRDS(res_all, file.path(RUNDIR, "results", sprintf("chunk_%03d.rds", chunk_id)),
         compress = "xz")
+saveRDS(rbindlist(epd), file.path(RUNDIR, "results", sprintf("epd_%03d.rds", chunk_id)))
 cat("chunk", chunk_id, "wrote", nrow(res_all), "rows\n")

@@ -5,8 +5,8 @@
 
 suppressWarnings(suppressMessages({library(data.table)}))
 WS     <- Sys.getenv("EDGE2_WS")
-RUNDIR <- file.path(WS, "run")
-source(file.path(RUNDIR, "edge2_engine.R"))  # for IQR2
+RUNDIR <- file.path(WS, "run", Sys.getenv("CLADE"))
+source(file.path(WS, "run", "edge2_engine.R"))  # for IQR2
 
 files <- list.files(file.path(RUNDIR, "results"), pattern="chunk_.*\\.rds$", full.names=TRUE)
 cat("aggregating", length(files), "chunk files\n")
@@ -37,6 +37,8 @@ setorder(summ, -EDGEmed)
 summ[, EDGErank := seq_len(.N)]
 
 fwrite(summ, file.path(RUNDIR, "EDGE2_ranked_species.csv"))
+ef <- list.files(file.path(RUNDIR, "results"), pattern="epd_.*\\.rds$", full.names=TRUE)
+if(length(ef)) fwrite(rbindlist(lapply(ef, readRDS)), file.path(RUNDIR, "ePD_per_tree.csv"))
 cat("wrote EDGE2_ranked_species.csv :", nrow(summ), "species\n")
 cat("EDGE species (flagged):", sum(summ$isEDGEsp), "\n")
 print(summ[1:15, .(EDGErank, species, RLcat, EDGEmed, EDmed, pextmed, isEDGEsp)])
