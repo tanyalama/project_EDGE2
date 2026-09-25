@@ -43,7 +43,7 @@ The IUCN archive contains accepted names only and no synonyms, so rules 2 to 4 d
 | Amphibians | 6,069 | – | 879 | 237 | 53 |
 | Chondrichthyans | 979 | – | 101 | 74 | 38 |
 
-"Conservation dependent" was mapped to NT. EX and EW species are retained in the trees, following v1 and rEDGE. An **EDGE species** is defined as threatened (VU/EN/CR) with EDGE2 above the median in at least 50% of trees (`isEDGEsp_frac ≥ 0.5`). **Borderline** species are threatened with `isEDGEsp_frac` between 0.25 and 0.5.
+"Conservation dependent" was mapped to NT. EX and EW species are retained in the trees, following v1 and rEDGE. In each tree, a species is flagged if its ED2 is at or above that tree's median ED2 and it is threatened (VU, EN, CR, EW or EX). An **EDGE species** is flagged in at least 50% of trees (`isEDGEsp_frac ≥ 0.5`). Lists and coverage figures report extant threatened EDGE species (VU, EN, CR). **Borderline** species are threatened with `isEDGEsp_frac` between 0.25 and 0.5.
 
 Order and family labels come from each clade's VertLife taxonomy file, with IUCN genus-level lookup as the fallback. Squamates are summarised by family.
 

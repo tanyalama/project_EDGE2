@@ -62,7 +62,59 @@ The cross-clade folder contains:
 
 All figures use Arial and the Wes Anderson Zissou1 palette. `RLcat = NM` marks tips with no Red List match (a project code, not an IUCN category). Their GE2 is imputed exactly as for DD.
 
+## Methods
+
+### The EDGE2 protocol
+
+EDGE2 (Gumbs et al. 2023, *PLoS Biology* 21(2):e3001991, doi:10.1371/journal.pbio.3001991) prioritises species by combining three quantities:
+
+- **ED2 (Evolutionary Distinctness):** how much unique evolutionary history a species represents. It is computed on a phylogeny whose branches are weighted by the extinction probability of *other* species, so a species' ED2 rises when its close relatives are themselves at risk.
+- **GE2 (Global Endangerment):** a per-species probability of extinction (`pext`) derived from its IUCN Red List category.
+- **EDGE2:** the expected loss of phylogenetic diversity (PD) attributable to a species, i.e. the product of its distinctness and its extinction risk, in millions of years (Myr).
+
+For each tree, EDGE2 is computed as follows, following the protocol and the rEDGE / `EDGE.2.calc` reference implementations:
+
+1. Each Red List category is mapped to an extinction probability `pext` using the **Isaac et al. (2007)** model, which is the protocol and rEDGE default. CR = 0.97, halving at each step down: EN = 0.485, VU = 0.2425, NT = 0.12125, LC = 0.0606.
+2. `pext` is **sampled**, not fixed. A monotone logit spline through the five category anchors defines a continuous `pext` curve, and each species draws a `pext` from the distribution for its category.
+   - Data Deficient (DD) and Not Evaluated (NE) species draw from the pooled distribution across all categories (pext < 0.999).
+   - Tips with no Red List match (NM, a project code rather than an IUCN category) are treated the same way.
+   - This sampled distribution is the "GE2 distribution", and it carries endangerment uncertainty into the result.
+3. On the tree, every internal branch is weighted by the product of the `pext` values of all species descending from it. The sum of weighted branch lengths from a tip to the root is that tip's **EDGE2** score, and **ED2 = EDGE2 / pext**.
+4. A species is flagged as an **EDGE species** in a tree if two conditions hold:
+   - its ED2 is at or above the median ED2 of the tree;
+   - it is in a threatened category (VU, EN, CR, EW or EX).
+
+**Uncertainty** is captured on two axes at once:
+
+- *Phylogenetic:* the calculation is repeated across 1,000 trees from the posterior distribution of each clade.
+- *Endangerment:* each species' `pext` is re-sampled for every tree.
+
+Per-species results are summarised as the **median** and **inter-quartile range (IQR)** across the 1,000 trees. A species is a final EDGE species if it was flagged in **≥ 50 %** of trees (`isEDGEsp_frac ≥ 0.5`). The EDGE species lists, counts and VGP coverage figures in this repository report extant threatened species (VU, EN, CR); extinct (EX) and extinct-in-the-wild (EW) species stay in the trees and in the full ranked tables.
+
+The same procedure is applied to all five clades. Per-tree total PD and expected PD loss (the sum of EDGE2 across species) are also saved (`ePD_per_tree.csv`).
+
+### Data sources
+
+- **Phylogenies (VertLife, 1,000 posterior trees each):**
+
+  | Clade | Tree set | Trees used |
+  |---|---|---|
+  | Mammals | Upham, Esselstyn & Jetz (2019), completed 5,911-species node-dated set (topoCons FBD) | every 10th of 10,000 |
+  | Birds | Jetz et al. (2012), Hackett backbone, Stage 2 full data | trees 1–1,000 |
+  | Squamates | Tonini et al. (2016), 9,755 species, includes *Sphenodon* | first 1,000-tree file |
+  | Amphibians | Jetz & Pyron (2018), 7,238 species | first 1,000-tree file |
+  | Chondrichthyans | Stein et al. (2018), 1,192 species, 10-calibration set | every 10th of 10,000 |
+
+- **Endangerment:** IUCN Red List v2026-1 global categories (GBIF-hosted Darwin Core archive), for every clade.
+- **Taxonomy reconciliation:** tree tips are matched to IUCN names in this order: direct match; the Mammal Diversity Database (MDD) synonymy (mammals); the GBIF backbone accepted name; GBIF's IUCN link. Unmatched tips are coded NM.
+- **Genomes:** the VGP Ordinal List (sheets "VGP Phase 1+" and "VGP Families"). A species has a genome if it has a GCA_/GCF_ assembly accession. Names are placed on tree tips by exact, synonym, orthographic or split-from-tip matching, with the evidence for each placement recorded in `data/vgp_species_placement.csv`.
+- **Algorithm:** rEDGE (Ramos-Gutiérrez & Gumbs) / `EDGE.2.calc` (Gumbs). The vendored engine was validated to machine precision against the reference.
+
+See [`docs/METHODS.md`](docs/METHODS.md) for full detail, data versions, reconciliation counts, VGP placement rules and caveats.
+
 ## Reproducing
+
+The engine (`R/edge2_engine.R`) needs R with `ape`, `phylobase`, `data.table` and `dplyr`. `R/run_chunk.R` is the per-tree SLURM-array driver (extinction model `Isaac`, base seed 20240601), and `R/aggregate.R` collapses per-tree results into the ranked species table. Both read the clade from the `CLADE` environment variable. The steps are:
 
 1. Download the tree sets from data.vertlife.org and the IUCN 2026-1 DwC-A (GBIF-hosted).
 2. Split each tree set to one tree per file and write `run/<clade>/tree_index.txt` and `edge_table.csv`.
@@ -73,4 +125,4 @@ See `docs/METHODS.md` for details.
 
 ## References
 
-Gumbs R. et al. (2023) *PLoS Biol* 21:e3001991 · Gumbs R. et al. (2024) *Nat Commun* 15:1101 · Upham N.S. et al. (2019) *PLoS Biol* 17:e3000494 · Jetz W. et al. (2012) *Nature* 491:444 · Tonini J.F.R. et al. (2016) *Biol Conserv* 204:23 · Jetz W. & Pyron R.A. (2018) *Nat Ecol Evol* 2:850 · Stein R.W. et al. (2018) *Nat Ecol Evol* 2:288 · IUCN (2026) Red List v2026-1.
+Gumbs R. et al. (2023) *PLoS Biol* 21:e3001991 · Isaac N.J.B. et al. (2007) *PLoS ONE* 2:e296 · Gumbs R. et al. (2024) *Nat Commun* 15:1101 · Upham N.S. et al. (2019) *PLoS Biol* 17:e3000494 · Jetz W. et al. (2012) *Nature* 491:444 · Tonini J.F.R. et al. (2016) *Biol Conserv* 204:23 · Jetz W. & Pyron R.A. (2018) *Nat Ecol Evol* 2:850 · Stein R.W. et al. (2018) *Nat Ecol Evol* 2:288 · IUCN (2026) Red List v2026-1 · Mammal Diversity Database, mammaldiversity.org.
