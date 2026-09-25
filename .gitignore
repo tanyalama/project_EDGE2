@@ -16,3 +16,7 @@ results/
 
 # shinylive build output
 _site/
+
+# macOS metadata
+._*
+.DS_Store
